@@ -1,0 +1,132 @@
+/* Aeven design tokens.
+ *
+ * Values are taken from the Aeven client's own theme sheets
+ * (packages/client/ui-theme/src/styles/{design-platform,aeven-language,base,
+ * gradient-shadow-text}.css in the Aeven repository), so this site paints in
+ * the same palette, geometry, type ladder and motion as the product it
+ * documents. The client switches theme with a `data-ds-dark-theme` attribute;
+ * here the same values are bound to Docusaurus's `data-theme` attribute.
+ *
+ * Change a value here only when the client changes it there.
+ */
+
+@font-face {
+  font-family: 'Google Sans Flex';
+  src: url('/fonts/google-sans-flex-latin-wght-normal.woff2') format('woff2');
+  font-weight: 1 1000;
+  font-stretch: 100%;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Google Sans Code';
+  src: url('/fonts/google-sans-code-latin-wght-normal.woff2') format('woff2');
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Type. The code stack deliberately has no bare `monospace` tail, matching
+     the client: Windows CJK falls back to SimSun otherwise. */
+  --aeven-font-family: 'Google Sans Flex', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --aeven-font-family-code: 'Google Sans Code', 'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas,
+    'Liberation Mono', Menlo, Courier, 'PingFang SC', 'Microsoft YaHei';
+
+  /* One neutral ramp and nothing else: three ink steps, one disabled step and
+     three surfaces. Every alias below picks a step from it. */
+  --aeven-ink: #000000;
+  --aeven-ink-muted: rgb(80, 80, 80);
+  --aeven-ink-faint: rgb(150, 150, 150);
+  --aeven-ink-disabled: rgb(205, 205, 205);
+  --aeven-surface: rgb(255, 255, 255);
+  --aeven-well: rgb(242, 242, 242);
+  --aeven-raised: rgb(235, 235, 235);
+
+  /* Hairlines, light scheme. */
+  --aeven-border-1: rgba(0, 0, 0, 0.04);
+  --aeven-border-2: rgba(0, 0, 0, 0.1);
+  --aeven-border-3: rgba(0, 0, 0, 0.14);
+  --aeven-border-4: rgba(0, 0, 0, 0.2);
+
+  /* Interaction tints. */
+  --aeven-hover: rgba(0, 0, 0, 0.05);
+  --aeven-active: rgba(0, 0, 0, 0.1);
+  --aeven-tint-menu: rgba(255, 255, 255, 0.7);
+  --aeven-tint-surface-fade: rgba(242, 242, 242, 0.6);
+  /* The head of a table inside a surface pane: one step away from the pane,
+     never the well, which reads as a hole in the card. */
+  --aeven-table-head: rgba(0, 0, 0, 0.025);
+
+  /* Geometry: the client's capsule and panel radii. */
+  --aeven-radius-surface: 30px;
+  --aeven-radius-content: 20px;
+  --aeven-radius-control: 20px;
+  --aeven-radius-compact: 16px;
+  --aeven-radius-tight: 10px;
+  --aeven-control-size: 40px;
+  --aeven-space-content: 24px;
+  --aeven-space-compact: 12px;
+  --aeven-space-message: 32px;
+  --aeven-reading-line-height: 1.75rem;
+  --aeven-page-inset: 24px;
+  --aeven-sidebar-width: 300px;
+  --aeven-prose-width: 46rem;
+
+  /* Motion: chrome geometry and overlays ride easeOutQuint at 0.4s; only pure
+     micro-feedback stays at 0.1s. */
+  --aeven-ease: cubic-bezier(0.23, 1, 0.32, 1);
+  --aeven-duration: 0.4s;
+  --aeven-duration-fast: 0.1s;
+
+  /* Type ladder, as fractions of the root size so a reader's font-size setting
+     moves every step in proportion. Values are the ladder at 16px. Emphasised
+     text is weight 500, not 600: the product's display face carries a
+     continuous weight axis, and 500 is where its emphasis sits. */
+  --aeven-font-h1: 500 2.125rem/2.5rem var(--aeven-font-family);
+  --aeven-font-h2: 500 1.625rem/2rem var(--aeven-font-family);
+  --aeven-font-h3: 500 1.25rem/1.625rem var(--aeven-font-family);
+  --aeven-font-h4: 500 1rem/1.375rem var(--aeven-font-family);
+  --aeven-font-body: 400 1rem/1.75rem var(--aeven-font-family);
+  --aeven-font-body-strong: 500 1rem/1.75rem var(--aeven-font-family);
+  --aeven-font-small: 400 0.875rem/1.375rem var(--aeven-font-family);
+  --aeven-font-small-strong: 500 0.875rem/1.375rem var(--aeven-font-family);
+  --aeven-font-code: 400 0.875rem/1.375rem var(--aeven-font-family-code);
+
+  /* Elevation: a 0.5px hairline drawn in the shadow plus two very light glows. */
+  --aeven-shadow-1: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  --aeven-shadow-2: 0 4px 12px 0 rgba(0, 0, 0, 0.02), 0 2px 8px 0 rgba(0, 0, 0, 0.04);
+  --aeven-shadow-3: 0 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.02),
+    0 12px 32px 0 rgba(0, 0, 0, 0.08);
+  --aeven-elevation-panel: 0 0 0 0.5px var(--aeven-border-4), 0 3px 8px 0 rgba(0, 0, 0, 0.03),
+    0 1px 2px 0 rgba(0, 0, 0, 0.02);
+}
+
+[data-theme='dark'] {
+  --aeven-ink: #ffffff;
+  --aeven-ink-muted: rgb(205, 205, 205);
+  --aeven-ink-faint: rgb(165, 165, 165);
+  --aeven-ink-disabled: rgb(120, 120, 120);
+  --aeven-surface: #222222;
+  --aeven-well: #111111;
+  --aeven-raised: rgb(36, 36, 36);
+
+  --aeven-border-1: rgba(255, 255, 255, 0.06);
+  --aeven-border-2: rgba(255, 255, 255, 0.12);
+  --aeven-border-3: rgba(255, 255, 255, 0.16);
+  --aeven-border-4: rgba(255, 255, 255, 0.2);
+
+  --aeven-hover: rgba(255, 255, 255, 0.08);
+  --aeven-active: rgba(255, 255, 255, 0.14);
+  --aeven-tint-menu: rgba(36, 36, 36, 0.7);
+  --aeven-tint-surface-fade: rgba(17, 17, 17, 0.6);
+  --aeven-table-head: rgba(255, 255, 255, 0.04);
+
+  --aeven-shadow-1: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  --aeven-shadow-2: 0 4px 12px 0 rgba(0, 0, 0, 0.3), 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+  --aeven-shadow-3: 0 0 1px 0 rgba(0, 0, 0, 0.6), 0 12px 32px 0 rgba(0, 0, 0, 0.5);
+  --aeven-elevation-panel: 0 0 0 0.5px var(--aeven-border-4), 0 3px 8px 0 rgba(0, 0, 0, 0.24),
+    0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}

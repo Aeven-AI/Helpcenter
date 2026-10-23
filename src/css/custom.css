@@ -1,0 +1,805 @@
+/* Aeven look and feel for the help center.
+ *
+ * The product is a light well with white surfaces on it: the chrome, the rails
+ * and the space around a pane are `well`, while the pane a reader actually
+ * reads is `surface`. Separation comes from that fill change alone — the site
+ * draws no outline around a box and no rule between the navigation and the
+ * content. Controls are capsules, weight is 500 wherever something is
+ * emphasised, and motion is easeOutQuint at 0.4s. Values come from
+ * `tokens.css` only.
+ */
+
+/* ---------------------------------------------------------------- base --- */
+
+html {
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* Infima draws the navigation/content divider from this token; the site
+     separates by fill instead, so the token resolves to nothing. */
+  --ifm-toc-border-color: transparent;
+}
+
+body {
+  margin: 0;
+  background: var(--aeven-well);
+  color: var(--aeven-ink);
+  font: var(--aeven-font-body);
+  font-optical-sizing: auto;
+  transition: background-color var(--aeven-duration) var(--aeven-ease);
+}
+
+::selection {
+  background: var(--aeven-ink);
+  color: var(--aeven-surface);
+}
+
+/* Links carry no underline. Their affordance is the hover fill, the same
+   signal every interactive row in the product uses. */
+a {
+  color: var(--aeven-ink);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color var(--aeven-duration-fast) var(--aeven-ease),
+    color var(--aeven-duration-fast) var(--aeven-ease);
+}
+
+a:hover {
+  color: var(--aeven-ink);
+  text-decoration: none;
+}
+
+.markdown a:hover {
+  background: var(--aeven-hover);
+  box-shadow: 0 0 0 3px var(--aeven-hover);
+}
+
+/* Scrollbars follow the client: a raised-surface thumb, transparent track. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--aeven-raised) transparent;
+}
+
+/* -------------------------------------------------------------- navbar --- */
+
+.navbar {
+  height: 60px;
+  padding: 0 var(--aeven-page-inset);
+  background: var(--aeven-well);
+  border: none;
+  box-shadow: none;
+  color: var(--aeven-ink);
+}
+
+.navbar__inner {
+  align-items: center;
+}
+
+.navbar__brand {
+  margin-right: 20px;
+}
+
+.navbar__logo {
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+
+[data-theme='dark'] .navbar__logo img {
+  filter: invert(1);
+}
+
+.navbar__title {
+  font: var(--aeven-font-small-strong);
+  letter-spacing: -0.01em;
+  color: var(--aeven-ink);
+}
+
+/* Header links are the same capsule as the sidebar rows: 38px tall with an
+   18px radius, and 4px of air between them so two pills never touch. */
+.navbar__link {
+  font: var(--aeven-font-small);
+  color: var(--aeven-ink-muted);
+  display: inline-flex;
+  align-items: center;
+  height: 38px;
+  padding: 0 14px;
+  border-radius: 18px;
+  transition: background-color var(--aeven-duration-fast) var(--aeven-ease),
+    color var(--aeven-duration-fast) var(--aeven-ease);
+}
+
+.navbar__items > .navbar__link + .navbar__link,
+.navbar__items > .navbar__link + .navbar__item {
+  margin-left: 4px;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--aeven-ink);
+  background: var(--aeven-surface);
+}
+
+.navbar__items--right > .navbar__link + .navbar__link {
+  margin-left: 4px;
+}
+
+/* The search field is a capsule control: 38px tall like the header pills, 18px radius,
+   with the icon's 12px inset plus its 16px width plus a gap left for the label. */
+.navbar__search-input {
+  height: 38px;
+  width: 260px;
+  padding: 0 56px 0 38px;
+  border: none;
+  border-radius: 18px;
+  background: var(--aeven-surface);
+  box-shadow: none;
+  color: var(--aeven-ink);
+  font: var(--aeven-font-small);
+  transition: background-color var(--aeven-duration-fast) var(--aeven-ease);
+}
+
+.navbar__search-input::placeholder {
+  color: var(--aeven-ink-faint);
+}
+
+.navbar__search-input:hover {
+  background: var(--aeven-surface);
+}
+
+.navbar__search-input:focus {
+  outline: none;
+  background: var(--aeven-surface);
+  box-shadow: none;
+}
+
+/* The plugin rings the field in the theme's primary colour on focus; a pointer focus
+   gets no ring, the keyboard keeps the site's ink one. */
+.navbar__search-input:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* The keyboard hint the local search plugin draws inside the field. Infima
+   paints `kbd` as a key cap with a border and a fill; here it is plain muted
+   text, like every other hint in the product. */
+.navbar__search kbd,
+[class*='searchHint'] {
+  background: transparent !important;
+  border: 0 none !important;
+  box-shadow: none !important;
+  color: var(--aeven-ink-faint);
+  font: var(--aeven-font-small);
+  padding: 0;
+  min-width: 0;
+  height: auto;
+}
+
+[class*='searchHintContainer'] {
+  gap: 2px;
+  padding-right: 6px;
+}
+
+[class*='searchIcon'] {
+  color: var(--aeven-ink-faint);
+}
+
+.navbar__toggle,
+.navbar__items--right .clean-btn {
+  color: var(--aeven-ink-muted);
+  border-radius: var(--aeven-radius-compact);
+}
+
+.navbar__items--right .clean-btn:hover {
+  color: var(--aeven-ink);
+  background: var(--aeven-hover);
+}
+
+/* --------------------------------------------------------- app layout --- */
+
+.main-wrapper {
+  background: var(--aeven-well);
+}
+
+[class*='docPage'] {
+  gap: 0;
+}
+
+[class*='docMainContainer'] {
+  background: var(--aeven-well);
+}
+
+[class*='docMainContainer'] > .container {
+  max-width: 100%;
+  padding: 0 var(--aeven-page-inset) 40px;
+}
+
+/* The reading surface: a white pane on the well, like a transcript pane. */
+[class*='docItemCol'] {
+  padding: 0;
+  min-width: 0;
+}
+
+[class*='docItemContainer'] {
+  background: var(--aeven-surface);
+  border: none;
+  border-radius: var(--aeven-radius-surface);
+  padding: 40px 56px 32px;
+  margin: 24px 0;
+  min-height: calc(100vh - 148px);
+}
+
+@media (max-width: 996px) {
+  [class*='docItemContainer'] {
+    padding: 28px 24px;
+    border-radius: var(--aeven-radius-content);
+    margin: 16px 0;
+    min-height: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  [class*='docItemContainer'] {
+    padding: 24px 18px;
+    border-radius: var(--aeven-radius-content);
+  }
+}
+
+/* ------------------------------------------------------------- sidebar --- */
+
+.theme-doc-sidebar-container {
+  background: var(--aeven-well);
+  border: none;
+  border-right: 0 none !important;
+}
+
+[class*='sidebarViewport'] {
+  top: 60px;
+  background: var(--aeven-well);
+  border: none;
+}
+
+.menu {
+  padding: 20px 12px 40px;
+  font: var(--aeven-font-small);
+}
+
+.menu__list .menu__list {
+  margin-left: 0;
+  padding-left: 12px;
+  border: none;
+}
+
+.menu__link {
+  font: var(--aeven-font-small);
+  color: var(--aeven-ink-muted);
+  display: flex;
+  align-items: center;
+  height: 38px;
+  padding: 0 12px;
+  border-radius: 18px;
+  transition: background-color var(--aeven-duration-fast) var(--aeven-ease),
+    color var(--aeven-duration-fast) var(--aeven-ease);
+}
+
+.menu__link:hover {
+  background: var(--aeven-hover);
+  color: var(--aeven-ink);
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: var(--aeven-surface);
+  color: var(--aeven-ink);
+  font-weight: 500;
+  border-radius: 18px;
+  box-shadow: none;
+}
+
+.menu__link--sublist-caret::after,
+.menu__caret::before {
+  opacity: 0.45;
+}
+
+.menu__list-item-collapsible {
+  border-radius: var(--aeven-radius-compact);
+}
+
+.menu__list-item-collapsible:hover {
+  background: transparent;
+}
+
+.menu__list-item-collapsible > .menu__link {
+  color: var(--aeven-ink-faint);
+  font: var(--aeven-font-small);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  padding: 6px 12px;
+  text-transform: none;
+}
+
+.menu__list-item-collapsible > .menu__link:hover {
+  background: transparent;
+  color: var(--aeven-ink-muted);
+}
+
+.theme-doc-sidebar-menu .menu__list-item:not(:first-child) {
+  margin-top: 2px;
+}
+
+.theme-doc-sidebar-item-category {
+  margin-top: 20px;
+}
+
+/* The section home sits above the first group. */
+.theme-doc-sidebar-item-link-level-1:first-child {
+  margin-bottom: 10px;
+}
+
+.theme-doc-sidebar-item-category:first-of-type {
+  margin-top: 0;
+}
+
+/* ------------------------------------------------------------- article --- */
+
+.theme-doc-markdown,
+article {
+  max-width: var(--aeven-prose-width);
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4 {
+  color: var(--aeven-ink);
+  letter-spacing: -0.015em;
+  margin-bottom: 0.6em;
+}
+
+.markdown h1 {
+  font: var(--aeven-font-h1);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5em;
+}
+
+.markdown h2 {
+  font: var(--aeven-font-h2);
+  margin-top: 2.25em;
+  padding-top: 0;
+  border: none;
+}
+
+.markdown h3 {
+  font: var(--aeven-font-h3);
+  margin-top: 1.75em;
+}
+
+.markdown h4 {
+  font: var(--aeven-font-h4);
+  margin-top: 1.5em;
+}
+
+.markdown p,
+.markdown li {
+  font: var(--aeven-font-body);
+  color: var(--aeven-ink);
+  overflow-wrap: break-word;
+}
+
+.markdown > p,
+.markdown li p {
+  margin-bottom: 1.15em;
+}
+
+.markdown ul,
+.markdown ol {
+  padding-left: 1.35em;
+}
+
+.markdown li {
+  margin-bottom: 0.35em;
+}
+
+.markdown li::marker {
+  color: var(--aeven-ink-faint);
+}
+
+.markdown blockquote {
+  border: none;
+  border-left: 1px solid var(--aeven-border-2);
+  margin: 1.75em 0;
+  padding: 0 0 0 18px;
+  color: var(--aeven-ink-muted);
+}
+
+.markdown blockquote p {
+  color: var(--aeven-ink-muted);
+}
+
+.markdown hr {
+  border: none;
+  border-top: 1px solid var(--aeven-border-1);
+  margin: 2.5em 0;
+}
+
+.markdown img {
+  border: none;
+  border-radius: var(--aeven-radius-content);
+  display: block;
+}
+
+.markdown strong {
+  font: var(--aeven-font-body-strong);
+  font-weight: 500;
+}
+
+.markdown code {
+  font: var(--aeven-font-code);
+  background: var(--aeven-raised);
+  color: var(--aeven-ink-muted);
+  border: none;
+  border-radius: var(--aeven-radius-tight);
+  padding: 0.15em 0.4em;
+  vertical-align: baseline;
+}
+
+.markdown a code {
+  color: inherit;
+}
+
+.markdown pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* Code blocks are wells, not brand-coloured panels. */
+.theme-code-block {
+  background: var(--aeven-well);
+  border: none;
+  border-radius: var(--aeven-radius-content);
+  box-shadow: none;
+  margin-bottom: 1.75em;
+}
+
+.theme-code-block pre {
+  background: transparent;
+  border-radius: var(--aeven-radius-content);
+  font: var(--aeven-font-code);
+}
+
+.theme-code-block code {
+  font: var(--aeven-font-code);
+}
+
+[data-theme='dark'] .theme-code-block {
+  background: var(--aeven-raised);
+}
+
+pre.prism-code {
+  background: transparent !important;
+}
+
+/* ---------------------------------------------------------------- tables --- */
+
+.markdown table {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: none;
+  border-radius: var(--aeven-radius-content);
+  overflow: hidden;
+  margin: 1.75em 0;
+  font: var(--aeven-font-small);
+  background: var(--aeven-surface);
+}
+
+/* A narrow screen scrolls a table sideways rather than stretching the page. */
+@media (max-width: 768px) {
+  .markdown table {
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+.markdown table thead tr {
+  background: var(--aeven-table-head);
+  border: none;
+}
+
+.markdown table tr {
+  background: transparent;
+  border: none;
+}
+
+.markdown table tbody tr:not(:first-child) {
+  border-top: 1px solid var(--aeven-border-1);
+}
+
+.markdown table th,
+.markdown table td {
+  border: none;
+  padding: 10px 16px;
+  font: var(--aeven-font-small);
+  color: var(--aeven-ink);
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.markdown table th {
+  font: var(--aeven-font-small-strong);
+  color: var(--aeven-ink-muted);
+  font-weight: 500;
+}
+
+/* ------------------------------------------------------------ admonitions --- */
+
+.theme-admonition,
+.alert {
+  border: none;
+  border-radius: var(--aeven-radius-content);
+  background: var(--aeven-well);
+  color: var(--aeven-ink);
+  box-shadow: none;
+  padding: 16px 20px;
+  font: var(--aeven-font-small);
+}
+
+.theme-admonition [class*='admonitionHeading'] {
+  font: var(--aeven-font-small-strong);
+  color: var(--aeven-ink);
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 6px;
+}
+
+.theme-admonition p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------------------------------------------------------- breadcrumbs --- */
+
+.breadcrumbs {
+  padding: 20px 4px 0;
+}
+
+.breadcrumbs__item .breadcrumbs__link {
+  font: var(--aeven-font-small);
+  color: var(--aeven-ink-faint);
+  background: transparent;
+  padding: 0 4px;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--aeven-ink-muted);
+  background: transparent;
+}
+
+.breadcrumbs__link:hover {
+  color: var(--aeven-ink);
+  background: transparent;
+}
+
+.breadcrumbs__item:not(:last-child)::after {
+  opacity: 0.3;
+}
+
+/* ------------------------------------------------------------------ TOC --- */
+
+.table-of-contents {
+  font: var(--aeven-font-small);
+  padding-left: 0;
+  border: none;
+  margin-top: 32px;
+}
+
+.table-of-contents::before {
+  content: 'On this page';
+  display: block;
+  font: var(--aeven-font-small);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--aeven-ink-faint);
+  margin-bottom: 10px;
+}
+
+.table-of-contents__left-border {
+  border: none;
+  padding-left: 0;
+}
+
+.table-of-contents__link {
+  color: var(--aeven-ink-faint);
+  padding: 4px 0;
+  display: block;
+  text-decoration: none;
+  border: none;
+  transition: color var(--aeven-duration-fast) var(--aeven-ease);
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--aeven-ink);
+  background: transparent;
+}
+
+[class*='tocCollapsible'] {
+  font: var(--aeven-font-small);
+  border: none;
+}
+
+/* ----------------------------------------------------------- pagination --- */
+
+.pagination-nav {
+  border: none;
+  margin-top: 48px;
+  padding: 28px 0 0;
+  gap: 12px;
+}
+
+.pagination-nav__link {
+  border: none;
+  border-radius: var(--aeven-radius-content);
+  background: var(--aeven-well);
+  padding: 16px 20px;
+  transition: background-color var(--aeven-duration-fast) var(--aeven-ease);
+}
+
+.pagination-nav__link:hover {
+  background: var(--aeven-raised);
+  box-shadow: none;
+}
+
+.pagination-nav__sublabel {
+  font: var(--aeven-font-small);
+  color: var(--aeven-ink-faint);
+  margin-bottom: 4px;
+}
+
+.pagination-nav__label {
+  font: var(--aeven-font-small-strong);
+  color: var(--aeven-ink);
+}
+
+/* --------------------------------------------------------- search results --- */
+
+/* The local search plugin paints every part of its dropdown from named custom
+   properties, so the Aeven surface ramp is handed to it there instead of being
+   fought rule by rule. */
+:root {
+  --search-local-modal-background: var(--aeven-surface);
+  --search-local-modal-shadow: 0 18px 48px rgba(0, 0, 0, 0.14);
+  --search-local-modal-width: 420px;
+  --search-local-spacing: 8px;
+  --search-local-hit-background: transparent;
+  --search-local-hit-shadow: none;
+  --search-local-hit-color: var(--aeven-ink-muted);
+  --search-local-hit-active-color: var(--aeven-ink);
+  --search-local-hit-height: 48px;
+  --search-local-highlight-color: var(--aeven-raised);
+  --search-local-muted-color: var(--aeven-ink-faint);
+}
+
+[data-theme='dark'] {
+  --search-local-modal-shadow: 0 18px 48px rgba(0, 0, 0, 0.6);
+  --search-local-highlight-color: var(--aeven-raised);
+}
+
+.navbar__search [class*='dropdownMenu'] {
+  padding: 8px !important;
+  border: none !important;
+  border-radius: var(--aeven-radius-content) !important;
+  margin-top: 10px !important;
+}
+
+[class*='suggestion_'] {
+  border-radius: var(--aeven-radius-compact) !important;
+  box-shadow: none !important;
+  padding: 0 10px !important;
+}
+
+[class*='suggestion_']:hover,
+[class*='suggestion_'].cursor {
+  background: var(--aeven-raised) !important;
+}
+
+[class*='hitWrapper'] {
+  font-family: var(--aeven-font-family);
+  font-weight: 500;
+}
+
+[class*='hitTitle'] {
+  font-size: 0.875rem;
+}
+
+[class*='hitPath'] {
+  font-size: 0.75rem;
+  color: var(--aeven-ink-faint);
+}
+
+[class*='hitWrapper'] mark {
+  background: none !important;
+  color: var(--aeven-ink) !important;
+  text-decoration: none !important;
+}
+
+[class*='hitIcon'],
+[class*='hitTree'],
+[class*='hitAction'] {
+  color: var(--aeven-ink-faint);
+}
+
+[class*='suggestion_'].cursor [class*='hitIcon'],
+[class*='suggestion_'].cursor [class*='hitTree'],
+[class*='suggestion_'].cursor [class*='hitAction'] {
+  color: var(--aeven-ink-muted) !important;
+}
+
+[class*='hitFooter'] {
+  text-align: left;
+  margin-top: 4px;
+  padding: 8px 10px 2px;
+}
+
+[class*='hitFooter'] a {
+  color: var(--aeven-ink-faint) !important;
+  font: var(--aeven-font-small);
+  text-decoration: none !important;
+}
+
+[class*='hitFooter'] a:hover {
+  color: var(--aeven-ink) !important;
+}
+
+[class*='noResults'] {
+  font: var(--aeven-font-small);
+  color: var(--aeven-ink-muted);
+  padding: 16px 10px;
+}
+
+/* --------------------------------------------------------------- footer --- */
+
+/* The footer is its own component with its own stylesheet (src/theme/Footer); the band
+   is deliberately outside this mapping because it keeps aeven.io's black in both themes. */
+
+/* ---------------------------------------------------- shared controls --- */
+
+.button,
+.clean-btn {
+  border-radius: var(--aeven-radius-control);
+  font: var(--aeven-font-small);
+  transition: background-color var(--aeven-duration-fast) var(--aeven-ease),
+    color var(--aeven-duration-fast) var(--aeven-ease);
+}
+
+.button--primary {
+  background: var(--aeven-ink);
+  border: none;
+  color: var(--aeven-surface);
+}
+
+.button--primary:hover {
+  background: var(--aeven-ink-muted);
+  color: var(--aeven-surface);
+}
+
+.button--secondary {
+  background: var(--aeven-well);
+  border: none;
+  color: var(--aeven-ink);
+}
+
+.button--secondary:hover {
+  background: var(--aeven-raised);
+  color: var(--aeven-ink);
+}
+
+/* Focus rings: a 2px ink outline at a 2px offset, the client's own shape. */
+:focus-visible {
+  outline: 2px solid var(--aeven-ink);
+  outline-offset: 2px;
+}

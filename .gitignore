@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Docusaurus build output
+build/
+.docusaurus/
+
+# Generated translation trees
+i18n/**/docusaurus-plugin-content-docs/current/
+
+# Local tooling and OS files
+.DS_Store
+*.log
+.cache/
+.env
+.env.local
+
+# Screenshots taken while reviewing the site
+.review/
