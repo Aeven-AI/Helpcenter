@@ -189,6 +189,14 @@
     margin-bottom: 32px;
   }
 
+  .factsHead {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 6px;
+  }
+
   .factsGrid {
     grid-template-columns: minmax(0, 1fr);
 

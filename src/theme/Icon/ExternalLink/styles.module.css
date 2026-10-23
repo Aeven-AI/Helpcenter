@@ -1,0 +1,7 @@
+/* The document has a margin between a link label and its icon; keep it exact. */
+
+.iconExternalLink {
+  margin-left: 0.3rem;
+
+  vertical-align: -0.125em;
+}
