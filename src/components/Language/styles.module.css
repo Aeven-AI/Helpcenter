@@ -1,0 +1,163 @@
+/* The globe and the card it opens, measured from aeven.io's own switch
+ * (website/site/src/app/com/navigation/_Navigation.scss, `.language-button`,
+ * `.language-popup`, `.language-option`): a 30px ink disc with an 18px mark, and the app's
+ * menu surface — 218px wide, 8px of padding inside a 30px radius, one 40px cell per
+ * language with a 16px check on the row you are on. Colours come from the site's own
+ * tokens so the switch reads as part of the header in both themes.
+ */
+
+.menu {
+  display: flex;
+  position: relative;
+
+  align-items: center;
+}
+
+/* The globe is the colour-mode toggle's own shape — a 32px transparent disc in muted ink
+   that fills on hover — so the header's two icon controls read as one pair rather than a
+   button beside a disc. The card it opens keeps the app's menu surface. */
+.button {
+  display: flex;
+  position: relative;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 32px;
+  height: 32px;
+
+  padding: 0;
+  margin: 0;
+
+  border: 0;
+  border-radius: var(--aeven-radius-compact);
+
+  background: transparent;
+  color: var(--aeven-ink-muted);
+
+  outline: none;
+  cursor: pointer;
+
+  transition:
+    background-color var(--aeven-duration-fast) var(--aeven-ease),
+    color var(--aeven-duration-fast) var(--aeven-ease);
+}
+
+.button svg {
+  display: block;
+
+  width: 20px;
+  height: 20px;
+}
+
+.button:hover,
+.button:focus-visible,
+.button[aria-expanded='true'] {
+  color: var(--aeven-ink);
+  background: var(--aeven-hover);
+}
+
+/* The card hangs 17px under the button — the site's 47px measured from its row top, minus
+   the control it hangs from — and from the right edge rather than centred on it, because
+   218px of card would otherwise run off the window. */
+.popup {
+  display: flex;
+  position: absolute;
+
+  top: calc(100% + 17px);
+  right: 0;
+  z-index: 12;
+
+  box-sizing: border-box;
+  width: 218px;
+
+  padding: 8px;
+
+  flex-direction: column;
+
+  border-radius: var(--aeven-radius-surface);
+
+  background: var(--aeven-surface);
+
+  box-shadow:
+    0 0 0 0.5px rgba(0, 0, 0, 0.04),
+    0 3px 8px 0 rgba(0, 0, 0, 0.04),
+    0 0 20px 0 rgba(0, 0, 0, 0.05);
+
+  animation: popup-in 0.16s var(--aeven-ease);
+}
+
+.option {
+  display: flex;
+  position: relative;
+
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  min-height: 40px;
+
+  padding: 8px;
+
+  border: 0;
+  border-radius: var(--aeven-radius-control);
+  background: transparent;
+
+  color: var(--aeven-ink);
+
+  font: 450 0.875rem/1.375rem var(--aeven-font-family);
+
+  text-align: left;
+  white-space: nowrap;
+
+  outline: none;
+  cursor: pointer;
+
+  transition: background-color 0.2s var(--aeven-ease);
+}
+
+.option:hover,
+.option:focus-visible {
+  background: var(--aeven-hover);
+}
+
+.label {
+  flex: 1;
+  min-width: 0;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* The check marks the row you are on; the space stays on every row so the labels line up. */
+.mark {
+  flex: none;
+
+  width: 16px;
+  height: 16px;
+
+  color: var(--aeven-ink);
+
+  opacity: 0;
+
+  transition: opacity 0.15s var(--aeven-ease);
+}
+
+.selected .mark {
+  opacity: 1;
+}
+
+@keyframes popup-in {
+  from {
+    opacity: 0;
+
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}

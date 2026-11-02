@@ -17,6 +17,12 @@ Aeven keeps useful knowledge between conversations so you do not repeat yourself
 
 A conversation does not automatically become memory. What you tell Aeven about yourself, or what it learns that stays true next week, does.
 
+## Who can read it
+
+Memory belongs to your account, so it is there on each device you sign in on. Aeven does not read it: no one at Aeven opens your memory, and access to the systems that hold the synced copy is limited to the people who run the service and is logged.
+
+The copy that keeps your devices in step is encrypted, and end-to-end protection — where the key stays on your own devices — is being rolled out. [Your data](/docs/account/your-data) says where each copy lives; the [Privacy Policy](/docs/privacy) says what leaves your computer.
+
 ## Changing it
 
 Open **Settings → Memory** to read what is stored, edit a line that is wrong, or remove one you no longer want used. Changes apply to the next conversation; the current one keeps its own context.

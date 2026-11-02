@@ -5,9 +5,6 @@ node_modules/
 build/
 .docusaurus/
 
-# Generated translation trees
-i18n/**/docusaurus-plugin-content-docs/current/
-
 # Local tooling and OS files
 .DS_Store
 *.log

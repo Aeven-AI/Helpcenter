@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "Centro de ayuda de Aeven",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Guides": {
+    "message": "Guías",
+    "description": "Navbar item with label Guides"
+  },
+  "item.label.Fix a problem": {
+    "message": "Resolver un problema",
+    "description": "Navbar item with label Fix a problem"
+  },
+  "item.label.Aeven": {
+    "message": "Aeven",
+    "description": "Navbar item with label Aeven"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

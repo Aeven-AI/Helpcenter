@@ -8,7 +8,7 @@ slug: /privacy
 
 **Last updated: 23 October 2026**
 
-Aeven is a desktop application, and it is built so that most of what you do with it never leaves your computer. This page says exactly what does leave it, why, and what you can do about that.
+Aeven is a desktop application, and it is built so that much of what you do with it stays on your computer. This page says what leaves it, why, and what you can do about that.
 
 It covers the Aeven application, this help center, and the Aeven account behind them. It does not cover the services you connect to Aeven — mail, calendars, chat, code hosting — which keep their own policies.
 
@@ -18,13 +18,15 @@ Aeven is provided by **[legal entity name]**, [registered address], the Netherla
 
 ## 2. What stays on your computer
 
-These things are stored locally, in Aeven's own data folder on the machine where it runs, and are not uploaded to us:
+These things are stored locally, in Aeven's own data folder on the machine where it runs:
 
 - **Your files.** Aeven reads and writes the files in the folder you chose. They stay where they are.
 - **Your conversations** with Aeven, unless a model needs to receive one to answer (see section 5).
 - **Your settings**, including the folder you chose, your approval policy, and the standing instructions you wrote.
 - **Your memory**, meaning the facts, preferences and learned procedures Aeven keeps across conversations, unless you chose to host that layer elsewhere.
 - **Your sign-in state** for the account you signed in with.
+
+Conversations, settings and memory also sync to your Aeven account, so they follow you to your other devices; section 10 describes how that copy is protected. You can turn syncing off per device in **Settings → Sync**.
 
 You can delete any of it by deleting the relevant item in the app, or by removing Aeven's data folder. [Your data](/docs/account/your-data) lists where each thing lives.
 
@@ -37,6 +39,7 @@ You can delete any of it by deleting the relevant item in the app, or by removin
 | Payment records | Because invoices and tax records are the law | Amounts, dates, invoices, last four digits of a card; card numbers are handled by our payment provider, not by us |
 | Technical logs | To keep the service working and secure | App version, platform, error reports, request times, coarse location derived from IP |
 | Support conversations | To answer you | The messages you send to support |
+| Synced data | So your memory, conversations, settings and personalisation appear on each device you sign in on | Encrypted updates of those items, and the list of your devices |
 
 We do not buy personal data about you from anyone, and we do not sell or rent what we hold.
 
@@ -65,7 +68,7 @@ Changing which model answers does not move your memory, conversations or connect
 When you connect Gmail, Google Drive, Outlook, Slack, Discord, Telegram, WhatsApp, GitHub or another service, the provider issues a token that Aeven uses to act on your behalf. That token is stored by Aeven for as long as the connection exists.
 
 - We do not ask for your passwords to those services.
-- Removing a connection in **Settings → Integrations** deletes the token on our side; revoking Aeven in the provider's own settings does the same from their side.
+- Removing a connection in **Settings → Connectors** deletes the token on our side; revoking Aeven in the provider's own settings does the same from their side.
 - What Aeven may read or write in a connected service is limited by the scopes you granted when you connected it.
 
 ## 7. Who else sees your data
@@ -88,9 +91,10 @@ A current list of processors is available on request from [privacy@aeven.io](mai
 | Payment and invoice records | Seven years, as Dutch tax law requires |
 | Technical logs | 30 days, unless needed to investigate a security incident |
 | Support conversations | Two years after the last message |
-| Anything on your computer | Until you delete it — we have no copy |
+| Synced data | While your account exists — deleting it in the app removes it from the synced copy |
+| Anything else on your computer | Until you delete it — we have no copy |
 
-Deleting your account removes the account data we hold. Files and conversations on your computer stay there, because they were never ours.
+Deleting your account removes the account data we hold, including the synced copy. Other files and conversations on your computer stay there, because they were never ours.
 
 ## 9. Your rights
 
@@ -101,6 +105,8 @@ If you are not satisfied with our answer, you can complain to the Dutch Data Pro
 ## 10. Security
 
 Traffic between the app and our services is encrypted in transit. Account data at rest is encrypted by our hosting providers. Access to production data is limited to the people who need it to run the service, and is logged.
+
+The copy of your memory, conversations, settings and personalisation that syncs between your devices is encrypted before it leaves the app, and the relay that stores it keeps it encrypted. Aeven holds the key that opens that copy; we do not use it to read your memory. No one at Aeven reads or inspects your memory, and access to the systems that hold it is limited to the people who need them to run the service and is logged. Protection where the key stays on your own devices, so the copy cannot be opened by us at all, is being rolled out.
 
 No system is perfect. If you find a vulnerability, report it to [security@aeven.io](mailto:security@aeven.io) rather than publishing it, and we will work with you.
 

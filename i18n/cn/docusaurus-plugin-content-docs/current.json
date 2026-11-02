@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "当前",
+    "description": "The label for version current"
+  },
+  "sidebar.help.category.Getting started": {
+    "message": "入门",
+    "description": "The label for category 'Getting started' in sidebar 'help'"
+  },
+  "sidebar.help.category.Using Aeven": {
+    "message": "使用 Aeven",
+    "description": "The label for category 'Using Aeven' in sidebar 'help'"
+  },
+  "sidebar.help.category.Bots": {
+    "message": "机器人",
+    "description": "The label for category 'Bots' in sidebar 'help'"
+  },
+  "sidebar.help.category.Connections": {
+    "message": "连接",
+    "description": "The label for category 'Connections' in sidebar 'help'"
+  },
+  "sidebar.help.category.Account and app": {
+    "message": "账户与应用",
+    "description": "The label for category 'Account and app' in sidebar 'help'"
+  },
+  "sidebar.help.category.Help": {
+    "message": "帮助",
+    "description": "The label for category 'Help' in sidebar 'help'"
+  },
+  "sidebar.help.category.Legal": {
+    "message": "法律",
+    "description": "The label for category 'Legal' in sidebar 'help'"
+  },
+  "sidebar.help.doc.Help center": {
+    "message": "帮助中心",
+    "description": "The label for the doc item 'Help center' in sidebar 'help', linking to the doc index"
+  }
+}

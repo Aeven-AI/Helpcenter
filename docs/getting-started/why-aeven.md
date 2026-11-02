@@ -19,14 +19,16 @@ Aeven works inside the folder you choose on your own computer, and reaches into 
 
 ## 2. What it learns belongs to you
 
-Aeven keeps a layer above the model: what it knows about you and your work, the accounts you connected, the skills you installed, the procedures it worked out the first time something went well. That layer is not a feature of a vendor's cloud. It is yours, and it is portable.
+Aeven keeps a layer above the model: what it knows about you and your work, the accounts you connected, the skills you installed, the procedures it worked out the first time something went well. That layer is not a feature of a vendor's cloud. It is yours, it is portable, and it is not something we read.
 
 - **Readable.** Open **Settings → Memory** and see what it holds.
 - **Editable.** Correct a line that is wrong, remove one you no longer want used.
 - **Movable.** It can live on your laptop, on a machine in the corner, in your own cloud, or with us. It is the same layer in all four.
 - **Yours on the way out.** Export it, take it somewhere else, keep it when you stop using Aeven.
+- **Not read by us.** Aeven does not read your memory. The copy that keeps your devices in step is encrypted, and access to the systems that hold it is limited to the people who run the service and is logged.
+- **Everywhere you are.** Sign in on a second computer and the same memory, conversations and settings are already there. [Your data](/docs/account/your-data) says where each copy lives.
 
-**What that means:** the value of using Aeven compounds in something you own, not in an account you rent. A year of teaching it your clients, your formats and your shortcuts is an asset, not a subscription feature.
+**What that means:** the value of using Aeven compounds in something you own, not in an account you rent — and in something we never open. A year of teaching it your clients, your formats and your shortcuts is an asset, not a subscription feature.
 
 ## 3. The model is a replaceable part
 
@@ -50,7 +52,7 @@ Aeven is open source under the [Apache 2.0 licence](https://github.com/Aeven-AI/
 
 **It asks before it acts.** Aeven can read files, run commands and open pages, so before anything consequential it shows you the exact action and waits. You can allow it once, for the task, or not at all. [What Aeven asks first](/docs/using/approvals)
 
-**It learns the way you do it.** Teach it a way of working once — a report format, a review checklist, a deployment step — and it keeps it as a skill or a procedure. Automations turn a sentence into a job that runs on its own schedule. [What Aeven remembers](/docs/using/memory) · [Automations](/docs/automation/automations)
+**It learns the way you do it.** Teach it a way of working once — a report format, a review checklist, a deployment step — and it keeps it as a skill or a procedure. Bots turn a sentence into a job that runs on its own schedule. [What Aeven remembers](/docs/using/memory) · [Skills](/docs/using/skills) · [Bots](/docs/automation/automations)
 
 ## What Aeven is not
 

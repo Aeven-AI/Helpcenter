@@ -43,4 +43,4 @@ Aeven checks for a new version shortly after launch and every 30 minutes after t
 
 ## Running in the background
 
-**Settings → General → Run in the background** is on by default. Closing the last window leaves Aeven running, so work in progress and [automations](/docs/automation/automations) keep going. Quit from the application menu or the menu bar icon to stop it completely.
+**Settings → General → Run in the background** is on by default. Closing the last window leaves Aeven running, so work in progress and [bots](/docs/automation/automations) keep going. Quit from the application menu or the menu bar icon to stop it completely.

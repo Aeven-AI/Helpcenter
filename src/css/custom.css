@@ -61,6 +61,18 @@ a:hover {
   scrollbar-color: var(--aeven-raised) transparent;
 }
 
+/* The left rail scrolls behind the cursor without a visible bar: the rail is chrome, and
+   a bar beside the labels reads as a second column. Wheel, trackpad and keyboard all keep
+   working; only the drawing is gone. */
+.menu.thin-scrollbar {
+  scrollbar-width: none;
+}
+
+.menu.thin-scrollbar::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 /* -------------------------------------------------------------- navbar --- */
 
 .navbar {

@@ -2,16 +2,32 @@ import type {Config} from '@docusaurus/types'
 import type {Options as SearchOptions} from '@easyops-cn/docusaurus-search-local'
 import {themes as prismThemes} from 'prism-react-renderer'
 
+const baseUrl = '/'
+
+/* The header's language switch: Docusaurus draws the slot as an `html` navbar item, and
+   src/clientModules/languageSwitcher.ts mounts the control into it. */
+const languageSlot = '<div data-language-switcher></div>'
+
 const config: Config = {
   title: 'Help center',
   tagline: 'You bring the idea. Aeven finds the way.',
   favicon: 'img/favicon.svg',
 
   url: 'https://help.aeven.io',
-  baseUrl: '/',
+  baseUrl,
 
   organizationName: 'Aeven-AI',
   projectName: 'helpcenter',
+
+  /* A visit that names no language lands in the visitor's own language
+     (languageDetection.ts), the header's switch is mounted by languageSwitcher.ts, and the
+     site root is written by plugins/root-redirect.js. */
+  plugins: [require.resolve('./plugins/root-redirect.js')],
+
+  clientModules: [
+    require.resolve('./src/clientModules/languageDetection.ts'),
+    require.resolve('./src/clientModules/languageSwitcher.ts'),
+  ],
 
   onBrokenLinks: 'throw',
   markdown: {
@@ -22,10 +38,15 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh-Hans'],
+    /* Every language carries its own segment, English included, so a page always says which
+       language it is: /en/, /cn/, /es/. The site root answers with the browser's language
+       and falls back to English (see plugins/root-redirect.js). Chinese keeps htmlLang
+       `zh-Hans`, the correct tag, while its address stays short. */
+    locales: ['en', 'cn', 'es'],
     localeConfigs: {
-      en: {label: 'English', direction: 'ltr', htmlLang: 'en'},
-      'zh-Hans': {label: '简体中文', direction: 'ltr', htmlLang: 'zh-Hans'},
+      en: {label: 'English', direction: 'ltr', htmlLang: 'en', baseUrl: '/en/'},
+      cn: {label: '中文', direction: 'ltr', htmlLang: 'zh-Hans', baseUrl: '/cn/'},
+      es: {label: 'Español', direction: 'ltr', htmlLang: 'es', baseUrl: '/es/'},
     },
   },
 
@@ -100,6 +121,11 @@ const config: Config = {
         {
           href: 'https://github.com/Aeven-AI/Aeven',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'html',
+          value: languageSlot,
           position: 'right',
         },
       ],

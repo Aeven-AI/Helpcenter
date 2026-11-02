@@ -22,7 +22,7 @@ Read the last line of the conversation: it names what failed. Sending "continue"
 
 ## A connected app stopped working
 
-Its access was revoked or expired. Open **Settings → Integrations**, link the account again, and retry the task. [Connect an account](/docs/connections/connected-apps).
+Its access was revoked or expired. Open **Settings → Connectors**, link the account again, and retry the task. [Connectors](/docs/connections/connected-apps).
 
 ## A file did not appear where you expected
 

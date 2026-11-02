@@ -22,17 +22,22 @@ const sidebars: SidebarsConfig = {
       label: 'Using Aeven',
       collapsible: false,
       items: [
+        'using/sidebar',
         'using/choose-a-folder',
         'using/chat-and-attachments',
         'using/approvals',
         'using/where-your-work-lands',
         'using/memory',
+        'using/skills',
         'using/models',
+        'using/images-and-video',
+        'using/background-jobs',
+        'using/devices',
       ],
     },
     {
       type: 'category',
-      label: 'Automation',
+      label: 'Bots',
       collapsible: false,
       items: [
         'automation/automations',
@@ -52,6 +57,7 @@ const sidebars: SidebarsConfig = {
       collapsible: false,
       items: [
         'account/plans-and-credits',
+        'account/personalisation',
         'account/your-data',
       ],
     },
