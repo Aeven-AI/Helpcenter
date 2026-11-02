@@ -619,6 +619,16 @@ pre.prism-code {
   margin-bottom: 10px;
 }
 
+/* The label is drawn by this stylesheet rather than by the page, so each language's page
+   carries its own. `:lang()` matches the `<html lang>` Docusaurus sets per locale. */
+:lang(zh-Hans) .table-of-contents::before {
+  content: '本页内容';
+}
+
+:lang(es) .table-of-contents::before {
+  content: 'En esta página';
+}
+
 .table-of-contents__left-border {
   border: none;
   padding-left: 0;
