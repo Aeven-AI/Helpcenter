@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Actual",
+    "description": "The label for version current"
+  },
+  "sidebar.help.category.Getting started": {
+    "message": "Primeros pasos",
+    "description": "The label for category 'Getting started' in sidebar 'help'"
+  },
+  "sidebar.help.category.Using Aeven": {
+    "message": "Usar Aeven",
+    "description": "The label for category 'Using Aeven' in sidebar 'help'"
+  },
+  "sidebar.help.category.Bots": {
+    "message": "Bots",
+    "description": "The label for category 'Bots' in sidebar 'help'"
+  },
+  "sidebar.help.category.Connections": {
+    "message": "Conexiones",
+    "description": "The label for category 'Connections' in sidebar 'help'"
+  },
+  "sidebar.help.category.Account and app": {
+    "message": "Cuenta y aplicación",
+    "description": "The label for category 'Account and app' in sidebar 'help'"
+  },
+  "sidebar.help.category.Help": {
+    "message": "Ayuda",
+    "description": "The label for category 'Help' in sidebar 'help'"
+  },
+  "sidebar.help.category.Legal": {
+    "message": "Legal",
+    "description": "The label for category 'Legal' in sidebar 'help'"
+  },
+  "sidebar.help.doc.Help center": {
+    "message": "Centro de ayuda",
+    "description": "The label for the doc item 'Help center' in sidebar 'help', linking to the doc index"
+  }
+}
