@@ -11,7 +11,7 @@
 import {useCallback, useEffect, useRef, useState, type ReactNode} from 'react'
 import clsx from 'clsx'
 import styles from './styles.module.css'
-import {LANGUAGES, currentLocale, localeUrl, storeLanguage} from './languages'
+import {LANGUAGES, SWITCHER_LABEL, currentLocale, localeUrl, storeLanguage} from './languages'
 
 /* Lucide's globe, which is the mark the site and the app both draw. */
 function GlobeMark(): ReactNode {
@@ -100,8 +100,8 @@ export default function Language({pathname}: LanguageProps): ReactNode {
         className={styles.button}
         aria-haspopup="menu"
         aria-expanded={open}
-        aria-label="Change language"
-        title="Change language"
+        aria-label={SWITCHER_LABEL[current] ?? SWITCHER_LABEL.en}
+        title={SWITCHER_LABEL[current] ?? SWITCHER_LABEL.en}
         onClick={() => setOpen((value) => !value)}>
         <GlobeMark />
       </button>

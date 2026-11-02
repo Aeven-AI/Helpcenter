@@ -36,6 +36,13 @@ export const DEFAULT_LANGUAGE = 'en'
    the product even though the two origins keep their own storage. */
 export const STORAGE_KEY = 'aeven:language'
 
+/** What the switch calls itself: announced by a screen reader, shown on hover. */
+export const SWITCHER_LABEL: Record<string, string> = {
+  en: 'Change language',
+  cn: '切换语言',
+  es: 'Cambiar idioma',
+}
+
 /** Whether `value` names a language this site is written in. */
 export function isSupported(value: unknown): value is string {
   return typeof value === 'string' && LANGUAGES.some((language) => language.key === value)
