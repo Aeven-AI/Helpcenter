@@ -6,9 +6,9 @@ slug: /privacy
 
 # Privacy Policy
 
-**Last updated: 23 October 2026**
+**Last updated: 7 November 2026**
 
-Aeven is a desktop application, and it is built so that much of what you do with it stays on your computer. This page says what leaves it, why, and what you can do about that.
+Aeven is a desktop application, and it is built so that much of what you do with it stays on your computer. This page says what leaves it, why, and what you can do about that. Aeven Web, at [chat.aeven.io](https://chat.aeven.io), runs the same assistant on our servers instead of your computer; [On Aeven Web](#on-aeven-web) says what that changes.
 
 It covers the Aeven application, this help center, and the Aeven account behind them. It does not cover the services you connect to Aeven — mail, calendars, chat, code hosting — which keep their own policies.
 
@@ -30,6 +30,18 @@ Conversations, settings and memory also sync to your Aeven account, so they foll
 
 You can delete any of it by deleting the relevant item in the app, or by removing Aeven's data folder. [Your data](/docs/account/your-data) lists where each thing lives.
 
+### On Aeven Web
+
+When you use Aeven Web, nothing runs on your computer, so what the desktop keeps locally is kept on our servers instead:
+
+- **Your conversations, memory, settings and personalisation**, stored with your account so the assistant can continue them.
+- **Files you upload** to a conversation.
+- **Your account folder**: files the assistant creates or changes for you, such as charts, spreadsheets, documents and videos, up to 5 GB per account. They stay there between conversations until you or the assistant delete them.
+
+To answer you, our servers read this content and pass the parts a task needs to the model, as section 5 describes. It is therefore **not end-to-end encrypted**: unlike the synced copy in section 10, Aeven's systems can open it. No one at Aeven reads your content, and access to the systems that hold it is limited to the people who run the service and is logged. If you need your conversations and files never to reside on our servers, use the desktop application.
+
+Commands the assistant runs for you, for example to analyse data or make a chart, run in an isolated sandbox that sees only your own account folder and has no internet access. Your account folder is not backed up; keep your own copy of anything you cannot lose.
+
 ## 3. What we hold on our side
 
 | What | Why | Example |
@@ -40,6 +52,8 @@ You can delete any of it by deleting the relevant item in the app, or by removin
 | Technical logs | To keep the service working and secure | App version, platform, error reports, request times, coarse location derived from IP |
 | Support conversations | To answer you | The messages you send to support |
 | Synced data | So your memory, conversations, settings and personalisation appear on each device you sign in on | Encrypted updates of those items, and the list of your devices |
+| Aeven Web data | So the assistant can work for you without your computer | Conversations, memory, settings, uploaded files, and the files in your account folder |
+| Sign-up network | To give the free preview credit to a limited number of accounts per network, so it cannot be collected repeatedly | A keyed hash of the network you signed up from (your IP address, or the block an IPv6 address belongs to), never the address itself |
 
 We do not buy personal data about you from anyone, and we do not sell or rent what we hold.
 
@@ -92,9 +106,11 @@ A current list of processors is available on request from [privacy@aeven.io](mai
 | Technical logs | 30 days, unless needed to investigate a security incident |
 | Support conversations | Two years after the last message |
 | Synced data | While your account exists — deleting it in the app removes it from the synced copy |
+| Aeven Web data | While your account exists, or until you delete a conversation or file |
+| Sign-up network | 30 days after you sign up |
 | Anything else on your computer | Until you delete it — we have no copy |
 
-Deleting your account removes the account data we hold, including the synced copy. Other files and conversations on your computer stay there, because they were never ours.
+Deleting your account removes the account data we hold, including the synced copy and everything Aeven Web stored for you. Other files and conversations on your computer stay there, because they were never ours.
 
 ## 9. Your rights
 
@@ -107,6 +123,8 @@ If you are not satisfied with our answer, you can complain to the Dutch Data Pro
 Traffic between the app and our services is encrypted in transit. Account data at rest is encrypted by our hosting providers. Access to production data is limited to the people who need it to run the service, and is logged.
 
 The copy of your memory, conversations, settings and personalisation that syncs between your devices is encrypted before it leaves the app, and the relay that stores it keeps it encrypted. Aeven holds the key that opens that copy; we do not use it to read your memory. No one at Aeven reads or inspects your memory, and access to the systems that hold it is limited to the people who need them to run the service and is logged. Protection where the key stays on your own devices, so the copy cannot be opened by us at all, is being rolled out.
+
+On Aeven Web, your content is stored on encrypted disks and protected by your account's sign-in, but it is not end-to-end encrypted, for the reason [On Aeven Web](#on-aeven-web) gives. The sandbox that runs commands is isolated per account and runs as a separate system user that cannot read the rest of our servers.
 
 No system is perfect. If you find a vulnerability, report it to [security@aeven.io](mailto:security@aeven.io) rather than publishing it, and we will work with you.
 

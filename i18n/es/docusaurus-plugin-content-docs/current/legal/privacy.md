@@ -6,9 +6,9 @@ slug: /privacy
 
 # Política de privacidad
 
-**Última actualización: 23 de octubre de 2026**
+**Última actualización: 7 de noviembre de 2026**
 
-Aeven es una aplicación de escritorio y está construida para que buena parte de lo que haces con ella se quede en tu computadora. Esta página dice qué sale de él, por qué y qué puedes hacer al respecto.
+Aeven es una aplicación de escritorio y está construida para que buena parte de lo que haces con ella se quede en tu computadora. Esta página dice qué sale de él, por qué y qué puedes hacer al respecto. Aeven Web, en [chat.aeven.io](https://chat.aeven.io), ejecuta el mismo asistente en nuestros servidores en lugar de en tu computadora; [En Aeven Web](#en-aeven-web) explica qué cambia con ello.
 
 Cubre la aplicación Aeven, este centro de ayuda y la cuenta de Aeven que hay detrás. No cubre los servicios que conectas a Aeven —correo, calendarios, chat, alojamiento de código—, que mantienen sus propias políticas.
 
@@ -30,6 +30,18 @@ Las conversaciones, los ajustes y la memoria también se sincronizan con tu cuen
 
 Puedes eliminar cualquiera de estas cosas borrando el elemento correspondiente en la aplicación o quitando la carpeta de datos de Aeven. [Tus datos](../account/your-data.md) enumera dónde vive cada cosa.
 
+### En Aeven Web
+
+Cuando usas Aeven Web, nada se ejecuta en tu computadora, así que lo que la aplicación de escritorio guarda localmente se guarda en nuestros servidores:
+
+- **Tus conversaciones, tu memoria, tus ajustes y tu personalización**, guardados con tu cuenta para que el asistente pueda continuarlos.
+- **Los archivos que subes** a una conversación.
+- **La carpeta de tu cuenta**: los archivos que el asistente crea o modifica para ti, como gráficos, hojas de cálculo, documentos y vídeos, hasta 5 GB por cuenta. Se quedan ahí entre conversaciones hasta que tú o el asistente los eliminéis.
+
+Para responderte, nuestros servidores leen este contenido y pasan al modelo las partes que la tarea necesita, como describe la sección 5. Por eso **no está cifrado de extremo a extremo**: a diferencia de la copia sincronizada de la sección 10, los sistemas de Aeven pueden abrirlo. Nadie en Aeven lee tu contenido, y el acceso a los sistemas que lo guardan está limitado a las personas que operan el servicio y queda registrado. Si necesitas que tus conversaciones y archivos nunca residan en nuestros servidores, usa la aplicación de escritorio.
+
+Los comandos que el asistente ejecuta por ti, por ejemplo para analizar datos o hacer un gráfico, se ejecutan en un entorno aislado que solo ve la carpeta de tu propia cuenta y no tiene acceso a internet. La carpeta de tu cuenta no tiene copia de seguridad; guarda tu propia copia de todo lo que no puedas perder.
+
 ## 3. Qué guardamos por nuestra parte
 
 | Qué | Para qué | Ejemplo |
@@ -40,6 +52,8 @@ Puedes eliminar cualquiera de estas cosas borrando el elemento correspondiente e
 | Registros técnicos | Para mantener el servicio funcionando y seguro | Versión de la aplicación, plataforma, informes de errores, horas de las solicitudes, ubicación aproximada derivada de la IP |
 | Conversaciones de soporte | Para responderte | Los mensajes que envías al soporte |
 | Datos sincronizados | Para que tu memoria, tus conversaciones, tus ajustes y tu personalización aparezcan en cada dispositivo en el que inicias sesión | Actualizaciones cifradas de esos elementos y la lista de tus dispositivos |
+| Datos de Aeven Web | Para que el asistente pueda trabajar para ti sin tu computadora | Conversaciones, memoria, ajustes, archivos subidos y los archivos de la carpeta de tu cuenta |
+| Red de registro | Para dar el crédito gratuito de la vista previa a un número limitado de cuentas por red, de modo que no pueda obtenerse una y otra vez | Un hash con clave de la red desde la que te registraste (tu dirección IP, o el bloque al que pertenece una dirección IPv6), nunca la dirección en sí |
 
 No compramos datos personales sobre ti a nadie, y no vendemos ni alquilamos lo que guardamos.
 
@@ -92,9 +106,11 @@ Puedes solicitar una lista actualizada de encargados del tratamiento en [privacy
 | Registros técnicos | 30 días, salvo que haga falta para investigar un incidente de seguridad |
 | Conversaciones de soporte | Dos años después del último mensaje |
 | Datos sincronizados | Mientras exista tu cuenta: eliminarlos en la aplicación los quita de la copia sincronizada |
+| Datos de Aeven Web | Mientras exista tu cuenta, o hasta que elimines una conversación o un archivo |
+| Red de registro | 30 días después de registrarte |
 | Cualquier otra cosa en tu computadora | Hasta que la borres: no tenemos copia |
 
-Eliminar tu cuenta borra los datos de cuenta que guardamos, incluida la copia sincronizada. Los demás archivos y conversaciones de tu computadora se quedan ahí, porque nunca fueron nuestros.
+Eliminar tu cuenta borra los datos de cuenta que guardamos, incluida la copia sincronizada y todo lo que Aeven Web guardó para ti. Los demás archivos y conversaciones de tu computadora se quedan ahí, porque nunca fueron nuestros.
 
 ## 9. Tus derechos
 
@@ -107,6 +123,8 @@ Si no estás satisfecho con nuestra respuesta, puedes reclamar ante la autoridad
 El tráfico entre la aplicación y nuestros servicios va cifrado en tránsito. Los proveedores de alojamiento cifran los datos de cuenta en reposo. El acceso a los datos de producción está limitado a las personas que lo necesitan para operar el servicio y queda registrado.
 
 La copia de tu memoria, tus conversaciones, tus ajustes y tu personalización que se sincroniza entre tus dispositivos se cifra antes de salir de la aplicación, y el relé que la guarda la mantiene cifrada. Aeven tiene la clave que abre esa copia; no la usamos para leer tu memoria. Nadie en Aeven lee ni inspecciona tu memoria, y el acceso a los sistemas que la contienen está limitado a las personas que los necesitan para operar el servicio y queda registrado. La protección en la que la clave se queda en tus propios dispositivos, de modo que nosotros no podamos abrir la copia en absoluto, está en despliegue.
+
+En Aeven Web, tu contenido se guarda en discos cifrados y lo protege el inicio de sesión de tu cuenta, pero no está cifrado de extremo a extremo, por la razón que da [En Aeven Web](#en-aeven-web). El entorno aislado que ejecuta los comandos está separado por cuenta y se ejecuta como un usuario del sistema distinto que no puede leer el resto de nuestros servidores.
 
 Ningún sistema es perfecto. Si encuentras una vulnerabilidad, comunícala a [security@aeven.io](mailto:security@aeven.io) en lugar de publicarla, y trabajaremos contigo.
 
