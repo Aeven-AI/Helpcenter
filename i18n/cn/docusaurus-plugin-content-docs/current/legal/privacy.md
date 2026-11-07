@@ -14,7 +14,7 @@ Aeven 是一个桌面应用，它造出来就是为了让你用它做的大部�
 
 ## 1. 谁负责
 
-Aeven 由位于荷兰的 **[legal entity name]**（[registered address]）提供（“Aeven”、“我们”）。这一页上的任何事，写信到 [privacy@aeven.io](mailto:privacy@aeven.io)。
+Aeven 由位于荷兰的 **Aeven**（Hestiastraat 58, 1076 DM Amsterdam）提供（“Aeven”、“我们”）。这一页上的任何事，写信到 [privacy@aeven.io](mailto:privacy@aeven.io)。
 
 ## 2. 什么留在你的电脑上
 

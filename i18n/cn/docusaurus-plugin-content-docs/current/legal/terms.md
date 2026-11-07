@@ -8,7 +8,7 @@ slug: /terms
 
 **最后更新：2026 年 11 月 7 日**
 
-这些条款是你和位于荷兰的 **[legal entity name]**（[registered address]）之间，就 Aeven 应用、位于 [chat.aeven.io](https://chat.aeven.io) 的 Aeven Web、你的 Aeven 账号和这个帮助中心达成的协议（“Aeven”、“我们”）。安装 Aeven、登录或者使用这项服务，就是接受它们。
+这些条款是你和位于荷兰的 **Aeven**（Hestiastraat 58, 1076 DM Amsterdam）之间，就 Aeven 应用、位于 [chat.aeven.io](https://chat.aeven.io) 的 Aeven Web、你的 Aeven 账号和这个帮助中心达成的协议（“Aeven”、“我们”）。安装 Aeven、登录或者使用这项服务，就是接受它们。
 
 ## 1. 谁能用 Aeven
 
@@ -103,7 +103,7 @@ Aeven 可以和我们的模型一起用，也可以和你自己接的模型和�
 
 ## 13. 适用法律和争议
 
-这些条款受荷兰法律管辖。争议提交给 **[place]** 的法院，除非一条强制性的规定给了你在居住地起诉的权利。如果你是欧盟的消费者，你也可以用欧盟委员会的在线争议解决平台。
+这些条款受荷兰法律管辖。争议提交给 **Amsterdam** 的法院，除非一条强制性的规定给了你在居住地起诉的权利。如果你是欧盟的消费者，你也可以用欧盟委员会的在线争议解决平台。
 
 ## 14. 这些条款的变更
 
@@ -111,7 +111,7 @@ Aeven 可以和我们的模型一起用，也可以和你自己接的模型和�
 
 ## 15. 联系
 
-**[legal entity name]**（[registered address]），荷兰
+**Aeven**（Hestiastraat 58, 1076 DM Amsterdam），荷兰
 [legal@aeven.io](mailto:legal@aeven.io)
 
 ## 相关
