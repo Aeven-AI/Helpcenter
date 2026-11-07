@@ -6,9 +6,9 @@ slug: /terms
 
 # Condiciones del servicio
 
-**Última actualización: 23 de octubre de 2026**
+**Última actualización: 7 de noviembre de 2026**
 
-Estas condiciones son el acuerdo entre tú y **[legal entity name]**, [registered address], los Países Bajos («Aeven», «nosotros») para la aplicación Aeven, tu cuenta de Aeven y este centro de ayuda. Al instalar Aeven, iniciar sesión o usar el servicio, las aceptas.
+Estas condiciones son el acuerdo entre tú y **[legal entity name]**, [registered address], los Países Bajos («Aeven», «nosotros») para la aplicación Aeven, Aeven Web en [chat.aeven.io](https://chat.aeven.io), tu cuenta de Aeven y este centro de ayuda. Al instalar Aeven, iniciar sesión o usar el servicio, las aceptas.
 
 ## 1. Quién puede usar Aeven
 
@@ -31,6 +31,7 @@ El [aviso de seguridad](https://github.com/Aeven-AI/Aeven/blob/main/SAFETY.md) e
 
 - Los planes y los créditos que incluyen se describen en la página de la cuenta y en [aeven.io](https://aeven.io). Los precios están en euros y no incluyen el IVA, salvo que se indique lo contrario.
 - El uso se mide en créditos. Cuando se te acaban los créditos, el trabajo que necesita más se detiene hasta que añadas créditos o cambies de plan.
+- El crédito gratuito de la vista previa es uno por persona. Solo un número limitado de cuentas que se registran desde la misma red lo reciben; las siguientes cuentas de esa red empiezan sin él y pueden añadir créditos igualmente.
 - Los pagos los gestiona nuestro proveedor de pagos. Las suscripciones se renuevan automáticamente hasta que se cancelan; puedes cancelar desde el portal de facturación de la página de la cuenta y conservar el plan hasta el final del periodo pagado.
 - Los créditos que compras se consumen a medida que los usas. Cuando la ley te concede un derecho de desistimiento y nos pides que empecemos a ejecutar de inmediato, pierdes ese derecho una vez usados los créditos.
 - Podemos cambiar los precios. Un cambio se aplica a partir de tu siguiente renovación y te lo comunicamos antes de que entre en vigor.
@@ -43,6 +44,8 @@ No uses Aeven para:
 - enviar spam, cometer fraude, acosar a personas o crear software malicioso;
 - atacar, escanear o sobrecargar sistemas que no son tuyos ni tienes permiso para probar;
 - eludir los límites de plan, la medición de créditos, los límites de frecuencia o los controles de acceso;
+- abrir varias cuentas para volver a obtener el crédito gratuito de la vista previa;
+- en Aeven Web, intentar salir del entorno aislado que ejecuta los comandos, llegar a las cuentas de otras personas o a nuestros servidores, o usar su capacidad de cálculo para fines ajenos a tu propio trabajo, como minar criptomonedas;
 - revender el servicio o comercializarlo con tu propia marca sin un acuerdo con nosotros;
 - aplicar ingeniería inversa a una parte del servicio que tenga una restricción contractual o técnica.
 
@@ -72,7 +75,11 @@ Qué modelo responde, y por tanto dónde se procesa una tarea, es elección tuya
 
 ## 9. Disponibilidad y soporte
 
-Procuramos mantener disponible el servicio de cuentas, pero no prometemos un servicio ininterrumpido ni ofrecemos un acuerdo de nivel de servicio para la vista previa para desarrolladores. El soporte es por correo electrónico en [help@aeven.io](mailto:help@aeven.io) y en [GitHub Discussions](https://github.com/Aeven-AI/Aeven/discussions).
+Procuramos mantener disponible el servicio de cuentas, pero no prometemos un servicio ininterrumpido ni ofrecemos un acuerdo de nivel de servicio para la vista previa para desarrolladores.
+
+**Aeven Web** ejecuta el asistente, y los comandos que ejecuta por ti, en nuestros servidores. Cada cuenta tiene límites de almacenamiento (5 GB para la carpeta de tu cuenta), de procesamiento y de tiempo de ejecución, que podemos cambiar; un comando que los supera se detiene. Los archivos de la carpeta de tu cuenta no tienen copia de seguridad, así que guarda tu propia copia de todo lo que no puedas perder. La [Política de privacidad](./privacy.md) explica qué guarda Aeven Web.
+
+ El soporte es por correo electrónico en [help@aeven.io](mailto:help@aeven.io) y en [GitHub Discussions](https://github.com/Aeven-AI/Aeven/discussions).
 
 ## 10. Terminación
 

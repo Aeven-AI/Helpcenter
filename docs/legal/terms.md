@@ -6,9 +6,9 @@ slug: /terms
 
 # Terms of Service
 
-**Last updated: 23 October 2026**
+**Last updated: 7 November 2026**
 
-These terms are the agreement between you and **[legal entity name]**, [registered address], the Netherlands ("Aeven", "we") for the Aeven application, your Aeven account, and this help center. By installing Aeven, signing in, or using the service, you accept them.
+These terms are the agreement between you and **[legal entity name]**, [registered address], the Netherlands ("Aeven", "we") for the Aeven application, Aeven Web at [chat.aeven.io](https://chat.aeven.io), your Aeven account, and this help center. By installing Aeven, signing in, or using the service, you accept them.
 
 ## 1. Who can use Aeven
 
@@ -31,6 +31,7 @@ The [safety notice](https://github.com/Aeven-AI/Aeven/blob/main/SAFETY.md) expla
 
 - Plans and their included credits are described on the account page and at [aeven.io](https://aeven.io). Prices are in euros and exclude VAT unless stated otherwise.
 - Usage is metered in credits. When your credits run out, work that needs more stops until you add credits or move plan.
+- The free preview credit is meant once per person. Only a limited number of accounts that sign up from the same network receive it; further accounts from that network start without it and can still add credits.
 - Payments are handled by our payment provider. Subscriptions renew automatically until cancelled; you can cancel from the billing portal on the account page and keep the plan until the end of the paid period.
 - Credits you bought are consumed as you use them. Where the law gives you a right of withdrawal, and you ask us to start performing immediately, you lose that right once the credits have been used.
 - We may change prices. A change applies from your next renewal, and we tell you before it takes effect.
@@ -43,6 +44,8 @@ Do not use Aeven to:
 - send spam, run fraud, harass people, or build malware;
 - attack, scan or overload systems you do not own or have permission to test;
 - get around plan limits, credit metering, rate limits or access controls;
+- open several accounts to collect the free preview credit again;
+- on Aeven Web, try to break out of the sandbox that runs commands, reach other people's accounts or our servers, or use its computing power for things unrelated to your own work, such as mining cryptocurrency;
 - resell or white-label the service without an agreement with us;
 - reverse engineer a part of the service that carries a contractual or technical restriction.
 
@@ -72,7 +75,9 @@ Which model answers, and therefore where a task is processed, is your choice. [P
 
 ## 9. Availability and support
 
-We aim to keep the account service available, but we do not promise uninterrupted service and we do not offer a service level agreement for the developer preview. Support is by email at [help@aeven.io](mailto:help@aeven.io) and in [GitHub Discussions](https://github.com/Aeven-AI/Aeven/discussions).
+We aim to keep the account service available, but we do not promise uninterrupted service and we do not offer a service level agreement for the developer preview.
+
+**Aeven Web** runs the assistant, and the commands it runs for you, on our servers. Each account has limits on storage (5 GB for your account folder), processing and running time, which we may change; a command that exceeds them is stopped. Files in your account folder are not backed up, so keep your own copy of anything you cannot lose. [Privacy Policy](/docs/privacy) explains what Aeven Web stores. Support is by email at [help@aeven.io](mailto:help@aeven.io) and in [GitHub Discussions](https://github.com/Aeven-AI/Aeven/discussions).
 
 ## 10. Ending it
 
