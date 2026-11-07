@@ -14,7 +14,7 @@ Cubre la aplicación Aeven, este centro de ayuda y la cuenta de Aeven que hay de
 
 ## 1. Quién es responsable
 
-Aeven lo presta **[legal entity name]**, [registered address], los Países Bajos («Aeven», «nosotros»). Para cualquier cuestión de esta página, escribe a [privacy@aeven.io](mailto:privacy@aeven.io).
+Aeven lo presta **Aeven**, Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos («Aeven», «nosotros»). Para cualquier cuestión de esta página, escribe a [privacy@aeven.io](mailto:privacy@aeven.io).
 
 ## 2. Qué se queda en tu computadora
 

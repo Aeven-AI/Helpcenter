@@ -8,7 +8,7 @@ slug: /terms
 
 **Última actualización: 7 de noviembre de 2026**
 
-Estas condiciones son el acuerdo entre tú y **[legal entity name]**, [registered address], los Países Bajos («Aeven», «nosotros») para la aplicación Aeven, Aeven Web en [chat.aeven.io](https://chat.aeven.io), tu cuenta de Aeven y este centro de ayuda. Al instalar Aeven, iniciar sesión o usar el servicio, las aceptas.
+Estas condiciones son el acuerdo entre tú y **Aeven**, Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos («Aeven», «nosotros») para la aplicación Aeven, Aeven Web en [chat.aeven.io](https://chat.aeven.io), tu cuenta de Aeven y este centro de ayuda. Al instalar Aeven, iniciar sesión o usar el servicio, las aceptas.
 
 ## 1. Quién puede usar Aeven
 
@@ -103,7 +103,7 @@ Si un tercero reclama contra nosotros por cómo usaste Aeven —contenido que pr
 
 ## 13. Ley aplicable y disputas
 
-Estas condiciones se rigen por las leyes de los Países Bajos. Las disputas se someten a los tribunales de **[place]**, salvo que una norma imperativa te dé derecho a demandar donde resides. Si eres consumidor en la UE, también puedes usar la plataforma de resolución de litigios en línea de la Comisión Europea.
+Estas condiciones se rigen por las leyes de los Países Bajos. Las disputas se someten a los tribunales de **Amsterdam**, salvo que una norma imperativa te dé derecho a demandar donde resides. Si eres consumidor en la UE, también puedes usar la plataforma de resolución de litigios en línea de la Comisión Europea.
 
 ## 14. Cambios en estas condiciones
 
@@ -111,7 +111,7 @@ Podemos actualizar estas condiciones. Los cambios sustanciales se anuncian en la
 
 ## 15. Contacto
 
-**[legal entity name]**, [registered address], los Países Bajos
+**Aeven**, Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos
 [legal@aeven.io](mailto:legal@aeven.io)
 
 ## Relacionado

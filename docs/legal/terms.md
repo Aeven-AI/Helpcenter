@@ -8,7 +8,7 @@ slug: /terms
 
 **Last updated: 7 November 2026**
 
-These terms are the agreement between you and **[legal entity name]**, [registered address], the Netherlands ("Aeven", "we") for the Aeven application, Aeven Web at [chat.aeven.io](https://chat.aeven.io), your Aeven account, and this help center. By installing Aeven, signing in, or using the service, you accept them.
+These terms are the agreement between you and **Aeven**, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands ("Aeven", "we") for the Aeven application, Aeven Web at [chat.aeven.io](https://chat.aeven.io), your Aeven account, and this help center. By installing Aeven, signing in, or using the service, you accept them.
 
 ## 1. Who can use Aeven
 
@@ -101,7 +101,7 @@ If a third party claims against us because of how you used Aeven — content you
 
 ## 13. Governing law and disputes
 
-These terms are governed by the laws of the Netherlands. Disputes go to the courts of **[place]**, unless a mandatory rule gives you the right to sue where you live. If you are a consumer in the EU, you can also use the European Commission's online dispute resolution platform.
+These terms are governed by the laws of the Netherlands. Disputes go to the courts of **Amsterdam**, unless a mandatory rule gives you the right to sue where you live. If you are a consumer in the EU, you can also use the European Commission's online dispute resolution platform.
 
 ## 14. Changes to these terms
 
@@ -109,7 +109,7 @@ We may update these terms. Material changes are announced in the app or by email
 
 ## 15. Contact
 
-**[legal entity name]**, [registered address], the Netherlands
+**Aeven**, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands
 [legal@aeven.io](mailto:legal@aeven.io)
 
 ## Related

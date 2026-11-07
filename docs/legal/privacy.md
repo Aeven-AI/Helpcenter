@@ -14,7 +14,7 @@ It covers the Aeven application, this help center, and the Aeven account behind 
 
 ## 1. Who is responsible
 
-Aeven is provided by **[legal entity name]**, [registered address], the Netherlands ("Aeven", "we"). For anything on this page, write to [privacy@aeven.io](mailto:privacy@aeven.io).
+Aeven is provided by **Aeven**, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands ("Aeven", "we"). For anything on this page, write to [privacy@aeven.io](mailto:privacy@aeven.io).
 
 ## 2. What stays on your computer
 
