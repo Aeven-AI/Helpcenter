@@ -15,6 +15,12 @@ Aeven se ejecuta como aplicación de escritorio en macOS, Windows y Linux. La ap
 
 El primer arranque tarda unos segundos mientras Aeven inicia su servicio local. Si la ventana parece vacía al principio, es que todavía está arrancando.
 
+## O usa Aeven Web
+
+Aeven también funciona en un navegador en [chat.aeven.io](https://chat.aeven.io), sin instalar nada. Inicia sesión con la misma cuenta y tus conversaciones, tu memoria y tus ajustes están ahí.
+
+En Aeven Web el asistente trabaja en nuestros servidores en lugar de en tu computadora: guarda los archivos en la carpeta de tu cuenta (hasta 5 GB), ejecuta comandos en un entorno aislado sin acceso a internet y trabaja en tu propio navegador con la [extensión de Aeven](../using/browser.md#en-tu-propio-navegador). No puede abrir carpetas, terminales ni programas de tu computadora; para eso usa la aplicación de escritorio. La [Política de privacidad](../legal/privacy.md) explica qué guarda Aeven Web.
+
 ## Iniciar sesión
 
 Elige **Sign in** y continúa con la cuenta que ya usas: Google, Apple o X. Aeven abre una ventana aparte para ese proveedor y luego vuelve a la aplicación.
