@@ -32,6 +32,7 @@ const sidebars: SidebarsConfig = {
         'using/models',
         'using/images-and-video',
         'using/background-jobs',
+        'using/browser',
         'using/devices',
       ],
     },

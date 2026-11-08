@@ -15,6 +15,12 @@ Aeven runs as a desktop application on macOS, Windows, and Linux. The applicatio
 
 The first launch takes a few seconds while Aeven starts its local service. If the window seems empty at first, it is still starting.
 
+## Or use Aeven Web
+
+Aeven also runs in a browser at [chat.aeven.io](https://chat.aeven.io), with nothing to install. Sign in with the same account and your conversations, memory and settings are there.
+
+On Aeven Web the assistant works on our servers instead of your computer: it keeps files in your account folder (up to 5 GB), runs commands in an isolated sandbox without internet access, and works in your own browser through the [Aeven extension](/docs/using/browser#in-your-own-browser). It cannot open folders, terminals or programs on your computer; use the desktop app for that. [Privacy Policy](/docs/privacy) says what Aeven Web stores.
+
 ## Sign in
 
 Choose **Sign in** and continue with the account you already use — Google, Apple, or X. Aeven opens a separate window for that provider, then returns to the app.
