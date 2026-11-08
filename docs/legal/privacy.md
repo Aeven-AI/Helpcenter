@@ -6,7 +6,7 @@ slug: /privacy
 
 # Privacy Policy
 
-**Last updated: 7 November 2026**
+**Last updated: 8 November 2026**
 
 Aeven is a desktop application, and it is built so that much of what you do with it stays on your computer. This page says what leaves it, why, and what you can do about that. Aeven Web, at [chat.aeven.io](https://chat.aeven.io), runs the same assistant on our servers instead of your computer; [On Aeven Web](#on-aeven-web) says what that changes.
 
@@ -42,6 +42,17 @@ To answer you, our servers read this content and pass the parts a task needs to 
 
 Commands the assistant runs for you, for example to analyse data or make a chart, run in an isolated sandbox that sees only your own account folder and has no internet access. Your account folder is not backed up; keep your own copy of anything you cannot lose.
 
+### The Aeven browser extension
+
+If you install the Aeven browser extension, Aeven can work in your own Chrome, Brave or Edge, with your sign-ins:
+
+- **Its own tabs only.** Aeven opens tabs in an "Aeven" tab group and reads and acts only in those. It does not read your other tabs or the pages you browse yourself.
+- **History and bookmarks on request.** Aeven searches your browsing history or bookmarks only when a task needs it and you approve, and uses only the matching entries.
+- **Where it goes.** The extension talks only to the Aeven app on your computer, or to the Aeven Web page you have open. What it reads in its tabs becomes part of that conversation, is handled as this policy describes for the desktop app or for Aeven Web, and reaches a model when a task needs it (section 5).
+- **What it keeps.** The extension stores only which tabs are Aeven's and a random identifier for this installation. It has no analytics and sends nothing to Aeven's servers on its own.
+
+While Aeven acts in a tab, your browser shows that Aeven is debugging it. You can remove the extension at any time from your browser's extensions page.
+
 ## 3. What we hold on our side
 
 | What | Why | Example |
@@ -68,7 +79,7 @@ Under the GDPR we rely on:
 
 ## 5. What happens when a model answers
 
-To produce an answer, the content of a task — your message, the parts of your files Aeven read for it, the images you attached, and the relevant conversation history — is sent to the model that is answering.
+To produce an answer, the content of a task — your message, the parts of your files or web pages Aeven read for it, the images you attached, and the relevant conversation history — is sent to the model that is answering.
 
 - **Aeven models.** The task goes to the model infrastructure we operate with our processors, under a data processing agreement that forbids using it to train models for anyone else.
 - **Your own provider.** If you connected one, the task goes to that provider directly, under their terms and their privacy policy. You chose that; we do not sit in the middle.

@@ -6,9 +6,9 @@ slug: /terms
 
 # Terms of Service
 
-**Last updated: 7 November 2026**
+**Last updated: 8 November 2026**
 
-These terms are the agreement between you and **Aeven**, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands ("Aeven", "we") for the Aeven application, Aeven Web at [chat.aeven.io](https://chat.aeven.io), your Aeven account, and this help center. By installing Aeven, signing in, or using the service, you accept them.
+These terms are the agreement between you and **Aeven**, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands ("Aeven", "we") for the Aeven application, Aeven Web at [chat.aeven.io](https://chat.aeven.io), the Aeven browser extension, your Aeven account, and this help center. By installing Aeven, signing in, or using the service, you accept them.
 
 ## 1. Who can use Aeven
 
@@ -72,6 +72,8 @@ Aeven is a tool, not an authority. Models produce plausible text that is sometim
 Aeven works with models we provide and with models and services you connect yourself. If you connect your own provider or an account such as Google, Microsoft, Slack or GitHub, your use of it is between you and them, under their terms. We are not responsible for their availability, output or handling of data.
 
 Which model answers, and therefore where a task is processed, is your choice. [Privacy Policy](/docs/privacy) section 5 explains it.
+
+**The browser extension** lets Aeven act on websites in your own browser, with your sign-ins. What it does there happens in your accounts and under those websites' terms: approve its actions with that in mind, and use it only on sites whose terms allow it. [Privacy Policy](/docs/privacy) section 2 says what the extension reads and where it goes.
 
 ## 9. Availability and support
 

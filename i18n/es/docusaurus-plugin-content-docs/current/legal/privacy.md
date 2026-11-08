@@ -6,7 +6,7 @@ slug: /privacy
 
 # Política de privacidad
 
-**Última actualización: 7 de noviembre de 2026**
+**Última actualización: 8 de noviembre de 2026**
 
 Aeven es una aplicación de escritorio y está construida para que buena parte de lo que haces con ella se quede en tu computadora. Esta página dice qué sale de él, por qué y qué puedes hacer al respecto. Aeven Web, en [chat.aeven.io](https://chat.aeven.io), ejecuta el mismo asistente en nuestros servidores en lugar de en tu computadora; [En Aeven Web](#en-aeven-web) explica qué cambia con ello.
 
@@ -42,6 +42,17 @@ Para responderte, nuestros servidores leen este contenido y pasan al modelo las 
 
 Los comandos que el asistente ejecuta por ti, por ejemplo para analizar datos o hacer un gráfico, se ejecutan en un entorno aislado que solo ve la carpeta de tu propia cuenta y no tiene acceso a internet. La carpeta de tu cuenta no tiene copia de seguridad; guarda tu propia copia de todo lo que no puedas perder.
 
+### La extensión de Aeven para el navegador
+
+Si instalas la extensión de Aeven para el navegador, Aeven puede trabajar en tu propio Chrome, Brave o Edge, con tus sesiones iniciadas:
+
+- **Solo sus propias pestañas.** Aeven abre pestañas en un grupo de pestañas «Aeven» y solo lee y actúa en ellas. No lee tus otras pestañas ni las páginas que visitas tú.
+- **Historial y marcadores, solo cuando hace falta.** Aeven busca en tu historial de navegación o en tus marcadores solo cuando una tarea lo necesita y tú lo apruebas, y usa solo las entradas que coinciden.
+- **Adónde va.** La extensión solo se comunica con la aplicación Aeven de tu computadora o con la página de Aeven Web que tengas abierta. Lo que lee en sus pestañas pasa a formar parte de esa conversación, se trata como esta política describe para la aplicación de escritorio o para Aeven Web, y llega a un modelo cuando una tarea lo necesita (sección 5).
+- **Qué guarda.** La extensión guarda solo qué pestañas son de Aeven y un identificador aleatorio de esta instalación. No tiene analítica y no envía nada a los servidores de Aeven por su cuenta.
+
+Mientras Aeven actúa en una pestaña, tu navegador indica que Aeven la está depurando. Puedes quitar la extensión en cualquier momento desde la página de extensiones de tu navegador.
+
 ## 3. Qué guardamos por nuestra parte
 
 | Qué | Para qué | Ejemplo |
@@ -68,7 +79,7 @@ Conforme al RGPD, nos basamos en:
 
 ## 5. Qué ocurre cuando un modelo responde
 
-Para producir una respuesta, el contenido de una tarea —tu mensaje, las partes de tus archivos que Aeven leyó para ella, las imágenes que adjuntaste y el historial de conversación relevante— se envía al modelo que responde.
+Para producir una respuesta, el contenido de una tarea —tu mensaje, las partes de tus archivos o de las páginas web que Aeven leyó para ella, las imágenes que adjuntaste y el historial de conversación relevante— se envía al modelo que responde.
 
 - **Modelos de Aeven.** La tarea va a la infraestructura de modelos que operamos con nuestros encargados del tratamiento, bajo un acuerdo de tratamiento de datos que prohíbe usarla para entrenar modelos para nadie más.
 - **Tu propio proveedor.** Si conectaste uno, la tarea va directamente a ese proveedor, bajo sus términos y su política de privacidad. Lo elegiste tú; nosotros no estamos en medio.

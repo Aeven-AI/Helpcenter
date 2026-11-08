@@ -6,9 +6,9 @@ slug: /terms
 
 # Condiciones del servicio
 
-**Última actualización: 7 de noviembre de 2026**
+**Última actualización: 8 de noviembre de 2026**
 
-Estas condiciones son el acuerdo entre tú y **Aeven**, Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos («Aeven», «nosotros») para la aplicación Aeven, Aeven Web en [chat.aeven.io](https://chat.aeven.io), tu cuenta de Aeven y este centro de ayuda. Al instalar Aeven, iniciar sesión o usar el servicio, las aceptas.
+Estas condiciones son el acuerdo entre tú y **Aeven**, Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos («Aeven», «nosotros») para la aplicación Aeven, Aeven Web en [chat.aeven.io](https://chat.aeven.io), la extensión de Aeven para el navegador, tu cuenta de Aeven y este centro de ayuda. Al instalar Aeven, iniciar sesión o usar el servicio, las aceptas.
 
 ## 1. Quién puede usar Aeven
 
@@ -72,6 +72,8 @@ Aeven es una herramienta, no una autoridad. Los modelos producen texto verosími
 Aeven funciona con los modelos que proporcionamos y con modelos y servicios que conectas tú. Si conectas tu propio proveedor o una cuenta como Google, Microsoft, Slack o GitHub, tu uso de ello es cosa tuya y suya, bajo sus términos. No somos responsables de su disponibilidad, de su salida ni de su tratamiento de datos.
 
 Qué modelo responde, y por tanto dónde se procesa una tarea, es elección tuya. La sección 5 de la [Política de privacidad](privacy.md) lo explica.
+
+**La extensión para el navegador** permite que Aeven actúe en sitios web dentro de tu propio navegador, con tus sesiones iniciadas. Lo que hace allí ocurre en tus cuentas y bajo las condiciones de esos sitios: apruébalo teniendo eso en cuenta y úsala solo en sitios cuyas condiciones lo permitan. La sección 2 de la [Política de privacidad](privacy.md) explica qué lee la extensión y adónde va.
 
 ## 9. Disponibilidad y soporte
 
