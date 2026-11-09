@@ -31,4 +31,6 @@ While Aeven acts in a tab, the browser shows "Aeven started debugging this brows
 | The desktop app | Through the app on the same computer. Several browsers can be connected at once, and Aeven opens the browser itself when it needs it and none is running. |
 | Aeven Web | Through the [chat.aeven.io](https://chat.aeven.io) page you have open, in the same browser. |
 
+On Aeven Web the extension is the only browser Aeven has, so "open linkedin" opens the site in a new tab of your browser. If the extension is missing when Aeven needs it, a window titled **Let Aeven use your browser** offers **Add to Chrome** (Edge and Brave show their own name). Add the extension in the tab that opens and come back: Aeven notices it by itself and carries on, without reloading the page. If you took longer than Aeven waited, the window shows **Continue** once the extension is added. **Not now** lets Aeven finish without your browser. Safari, Firefox and phone browsers cannot add the extension; open Aeven Web in Chrome, Edge or Brave on a computer, or use the desktop app.
+
 [Privacy Policy](/docs/privacy) section 2 explains what the extension reads and where it goes.
