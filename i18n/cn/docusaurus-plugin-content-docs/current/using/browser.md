@@ -31,4 +31,6 @@ Aeven 在某个标签页里操作时，浏览器会显示“Aeven 已开始调�
 | 桌面应用 | 通过同一台电脑上的应用。可以同时连接多个浏览器；需要时如果没有浏览器在运行，Aeven 会自己打开浏览器。 |
 | Aeven Web | 通过你在同一个浏览器里打开着的 [chat.aeven.io](https://chat.aeven.io) 页面。 |
 
+在 Aeven Web 上，扩展是 Aeven 唯一能用的浏览器，所以“打开 linkedin”会在你浏览器的新标签页中打开该网站。如果 Aeven 需要时扩展缺失，会出现标题为 **让 Aeven 使用你的浏览器** 的窗口，提供 **添加到 Chrome**（Edge 和 Brave 会显示各自的名字）。在打开的标签页中添加扩展后回来：Aeven 会自己发现它并继续，无需重新加载页面。如果你用的时间比 Aeven 等待的更长，扩展添加后窗口会显示 **继续**。**暂不** 会让 Aeven 不使用你的浏览器完成任务。Safari、Firefox 和手机浏览器无法添加扩展；请在电脑上的 Chrome、Edge 或 Brave 中打开 Aeven Web，或使用桌面应用。
+
 [隐私政策](../legal/privacy.md) 第 2 节说明了扩展读取什么、数据去哪里。
