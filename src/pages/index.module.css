@@ -143,7 +143,8 @@
 .cardLinks {
   list-style: none;
   padding: 0;
-  margin: 0 auto 0 0;
+  /* Pushes the links to the card's bottom edge, so they line up across a row whatever the blurb's length. */
+  margin: auto 0 0;
   width: 100%;
 }
 
