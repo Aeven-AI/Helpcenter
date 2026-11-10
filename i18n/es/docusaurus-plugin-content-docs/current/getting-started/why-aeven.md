@@ -7,7 +7,7 @@ description: "Tus archivos, tu memoria, cualquier modelo y código abierto: las 
 
 La mayoría de las herramientas de IA son una caja de chat en el servidor de otra persona. Tu trabajo sube, una respuesta baja, y lo que la herramienta aprende sobre ti se queda de su lado, en su formato, atado a su modelo.
 
-Aeven está construido en el sentido contrario. De ahí se derivan cuatro cosas, y cada una es algo que puedes comprobar hoy mismo en la aplicación.
+Aeven está construido en el sentido contrario. La Æ de Æven también significa **Almost Everywhere** (casi en todas partes): tu trabajo, tu memoria y tu computadora a mano estés donde estés. De ahí se derivan cuatro cosas, y cada una es algo que puedes comprobar hoy mismo en la aplicación.
 
 ## 1. Trabaja donde ya está tu trabajo
 

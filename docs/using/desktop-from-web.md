@@ -5,7 +5,7 @@ description: Keep the desktop app open and a conversation on chat.aeven.io runs 
 
 # Your desktop from Aeven Web
 
-[chat.aeven.io](https://chat.aeven.io) works on our servers, in a sandbox. Keep the Aeven desktop app open and signed in, and a conversation you type on the web runs on your computer instead: Aeven can use your folders, your apps, computer use and the browser beside the conversation, from any browser, a phone included. There is nothing to set up.
+[chat.aeven.io](https://chat.aeven.io) works on our servers, in a sandbox. Keep the Aeven desktop app open and signed in, and a conversation you type on the web runs on your computer instead: Aeven can use your folders, your apps, computer use and the browser beside the conversation, from any browser, a phone included. There is nothing to set up. It is what the Æ in Æven also stands for: **Almost Everywhere**.
 
 ## What runs where
 

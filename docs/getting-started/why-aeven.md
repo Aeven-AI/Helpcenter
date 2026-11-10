@@ -7,7 +7,7 @@ description: Your files, your memory, any model, and open source — the four th
 
 Most AI tools are a chat box on somebody else's server. Your work goes up, an answer comes down, and what the tool learns about you stays on their side, in their format, tied to their model.
 
-Aeven is built the other way round. Four things follow from that, and each one is something you can check in the app today.
+Aeven is built the other way round. The Æ in Æven also stands for **Almost Everywhere**: your work, your memory and your computer within reach from wherever you are. Four things follow from that, and each one is something you can check in the app today.
 
 ## 1. It works where your work already is
 

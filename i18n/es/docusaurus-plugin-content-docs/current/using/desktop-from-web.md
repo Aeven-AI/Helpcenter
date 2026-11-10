@@ -5,7 +5,7 @@ description: Deja abierta la aplicación de escritorio y una conversación en ch
 
 # Tu escritorio desde Aeven Web
 
-[chat.aeven.io](https://chat.aeven.io) trabaja en nuestros servidores, en un entorno aislado. Deja la aplicación de escritorio de Aeven abierta y con la sesión iniciada, y una conversación que escribes en la web se ejecuta en tu computadora: Aeven puede usar tus carpetas, tus aplicaciones, el control del equipo y el navegador junto a la conversación, desde cualquier navegador, también el del teléfono. No hay nada que configurar.
+[chat.aeven.io](https://chat.aeven.io) trabaja en nuestros servidores, en un entorno aislado. Deja la aplicación de escritorio de Aeven abierta y con la sesión iniciada, y una conversación que escribes en la web se ejecuta en tu computadora: Aeven puede usar tus carpetas, tus aplicaciones, el control del equipo y el navegador junto a la conversación, desde cualquier navegador, también el del teléfono. No hay nada que configurar. Es lo que también significa la Æ de Æven: **Almost Everywhere** (casi en todas partes).
 
 ## Dónde se ejecuta cada cosa
 
