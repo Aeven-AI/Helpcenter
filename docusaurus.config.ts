@@ -109,6 +109,11 @@ const config: Config = {
           label: 'Guides',
         },
         {
+          to: '/docs/tips/everything-aeven-can-do',
+          position: 'left',
+          label: 'Tips and tricks',
+        },
+        {
           to: '/docs/help/troubleshooting',
           position: 'left',
           label: 'Fix a problem',

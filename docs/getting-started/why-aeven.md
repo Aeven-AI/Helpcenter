@@ -58,7 +58,7 @@ Aeven is open source under the [Apache 2.0 licence](https://github.com/Aeven-AI/
 
 Being clear about the other side is part of the same honesty:
 
-- **It is not a hosted chat you open in a tab.** It is an application you install, with the access to your computer that implies.
+- **It is not at its best in a browser tab.** [chat.aeven.io](https://chat.aeven.io) gets you started anywhere and reaches your browser tabs through the extension, but it works in a sandbox on our servers: no folders of yours, no terminal, no apps or phones on your computer. For serious work, install the desktop app, with the access to your computer that implies. [Everything Aeven can do](/docs/tips/everything-aeven-can-do#desktop-or-web)
 - **It is not a promise that nothing is shared.** A task goes to the model that answers it, and your account, plan and billing live with us. [Privacy Policy](/docs/privacy) says exactly what leaves your machine.
 - **It is not finished.** Aeven is in developer preview: features and data formats can still change.
 - **It is not an authority.** Models are sometimes wrong, so check what matters before you rely on it.

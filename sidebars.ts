@@ -38,6 +38,17 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Tips and tricks',
+      collapsible: false,
+      items: [
+        'tips/everything-aeven-can-do',
+        'tips/combine-features',
+        'tips/useful-bots',
+        'tips/skill-catalog',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Bots',
       collapsible: false,
       items: [
