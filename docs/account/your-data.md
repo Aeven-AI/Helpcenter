@@ -17,6 +17,8 @@ Aeven works with your own files, in your own folders, on your own computer. This
 
 Sign in to the same account on a second computer and it shows the same memory, conversations, settings, and personalisation. Each change is encrypted on the device where it happens and sent to your account; the other devices pick it up, usually within a second while both are online.
 
+A conversation keeps running on the device where Aeven last answered it, because the files it made and the jobs it started are there. Continue an Aeven Web conversation in the desktop app and Aeven still answers on its servers, which appear as **Aeven Cloud**. To move it, choose **Options** at the top of the conversation, then **Continue on this computer**; **Continue in Aeven Cloud** moves it back. Neither is available while Aeven is answering, and files already made stay on the device that made them. If Aeven Cloud does not respond within a few seconds, your message runs on the device you typed it on, and the conversation stays there.
+
 **Settings → Sync** lists the devices on your account, shows whether this one is up to date, and has **Sync this device**, which stops one computer from syncing without deleting what it already holds. **Remove** clears a device from that list; a computer that is still signed in and syncing adds itself again the next time it syncs.
 
 The synced copy is stored encrypted on Aeven's servers, and Aeven holds the key that opens it. Aeven does not read your memory: access is limited to the people who run the service, and is logged. End-to-end protection, where the key stays on your own devices and only you can open what is synced, is being rolled out.
