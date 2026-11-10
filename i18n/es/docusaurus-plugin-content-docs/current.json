@@ -34,5 +34,9 @@
   "sidebar.help.doc.Help center": {
     "message": "Centro de ayuda",
     "description": "The label for the doc item 'Help center' in sidebar 'help', linking to the doc index"
+  },
+  "sidebar.help.category.Tips and tricks": {
+    "message": "Trucos y consejos",
+    "description": "The label for category 'Tips and tricks' in sidebar 'help'"
   }
 }

@@ -17,9 +17,19 @@ The first launch takes a few seconds while Aeven starts its local service. If th
 
 ## Or use Aeven Web
 
-Aeven also runs in a browser at [chat.aeven.io](https://chat.aeven.io), with nothing to install. Sign in with the same account and your conversations, memory and settings are there.
+Aeven also runs in a browser at [chat.aeven.io](https://chat.aeven.io), with nothing to install. Sign in with the same account and your conversations, memory and settings are there. It is the quick way in, but it does less than the desktop app; for serious work, install the app.
 
 On Aeven Web the assistant works on our servers instead of your computer: it keeps files in your account folder (up to 5 GB), runs commands in an isolated sandbox that can reach the internet, and works in your own browser through the [Aeven extension](/docs/using/browser#in-your-own-browser). It cannot open folders, terminals or programs on your computer; use the desktop app for that, and [move a conversation to your computer](/docs/account/your-data#on-your-other-devices) when it needs them. [Privacy Policy](/docs/privacy) says what Aeven Web stores.
+
+| | Desktop app | Aeven Web |
+| --- | --- | --- |
+| Your folders and files | Yes | Files in your account folder only |
+| Commands and the terminal | On your computer | In a sandbox on our servers |
+| Your own browser tabs | Yes, through the extension | Yes, through the extension |
+| Browser beside the conversation | Yes | No |
+| Apps on your computer, phones and simulators | Yes | No |
+| Connectors, memory, skills, images, video and Motion films | Yes | Yes |
+| Bots | All of them | Those that need nothing from your computer |
 
 ## Sign in
 

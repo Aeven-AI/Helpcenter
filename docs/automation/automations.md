@@ -72,12 +72,17 @@ Open a bot to:
 
 A bot can carry an **inbound trigger** — a private address and a key. Anything that can post to that address with the key starts one run, which makes a bot reachable from a form, a monitoring alert or another service. Treat the key like a password: **New key** replaces it and refuses requests still using the old one, and removing the trigger refuses every request until you create a new one.
 
+## Where a bot runs
+
+Each bot card shows **Runs on**. A bot that needs nothing from your computer — only the web and your connected accounts — runs in **Aeven Cloud**, so it keeps working while your computer is off. A bot that uses your files, your browser or your apps runs on **your computer**, and the card says which of those it needs. To keep a bot that could run in the cloud on your own machine, open it and choose **Only run on my computer**; **Allow Aeven Cloud** undoes that.
+
 ## While Aeven is closed
 
-Bots run on your computer, so they need Aeven running. With **Settings → General → Run in the background** on — the default — closing the window does not stop them; quitting does. A computer that is asleep at the scheduled time runs the bot when it wakes, and a schedule that came due while Aeven was closed is picked up then rather than lost. If you are signed out, the schedules stay but nothing runs, and the Bots page says so until you sign back in.
+A bot that runs on your computer needs Aeven running there. With **Settings → General → Run in the background** on — the default — closing the window does not stop it; quitting does. A computer that is asleep at the scheduled time runs the bot when it wakes, and a schedule that came due while Aeven was closed is picked up then rather than lost. If you are signed out, the schedules stay but nothing runs, and the Bots page says so until you sign back in.
 
 ## Related
 
+- [Bots worth setting up](/docs/tips/useful-bots)
 - [Connectors](/docs/connections/connected-apps)
 - [Skills](/docs/using/skills)
 - [What Aeven asks first](/docs/using/approvals)

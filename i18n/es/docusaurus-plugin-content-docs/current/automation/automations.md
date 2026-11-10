@@ -72,12 +72,17 @@ Abre un bot para:
 
 Un bot puede llevar un **inbound trigger** — una dirección privada y una clave. Cualquier cosa que pueda enviar una petición a esa dirección con la clave inicia una ejecución, lo que hace que un bot sea accesible desde un formulario, una alerta de monitorización u otro servicio. Trata la clave como una contraseña: **New key** la sustituye y rechaza las peticiones que sigan usando la anterior, y quitar el disparador rechaza todas las peticiones hasta que crees uno nuevo.
 
+## Dónde se ejecuta un bot
+
+Cada tarjeta de bot muestra **Se ejecuta en**. Un bot que no necesita nada de tu computadora —solo la web y tus cuentas conectadas— se ejecuta en **Aeven Cloud**, así que sigue funcionando con tu computadora apagada. Un bot que usa tus archivos, tu navegador o tus aplicaciones se ejecuta en **tu computadora**, y la tarjeta dice cuál de ellos necesita. Para mantener en tu equipo un bot que podría ejecutarse en la nube, ábrelo y elige **Ejecutar solo en mi ordenador**; **Permitir Aeven Cloud** lo deshace.
+
 ## Mientras Aeven está cerrado
 
-Los bots se ejecutan en tu computadora, así que necesitan que Aeven esté en marcha. Con **Settings → General → Run in the background** activado — lo predeterminado —, cerrar la ventana no los detiene; salir de la aplicación sí. Una computadora que está dormida a la hora programada ejecuta el bot en cuanto se despierta, y un horario que venció mientras Aeven estaba cerrado se recupera entonces en lugar de perderse. Si has cerrado sesión, los horarios siguen ahí pero no se ejecuta nada, y la página de Bots lo indica hasta que vuelvas a iniciar sesión.
+Un bot que se ejecuta en tu computadora necesita que Aeven esté en marcha allí. Con **Settings → General → Run in the background** activado — lo predeterminado —, cerrar la ventana no lo detiene; salir de la aplicación sí. Una computadora que está dormida a la hora programada ejecuta el bot en cuanto se despierta, y un horario que venció mientras Aeven estaba cerrado se recupera entonces en lugar de perderse. Si has cerrado sesión, los horarios siguen ahí pero no se ejecuta nada, y la página de Bots lo indica hasta que vuelvas a iniciar sesión.
 
 ## Relacionado
 
+- [Bots que vale la pena configurar](../tips/useful-bots.md)
 - [Conectores](../connections/connected-apps.md)
 - [Skills](../using/skills.md)
 - [Lo que Aeven pregunta antes de actuar](../using/approvals.md)
