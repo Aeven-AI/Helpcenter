@@ -28,23 +28,28 @@ export interface HomeCopy {
 const SECTIONS: {to: string; links: string[]}[] = [
   {
     to: '/docs/getting-started',
-    links: ['/docs/getting-started/install-and-sign-in', '/docs/getting-started/your-first-task'],
+    links: [
+      '/docs/getting-started/why-aeven',
+      '/docs/getting-started/install-and-sign-in',
+      '/docs/getting-started/your-first-task',
+    ],
   },
   {
     to: '/docs/using',
-    links: [
-      '/docs/using/choose-a-folder',
-      '/docs/using/chat-and-attachments',
-      '/docs/using/approvals',
-      '/docs/using/where-your-work-lands',
-    ],
+    links: ['/docs/using/choose-a-folder', '/docs/using/chat-and-attachments', '/docs/using/approvals'],
   },
   {
     to: '/docs/using/memory',
     links: ['/docs/using/memory', '/docs/using/skills', '/docs/using/models'],
   },
-  {to: '/docs/automation/automations', links: ['/docs/automation/automations']},
-  {to: '/docs/connections/connected-apps', links: ['/docs/connections/connected-apps']},
+  {
+    to: '/docs/automation/automations',
+    links: ['/docs/automation/automations', '/docs/using/background-jobs', '/docs/using/where-your-work-lands'],
+  },
+  {
+    to: '/docs/connections/connected-apps',
+    links: ['/docs/connections/connected-apps', '/docs/using/browser', '/docs/using/devices'],
+  },
   {
     to: '/docs/account/plans-and-credits',
     links: [
@@ -89,17 +94,12 @@ const en = build(
     {
       title: 'Start here',
       blurb: 'Install Aeven, sign in, and finish a first task.',
-      labels: ['Install and sign in', 'Your first task'],
+      labels: ['Why Aeven is different', 'Install and sign in', 'Your first task'],
     },
     {
       title: 'Everyday use',
       blurb: 'Pick a folder, ask, attach, approve, and correct.',
-      labels: [
-        'Choose a folder',
-        'Chat and attachments',
-        'What Aeven asks first',
-        'Where your work lands',
-      ],
+      labels: ['Choose a folder', 'Chat and attachments', 'What Aeven asks first'],
     },
     {
       title: 'Memory, skills and models',
@@ -108,13 +108,13 @@ const en = build(
     },
     {
       title: 'Bots',
-      blurb: 'Work that runs again on its own, on a schedule you confirm.',
-      labels: ['Bots'],
+      blurb: 'Work that runs on its own, on a schedule you confirm or in the background.',
+      labels: ['Bots', 'Work that keeps running', 'Where your work lands'],
     },
     {
       title: 'Connectors',
-      blurb: 'Bring your mail, calendar, chat, and code into a task.',
-      labels: ['Connectors'],
+      blurb: 'Bring your mail, calendar, chat, code, browser, and phones into a task.',
+      labels: ['Connectors', 'The browser', 'Phones and simulators'],
     },
     {
       title: 'Account and app',
@@ -139,12 +139,12 @@ const cn = build(
     {
       title: '从这里开始',
       blurb: '安装 Aeven、登录，并完成第一个任务。',
-      labels: ['安装并登录', '你的第一个任务'],
+      labels: ['Aeven 的不同之处', '安装并登录', '你的第一个任务'],
     },
     {
       title: '日常使用',
       blurb: '选择文件夹、提问、添加附件、审批并纠正。',
-      labels: ['选择文件夹', '对话与附件', 'Aeven 会先问什么', '你的成果落在哪里'],
+      labels: ['选择文件夹', '对话与附件', 'Aeven 会先问什么'],
     },
     {
       title: '记忆、技能与模型',
@@ -153,13 +153,13 @@ const cn = build(
     },
     {
       title: '机器人',
-      blurb: '按你确认的时间自行重复运行的工作。',
-      labels: ['机器人'],
+      blurb: '自行运行的工作：按你确认的时间，或在后台。',
+      labels: ['机器人', '持续运行的工作', '你的成果落在哪里'],
     },
     {
       title: '连接',
-      blurb: '把邮件、日历、聊天和代码带进同一个任务。',
-      labels: ['连接'],
+      blurb: '把邮件、日历、聊天、代码、浏览器和手机带进同一个任务。',
+      labels: ['连接', '浏览器', '手机与模拟器'],
     },
     {
       title: '账户与应用',
@@ -184,17 +184,12 @@ const es = build(
     {
       title: 'Empieza aquí',
       blurb: 'Instala Aeven, inicia sesión y completa una primera tarea.',
-      labels: ['Instalar e iniciar sesión', 'Tu primera tarea'],
+      labels: ['Por qué Aeven es diferente', 'Instalar e iniciar sesión', 'Tu primera tarea'],
     },
     {
       title: 'Uso diario',
       blurb: 'Elige una carpeta, pregunta, adjunta, aprueba y corrige.',
-      labels: [
-        'Elegir una carpeta',
-        'Chat y adjuntos',
-        'Qué te pregunta Aeven primero',
-        'Dónde queda tu trabajo',
-      ],
+      labels: ['Elegir una carpeta', 'Chat y adjuntos', 'Qué te pregunta Aeven primero'],
     },
     {
       title: 'Memoria, skills y modelos',
@@ -203,13 +198,13 @@ const es = build(
     },
     {
       title: 'Bots',
-      blurb: 'Trabajo que se repite solo, con un horario que tú confirmas.',
-      labels: ['Bots'],
+      blurb: 'Trabajo que se hace solo, con un horario que tú confirmas o en segundo plano.',
+      labels: ['Bots', 'Trabajo que sigue en marcha', 'Dónde queda tu trabajo'],
     },
     {
       title: 'Conectores',
-      blurb: 'Trae tu correo, calendario, chat y código a una tarea.',
-      labels: ['Conectores'],
+      blurb: 'Trae tu correo, calendario, chat, código, navegador y teléfonos a una tarea.',
+      labels: ['Conectores', 'El navegador', 'Teléfonos y simuladores'],
     },
     {
       title: 'Cuenta y aplicación',
