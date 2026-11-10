@@ -19,7 +19,7 @@ El primer arranque tarda unos segundos mientras Aeven inicia su servicio local. 
 
 Aeven también funciona en un navegador en [chat.aeven.io](https://chat.aeven.io), sin instalar nada. Inicia sesión con la misma cuenta y tus conversaciones, tu memoria y tus ajustes están ahí. Es la entrada rápida, pero hace menos que la aplicación de escritorio; para el trabajo serio, instala la aplicación.
 
-En Aeven Web el asistente trabaja en nuestros servidores en lugar de en tu computadora: guarda los archivos en la carpeta de tu cuenta (hasta 5 GB), ejecuta comandos en un entorno aislado con acceso a internet y trabaja en tu propio navegador con la [extensión de Aeven](../using/browser.md#en-tu-propio-navegador). No puede abrir carpetas, terminales ni programas de tu computadora; para eso usa la aplicación de escritorio, y [mueve una conversación a tu computadora](../account/your-data.md#en-tus-otros-dispositivos) cuando los necesite. La [Política de privacidad](../legal/privacy.md) explica qué guarda Aeven Web.
+En Aeven Web el asistente trabaja en nuestros servidores en lugar de en tu computadora: guarda los archivos en la carpeta de tu cuenta (hasta 5 GB), ejecuta comandos en un entorno aislado con acceso a internet y trabaja en tu propio navegador con la [extensión de Aeven](../using/browser.md#en-tu-propio-navegador). No puede abrir carpetas, terminales ni programas de tu computadora; para eso usa la aplicación de escritorio. Mientras la aplicación de escritorio está abierta, una conversación en la web [se ejecuta en tu computadora](../using/desktop-from-web.md) y puede usarlos. La [Política de privacidad](../legal/privacy.md) explica qué guarda Aeven Web.
 
 | | Aplicación de escritorio | Aeven Web |
 | --- | --- | --- |

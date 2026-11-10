@@ -7,7 +7,7 @@ description: Your files, your memory, any model, and open source — the four th
 
 Most AI tools are a chat box on somebody else's server. Your work goes up, an answer comes down, and what the tool learns about you stays on their side, in their format, tied to their model.
 
-Aeven is built the other way round. Four things follow from that, and each one is something you can check in the app today.
+Aeven is built the other way round. The Æ in Æven also stands for **Almost Everywhere**: your work, your memory and your computer within reach from wherever you are. Four things follow from that, and each one is something you can check in the app today.
 
 ## 1. It works where your work already is
 
@@ -58,7 +58,7 @@ Aeven is open source under the [Apache 2.0 licence](https://github.com/Aeven-AI/
 
 Being clear about the other side is part of the same honesty:
 
-- **It is not at its best in a browser tab.** [chat.aeven.io](https://chat.aeven.io) gets you started anywhere and reaches your browser tabs through the extension, but it works in a sandbox on our servers: no folders of yours, no terminal, no apps or phones on your computer. For serious work, install the desktop app, with the access to your computer that implies. [Everything Aeven can do](/docs/tips/everything-aeven-can-do#desktop-or-web)
+- **It is not at its best in a browser tab.** [chat.aeven.io](https://chat.aeven.io) gets you started anywhere and reaches your browser tabs through the extension, but on its own it works in a sandbox on our servers: no folders of yours, no terminal, no apps or phones on your computer, unless the desktop app is open, when a web conversation [runs on your computer](/docs/using/desktop-from-web). For serious work, install the desktop app, with the access to your computer that implies. [Everything Aeven can do](/docs/tips/everything-aeven-can-do#desktop-or-web)
 - **It is not a promise that nothing is shared.** A task goes to the model that answers it, and your account, plan and billing live with us. [Privacy Policy](/docs/privacy) says exactly what leaves your machine.
 - **It is not finished.** Aeven is in developer preview: features and data formats can still change.
 - **It is not an authority.** Models are sometimes wrong, so check what matters before you rely on it.

@@ -71,11 +71,11 @@ Conecta correo, calendarios, unidades, GitHub, Slack, Teams, Discord, Telegram y
 
 ## En todos tus dispositivos
 
-Inicia sesión en otra computadora o en [chat.aeven.io](https://chat.aeven.io) y tendrás las mismas conversaciones, memoria y ajustes. Una conversación se queda en el dispositivo que trabajó en ella por última vez, con sus archivos y tareas en marcha; muévela con **Opciones → Continuar en este equipo**. [Tus datos](../account/your-data.md#en-tus-otros-dispositivos)
+Inicia sesión en otra computadora o en [chat.aeven.io](https://chat.aeven.io) y tendrás las mismas conversaciones, memoria y ajustes. Una conversación se queda en el dispositivo que trabajó en ella por última vez, con sus archivos y tareas en marcha; muévela con **Opciones → Elegir escritorio**. [Tus datos](../account/your-data.md#en-tus-otros-dispositivos)
 
 ## ¿Escritorio o Web? {#desktop-or-web}
 
-Aeven Web es la entrada rápida: no hay nada que instalar y tus conversaciones y tu memoria ya están ahí. Trabaja en nuestros servidores, en un entorno aislado con sus propios archivos, y llega a las pestañas de tu navegador a través de la extensión. No puede tocar tu computadora: ni tus carpetas, ni terminal, ni aplicaciones, ni teléfonos o simuladores, ni navegador junto a la conversación.
+Aeven Web es la entrada rápida: no hay nada que instalar y tus conversaciones y tu memoria ya están ahí. Trabaja en nuestros servidores, en un entorno aislado con sus propios archivos, y llega a las pestañas de tu navegador a través de la extensión. Por sí sola no puede tocar tu computadora: ni tus carpetas, ni terminal, ni aplicaciones, ni teléfonos o simuladores, ni navegador junto a la conversación. Pero si dejas abierta la aplicación de escritorio, una conversación en la web se ejecuta en tu computadora con todo eso. [Tu escritorio desde Aeven Web](../using/desktop-from-web.md)
 
 Para el trabajo serio, usa la aplicación de escritorio. [Instala Aeven](../getting-started/install-and-sign-in.md)
 

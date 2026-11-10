@@ -71,11 +71,11 @@ Connect mail, calendars, drives, GitHub, Slack, Teams, Discord, Telegram and Wha
 
 ## On every device
 
-Sign in on another computer or at [chat.aeven.io](https://chat.aeven.io) and the same conversations, memory and settings are there. A conversation stays on the device that last worked on it, with its files and running jobs; move it with **Options → Continue on this computer**. [Your data](/docs/account/your-data#on-your-other-devices)
+Sign in on another computer or at [chat.aeven.io](https://chat.aeven.io) and the same conversations, memory and settings are there. A conversation stays on the device that last worked on it, with its files and running jobs; **Options → Choose desktop** moves it. [Your data](/docs/account/your-data#on-your-other-devices)
 
 ## Desktop or Web? {#desktop-or-web}
 
-Aeven Web is the quick way in: nothing to install, and your conversations and memory are already there. It works on our servers, in a sandbox with its own files, and reaches your browser tabs through the extension. It cannot touch your computer: no folders of yours, no terminal, no apps, no phones or simulators, no browser beside the conversation.
+Aeven Web is the quick way in: nothing to install, and your conversations and memory are already there. It works on our servers, in a sandbox with its own files, and reaches your browser tabs through the extension. On its own it cannot touch your computer: no folders of yours, no terminal, no apps, no phones or simulators, no browser beside the conversation. Keep the desktop app open, though, and a conversation on the web runs on your computer with all of that. [Your desktop from Aeven Web](/docs/using/desktop-from-web)
 
 For serious work, use the desktop app. [Install Aeven](/docs/getting-started/install-and-sign-in)
 

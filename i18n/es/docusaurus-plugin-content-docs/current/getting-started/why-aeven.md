@@ -7,7 +7,7 @@ description: "Tus archivos, tu memoria, cualquier modelo y código abierto: las 
 
 La mayoría de las herramientas de IA son una caja de chat en el servidor de otra persona. Tu trabajo sube, una respuesta baja, y lo que la herramienta aprende sobre ti se queda de su lado, en su formato, atado a su modelo.
 
-Aeven está construido en el sentido contrario. De ahí se derivan cuatro cosas, y cada una es algo que puedes comprobar hoy mismo en la aplicación.
+Aeven está construido en el sentido contrario. La Æ de Æven también significa **Almost Everywhere** (casi en todas partes): tu trabajo, tu memoria y tu computadora a mano estés donde estés. De ahí se derivan cuatro cosas, y cada una es algo que puedes comprobar hoy mismo en la aplicación.
 
 ## 1. Trabaja donde ya está tu trabajo
 
@@ -58,7 +58,7 @@ Aeven es de código abierto bajo la [licencia Apache 2.0](https://github.com/Aev
 
 Ser claro sobre el otro lado forma parte de la misma honestidad:
 
-- **No da lo mejor de sí en una pestaña del navegador.** [chat.aeven.io](https://chat.aeven.io) te permite empezar en cualquier sitio y llega a las pestañas de tu navegador con la extensión, pero trabaja en un entorno aislado en nuestros servidores: ni tus carpetas, ni terminal, ni las aplicaciones o teléfonos de tu computadora. Para el trabajo serio, instala la aplicación de escritorio, con el acceso a tu computadora que eso implica. [Todo lo que Aeven puede hacer](../tips/everything-aeven-can-do.md#desktop-or-web)
+- **No da lo mejor de sí en una pestaña del navegador.** [chat.aeven.io](https://chat.aeven.io) te permite empezar en cualquier sitio y llega a las pestañas de tu navegador con la extensión, pero por sí sola trabaja en un entorno aislado en nuestros servidores: ni tus carpetas, ni terminal, ni las aplicaciones o teléfonos de tu computadora, salvo cuando la aplicación de escritorio está abierta, que entonces una conversación en la web [se ejecuta en tu computadora](../using/desktop-from-web.md). Para el trabajo serio, instala la aplicación de escritorio, con el acceso a tu computadora que eso implica. [Todo lo que Aeven puede hacer](../tips/everything-aeven-can-do.md#desktop-or-web)
 - **No es la promesa de que no se comparte nada.** Una tarea va al modelo que la responde, y tu cuenta, tu plan y la facturación están con nosotros. La [Política de privacidad](../legal/privacy.md) dice exactamente qué sale de tu máquina.
 - **No está terminado.** Aeven está en versión preliminar para desarrolladores: las funciones y los formatos de datos todavía pueden cambiar.
 - **No es una autoridad.** Los modelos a veces se equivocan, así que comprueba lo que importa antes de confiar en ello.
