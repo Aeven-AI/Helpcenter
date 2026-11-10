@@ -33,6 +33,7 @@ const sidebars: SidebarsConfig = {
         'using/images-and-video',
         'using/background-jobs',
         'using/browser',
+        'using/desktop-from-web',
         'using/devices',
       ],
     },
