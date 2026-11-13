@@ -1,5 +1,5 @@
 import type {Config} from '@docusaurus/types'
-import type {Options as SearchOptions} from '@easyops-cn/docusaurus-search-local'
+import type {PluginOptions as SearchOptions} from '@easyops-cn/docusaurus-search-local'
 import {themes as prismThemes} from 'prism-react-renderer'
 
 const baseUrl = '/'
