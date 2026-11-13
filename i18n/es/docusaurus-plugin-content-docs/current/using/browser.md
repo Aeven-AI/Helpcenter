@@ -33,4 +33,6 @@ Mientras Aeven actúa en una pestaña, el navegador muestra «Aeven empezó a de
 
 En Aeven Web la extensión es el único navegador que tiene Aeven, así que «abre linkedin» abre el sitio en una pestaña nueva de tu navegador. Si falta la extensión cuando Aeven la necesita, aparece una ventana titulada **Deja que Aeven use tu navegador** con **Añadir a Chrome** (Edge y Brave muestran su propio nombre). Añade la extensión en la pestaña que se abre y vuelve: Aeven la detecta por sí solo y sigue, sin recargar la página. Si tardaste más de lo que Aeven esperó, la ventana muestra **Continuar** en cuanto la extensión está añadida. **Ahora no** deja que Aeven termine sin tu navegador. Safari, Firefox y los navegadores de teléfono no pueden añadir la extensión; abre Aeven Web en Chrome, Edge o Brave en una computadora, o usa la aplicación de escritorio.
 
+En Aeven Web, elegir **Navegador** en la barra lateral derecha abre una pestaña nueva de tu navegador a través de la extensión, en el grupo de pestañas de Aeven. Sin la extensión, te ofrece continuar en la aplicación de escritorio. [Tu escritorio desde Aeven Web](/docs/using/desktop-from-web)
+
 La sección 2 de la [Política de privacidad](../legal/privacy.md) explica qué lee la extensión y adónde va.

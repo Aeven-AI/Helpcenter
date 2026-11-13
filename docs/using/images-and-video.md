@@ -5,7 +5,7 @@ description: Make a picture or a short clip in a conversation, or edit a photo y
 
 # Images and video
 
-Aeven makes images and short videos. Ask for one in a conversation, or open **Imagine** for a composer built for it; either way the result arrives in the conversation, where you can ask for changes.
+Aeven makes images and short videos. Ask for one in a conversation, or open **Inspiration** in the sidebar and start from a ready-made idea; either way the result arrives in the conversation, where you can ask for changes.
 
 ## Asking in a conversation
 
@@ -14,12 +14,14 @@ Describe what you want the way you would describe it to a person: the subject, t
 Vague: *"a nice picture for my presentation"*.
 Concrete: *"a wide photo of a bright meeting room in the morning, big windows, one notebook on the table, soft shadows, no people, space on the left for a title."*
 
-## Imagine
+## Inspiration
 
-**Imagine** holds the prompts worth keeping:
+**Inspiration** in the sidebar opens on its **Image & video** tab:
 
-- A composer for **"Describe a new image or video"**.
-- **Image ideas** — retouch a phone photo into a polished post, a watercolour, a studio product shot, a sticker set, an anime illustration, a retro travel poster, claymation, pixel art — each a complete prompt you can edit before sending.
+- A composer for **"Describe a new image or video"**: type what you want and send it.
+- **Image ideas**: retouch a phone photo into a polished post, a watercolour, a studio product shot, a sticker set, an anime illustration, a retro poster, claymation, pixel art, a new hairstyle, and short video shots. Click one to see a **Before** and **After**, add **Your photo** when the idea starts from one, and pick an **Aspect ratio** (**Auto** matches your photo). **Try it** puts the complete prompt in the composer, where you can still change it before you send it.
+
+The **Slides** tab next to it holds the presentation templates. [Slides and presentations](/docs/using/slides)
 
 ## Editing an image you already have
 
@@ -40,5 +42,6 @@ Images and video are made by a model, and each one spends credits from your plan
 ## Related
 
 - [Chat and attachments](/docs/using/chat-and-attachments)
+- [Slides and presentations](/docs/using/slides)
 - [Choose a model](/docs/using/models)
 - [Account, plans and credits](/docs/account/plans-and-credits)

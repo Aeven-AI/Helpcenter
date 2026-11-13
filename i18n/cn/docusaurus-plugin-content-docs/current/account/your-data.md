@@ -34,6 +34,7 @@ Aeven 用你自己的文件，在你自己的文件夹里，在你自己的电�
 | 要拿掉 | 这样做 |
 | --- | --- |
 | 一段对话 | 从侧边栏删掉它 |
+| 一个分享链接 | 在任一回答下选择 **分享 → 管理**，再点链接旁的垃圾桶——[分享回复](/docs/using/share-a-response) |
 | 一条记忆 | 在 **Settings → Memory** 里移除它 |
 | 一个连接 | 在 **Settings → Connectors** 里移除，或者在提供方那边撤销 |
 | 你导入的技能 | 在 **Settings → Skills** 里 **Remove skill** |

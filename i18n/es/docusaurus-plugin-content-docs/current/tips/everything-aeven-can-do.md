@@ -32,6 +32,7 @@ La última columna dice dónde funciona cada una. **Escritorio** es la aplicaci�
 | Clips de video | "Un clip de cinco segundos de olas al atardecer, con un paneo lento a la derecha" | Escritorio y Web |
 | Películas Motion | "Haz un vídeo explicativo animado de 30 segundos con estas tres cifras y nuestro logo" | Escritorio y Web |
 | Páginas web y aplicaciones | "Crea una web de una página para el evento y enséñamela" | Escritorio, y en Web dentro de la carpeta de tu cuenta |
+| [Compartir una respuesta](/docs/using/share-a-response) | **Compartir** bajo cualquier respuesta crea un enlace público con tarjeta de vista previa; tu pregunta sigue siendo privada | Escritorio y Web |
 
 **Los clips de video y las películas Motion son distintos.** Un clip es metraje generado: una escena descrita con palabras. Una **película Motion** se dibuja, fotograma a fotograma, a partir de lo que le das —tu texto, tus cifras, tu logo, tus fotos—, así que cada palabra queda bien escrita y cada cifra es exacta. Se reproduce en la conversación mientras avanza; pide cambios ("más lento", "pon la segunda escena en azul") y luego expórtala en MP4 desde el menú de la propia película. Usa clips para crear ambiente, y Motion para todo lo que tenga que decir algo con precisión: un lanzamiento, un resumen de resultados, una publicación en redes, un tutorial breve.
 
