@@ -26,7 +26,7 @@ These pages are written for using Aeven, not for building with it. Every page st
 | Section | What it covers |
 | --- | --- |
 | Getting started | Installing, signing in, and the first conversation |
-| Using Aeven | Folders, attachments, approvals, results, memory, skills, models, images and video, work that keeps running, devices |
+| Using Aeven | Folders, attachments, sharing, approvals, results, memory, skills, models, images and video, work that keeps running, devices |
 | Tips and tricks | Everything Aeven can do, features combined, bots worth setting up, and the skill catalog |
 | Bots | Work that repeats without you starting it |
 | Connections | Connectors: Google, Microsoft, GitHub, Slack, Discord, Telegram, WhatsApp, email, MCP |

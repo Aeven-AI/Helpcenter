@@ -34,6 +34,7 @@ A task's content is sent to the model that answers it in order to produce the an
 | To remove | Do this |
 | --- | --- |
 | A conversation | Delete it from the sidebar |
+| A shared link | **Share → Manage** under any answer, then the bin beside the link — [Share a response](/docs/using/share-a-response) |
 | A memory | Remove it in **Settings → Memory** |
 | A connection | Remove it in **Settings → Connectors**, or revoke it at the provider |
 | A skill you imported | **Remove skill** in **Settings → Skills** |

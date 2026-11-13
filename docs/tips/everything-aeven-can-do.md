@@ -32,6 +32,7 @@ The last column says where each one works. **Desktop** is the app on your comput
 | Video clips | "A five-second clip of waves at sunset, slow pan to the right" | Desktop and Web |
 | Motion films | "Make a 30-second animated explainer of these three numbers, with our logo" | Desktop and Web |
 | Web pages and apps | "Build a one-page site for the event and show it to me" | Desktop, and on Web inside your account folder |
+| [Share an answer](/docs/using/share-a-response) | **Share** under any answer makes a public link with a preview card; your question stays private | Desktop and Web |
 
 **Video clips and Motion films are different.** A clip is generated footage: a scene described in words. A **Motion film** is drawn, frame by frame, from what you give it — your text, your numbers, your logo, your photos — so every word is spelled right and every figure is exact. It plays in the conversation as you go; ask for changes ("slower", "make the second scene blue"), then export it as an MP4 from the film's own menu. Use clips for atmosphere, Motion for anything that has to say something precisely: a product launch, a results summary, a social post, a short tutorial.
 

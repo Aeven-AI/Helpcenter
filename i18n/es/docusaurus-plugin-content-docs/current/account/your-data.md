@@ -34,6 +34,7 @@ El contenido de una tarea se envía al modelo que la responde para producir la r
 | Para eliminar | Haz esto |
 | --- | --- |
 | Una conversación | Bórrala de la barra lateral |
+| Un enlace compartido | **Compartir → Gestionar** bajo cualquier respuesta, y la papelera junto al enlace — [Compartir una respuesta](/docs/using/share-a-response) |
 | Un recuerdo | Elimínalo en **Settings → Memory** |
 | Una conexión | Elimínala en **Settings → Connectors** o revócala en el proveedor |
 | Una skill que importaste | **Remove skill** en **Settings → Skills** |

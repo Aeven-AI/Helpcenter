@@ -5,7 +5,7 @@ description: Crea una imagen o un clip corto en una conversación, o edita una f
 
 # Imágenes y vídeo
 
-Aeven crea imágenes y vídeos cortos. Pídelo en una conversación o abre **Imagine** para usar un compositor pensado para ello; en cualquiera de los dos casos, el resultado llega a la conversación, donde puedes pedir cambios.
+Aeven crea imágenes y vídeos cortos. Pídelo en una conversación o abre **Inspiración** en la barra lateral y empieza con una idea ya hecha; en cualquiera de los dos casos, el resultado llega a la conversación, donde puedes pedir cambios.
 
 ## Pedirlo en una conversación
 
@@ -14,12 +14,14 @@ Describe lo que quieres como se lo describirías a una persona: el tema, la luz,
 Poco concreto: *«una imagen bonita para mi presentación»*.
 Concreto: *«una foto amplia de una sala de reuniones luminosa por la mañana, ventanales grandes, un cuaderno sobre la mesa, sombras suaves, sin personas, espacio a la izquierda para un título»*.
 
-## Imagine
+## Inspiración
 
-**Imagine** reúne los prompts que merece la pena conservar:
+**Inspiración**, en la barra lateral, se abre en la pestaña **Imagen y vídeo**:
 
-- Un compositor para **"Describe a new image or video"**.
-- **Image ideas** — retoca una foto hecha con el teléfono y conviértela en una publicación cuidada, una acuarela, una foto de producto de estudio, un set de stickers, una ilustración de anime, un póster de viaje retro, plastilina animada, pixel art — cada una es un prompt completo que puedes editar antes de enviarlo.
+- Un compositor con **«Describe una imagen o un video nuevos»**: escribe lo que quieres y envíalo.
+- **Ideas de imágenes**: retoca una foto del teléfono y conviértela en una publicación cuidada, una acuarela, una foto de producto de estudio, un set de stickers, una ilustración de anime, un póster retro, plastilina animada, pixel art, un peinado nuevo y planos cortos de vídeo. Haz clic en una para ver el **Antes** y el **Después**, añade **Tu foto** cuando la idea parte de una y elige una **Relación de aspecto** (**Automático** es igual que tu foto). **Pruébalo** pone el prompt completo en el compositor, donde todavía puedes cambiarlo antes de enviarlo.
+
+La pestaña **Presentaciones**, al lado, reúne las plantillas de presentación. [Presentaciones y diapositivas](slides.md)
 
 ## Editar una imagen que ya tienes
 
@@ -40,5 +42,6 @@ Las imágenes y los vídeos los crea un modelo, y cada uno gasta créditos de tu
 ## Relacionado
 
 - [Chat y archivos adjuntos](chat-and-attachments.md)
+- [Presentaciones y diapositivas](slides.md)
 - [Elegir un modelo](models.md)
 - [Cuenta, planes y créditos](../account/plans-and-credits.md)

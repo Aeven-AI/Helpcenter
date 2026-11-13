@@ -26,7 +26,7 @@ Estas páginas están escritas para usar Aeven, no para construir con él. Cada 
 | Sección | Qué cubre |
 | --- | --- |
 | Primeros pasos | Instalar, iniciar sesión y la primera conversación |
-| Usar Aeven | Carpetas, archivos adjuntos, aprobaciones, resultados, memoria, skills, modelos, imágenes y video, trabajo que sigue en marcha, dispositivos |
+| Usar Aeven | Carpetas, archivos adjuntos, compartir, aprobaciones, resultados, memoria, skills, modelos, imágenes y video, trabajo que sigue en marcha, dispositivos |
 | Trucos y consejos | Todo lo que Aeven puede hacer, funciones combinadas, bots que vale la pena configurar y el catálogo de skills |
 | Bots | Trabajo que se repite sin que lo inicies tú |
 | Conexiones | Conectores: Google, Microsoft, GitHub, Slack, Discord, Telegram, WhatsApp, correo, MCP |
