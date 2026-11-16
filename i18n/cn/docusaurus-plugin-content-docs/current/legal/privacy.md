@@ -6,7 +6,7 @@ slug: /privacy
 
 # 隐私政策
 
-**最后更新：2026 年 11 月 8 日**
+**最后更新：2026 年 11 月 16 日**
 
 Aeven 是一个桌面应用，它造出来就是为了让你用它做的大部分事留在你自己的电脑上。这一页说什么会离开它、为什么离开，以及你能对此做什么。Aeven Web，也就是 [chat.aeven.io](https://chat.aeven.io)，把同一个助手放在我们的服务器上运行，而不是你的电脑上；[在 Aeven Web 上](#在-aeven-web-上) 说明这带来哪些不同。
 
@@ -14,7 +14,7 @@ Aeven 是一个桌面应用，它造出来就是为了让你用它做的大部�
 
 ## 1. 谁负责
 
-Aeven 由位于荷兰的 **Aeven**（Hestiastraat 58, 1076 DM Amsterdam）提供（“Aeven”、“我们”）。这一页上的任何事，写信到 [privacy@aeven.io](mailto:privacy@aeven.io)。
+Aeven 由位于荷兰的 **NiftyLabs**（以 Æven 名义经营，Hestiastraat 58, 1076 DM Amsterdam，荷兰商会 KvK 注册号 91706653）提供（“Aeven”、“我们”）。这一页上的任何事，写信到 [privacy@aeven.io](mailto:privacy@aeven.io)。
 
 ## 2. 什么留在你的电脑上
 

@@ -6,9 +6,9 @@ slug: /terms
 
 # Terms of Service
 
-**Last updated: 8 November 2026**
+**Last updated: 16 November 2026**
 
-These terms are the agreement between you and **Aeven**, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands ("Aeven", "we") for the Aeven application, Aeven Web at [chat.aeven.io](https://chat.aeven.io), the Aeven browser extension, your Aeven account, and this help center. By installing Aeven, signing in, or using the service, you accept them.
+These terms are the agreement between you and **NiftyLabs**, trading as Æven, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands, registered with the Netherlands Chamber of Commerce (KvK) under number 91706653 ("Aeven", "we") for the Aeven application, Aeven Web at [chat.aeven.io](https://chat.aeven.io), the Aeven browser extension, your Aeven account, and this help center. By installing Aeven, signing in, or using the service, you accept them.
 
 ## 1. Who can use Aeven
 
@@ -111,7 +111,7 @@ We may update these terms. Material changes are announced in the app or by email
 
 ## 15. Contact
 
-**Aeven**, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands
+**NiftyLabs** (trading as Æven), Hestiastraat 58, 1076 DM Amsterdam, the Netherlands · KvK 91706653
 [legal@aeven.io](mailto:legal@aeven.io)
 
 ## Related

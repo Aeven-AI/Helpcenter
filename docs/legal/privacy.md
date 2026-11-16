@@ -6,7 +6,7 @@ slug: /privacy
 
 # Privacy Policy
 
-**Last updated: 8 November 2026**
+**Last updated: 16 November 2026**
 
 Aeven is a desktop application, and it is built so that much of what you do with it stays on your computer. This page says what leaves it, why, and what you can do about that. Aeven Web, at [chat.aeven.io](https://chat.aeven.io), runs the same assistant on our servers instead of your computer; [On Aeven Web](#on-aeven-web) says what that changes.
 
@@ -14,7 +14,7 @@ It covers the Aeven application, this help center, and the Aeven account behind 
 
 ## 1. Who is responsible
 
-Aeven is provided by **Aeven**, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands ("Aeven", "we"). For anything on this page, write to [privacy@aeven.io](mailto:privacy@aeven.io).
+Aeven is provided by **NiftyLabs**, trading as Æven, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands, KvK 91706653 ("Aeven", "we"). For anything on this page, write to [privacy@aeven.io](mailto:privacy@aeven.io).
 
 ## 2. What stays on your computer
 
