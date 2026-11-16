@@ -17,7 +17,7 @@ Las skills integradas vienen con Aeven y están siempre disponibles. A propósit
 
 ## Skills que vienen con un conector
 
-La mayoría de los conectores traen sus propias skills: la de Gmail sabe buscar y redactar correo, la de Drive sabe de Docs, Sheets, Slides y comentarios, la de GitHub sabe de repositorios, issues y pull requests, y los conectores de chat conocen sus propias herramientas. Aparecen dentro de los detalles del conector, se activan con el conector y no se pueden habilitar por separado: si desconectas el conector, desaparecen. Un conector que expone sus herramientas directamente, sin procedimientos incluidos, lo indica en su página.
+La mayoría de los conectores traen sus propias skills: la de Gmail sabe enviar correo y ordenarlo con etiquetas, la de Drive sabe de Docs, Sheets, Slides y comentarios, la de GitHub sabe de repositorios, issues y pull requests, y los conectores de chat conocen sus propias herramientas. Aparecen dentro de los detalles del conector, se activan con el conector y no se pueden habilitar por separado: si desconectas el conector, desaparecen. Un conector que expone sus herramientas directamente, sin procedimientos incluidos, lo indica en su página.
 
 El catálogo también incluye skills escritas para trabajo general. Búscalas, mira con qué frecuencia está instalada una y activa las que quieras; una skill del catálogo que activas se suma a tu biblioteca.
 

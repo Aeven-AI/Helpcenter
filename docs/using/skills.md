@@ -17,7 +17,7 @@ Built-in skills come with Aeven and are always available. They are deliberately 
 
 ## Skills that come with a connector
 
-Most connectors bring their own skills: Gmail's knows how to search and draft mail, Drive's knows Docs, Sheets, Slides and comments, GitHub's knows repositories, issues and pull requests, and the chat connectors know their own tools. They appear inside the connector's details, are switched on with the connector, and cannot be enabled separately — disconnecting the connector removes them. A connector that exposes its tools directly, without bundled procedures, says so on its page.
+Most connectors bring their own skills: Gmail's knows how to send mail and sort it into labels, Drive's knows Docs, Sheets, Slides and comments, GitHub's knows repositories, issues and pull requests, and the chat connectors know their own tools. They appear inside the connector's details, are switched on with the connector, and cannot be enabled separately — disconnecting the connector removes them. A connector that exposes its tools directly, without bundled procedures, says so on its page.
 
 The catalog also carries skills written for general work. Search it, look at how often one is installed, and switch on the ones you want; a switched-on catalog skill joins your library.
 
