@@ -6,9 +6,9 @@ slug: /terms
 
 # 服务条款
 
-**最后更新：2026 年 11 月 8 日**
+**最后更新：2026 年 11 月 16 日**
 
-这些条款是你和位于荷兰的 **Aeven**（Hestiastraat 58, 1076 DM Amsterdam）之间，就 Aeven 应用、位于 [chat.aeven.io](https://chat.aeven.io) 的 Aeven Web、Aeven 浏览器扩展、你的 Aeven 账号和这个帮助中心达成的协议（“Aeven”、“我们”）。安装 Aeven、登录或者使用这项服务，就是接受它们。
+这些条款是你和位于荷兰的 **NiftyLabs**（以 Æven 名义经营，Hestiastraat 58, 1076 DM Amsterdam，荷兰商会 KvK 注册号 91706653）之间，就 Aeven 应用、位于 [chat.aeven.io](https://chat.aeven.io) 的 Aeven Web、Aeven 浏览器扩展、你的 Aeven 账号和这个帮助中心达成的协议（“Aeven”、“我们”）。安装 Aeven、登录或者使用这项服务，就是接受它们。
 
 ## 1. 谁能用 Aeven
 
@@ -113,7 +113,7 @@ Aeven 可以和我们的模型一起用，也可以和你自己接的模型和�
 
 ## 15. 联系
 
-**Aeven**（Hestiastraat 58, 1076 DM Amsterdam），荷兰
+**NiftyLabs**（以 Æven 名义经营，Hestiastraat 58, 1076 DM Amsterdam），荷兰 · KvK 91706653
 [legal@aeven.io](mailto:legal@aeven.io)
 
 ## 相关

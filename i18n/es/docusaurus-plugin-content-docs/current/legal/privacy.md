@@ -6,7 +6,7 @@ slug: /privacy
 
 # Política de privacidad
 
-**Última actualización: 8 de noviembre de 2026**
+**Última actualización: 16 de noviembre de 2026**
 
 Aeven es una aplicación de escritorio y está construida para que buena parte de lo que haces con ella se quede en tu computadora. Esta página dice qué sale de él, por qué y qué puedes hacer al respecto. Aeven Web, en [chat.aeven.io](https://chat.aeven.io), ejecuta el mismo asistente en nuestros servidores en lugar de en tu computadora; [En Aeven Web](#en-aeven-web) explica qué cambia con ello.
 
@@ -14,7 +14,7 @@ Cubre la aplicación Aeven, este centro de ayuda y la cuenta de Aeven que hay de
 
 ## 1. Quién es responsable
 
-Aeven lo presta **Aeven**, Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos («Aeven», «nosotros»). Para cualquier cuestión de esta página, escribe a [privacy@aeven.io](mailto:privacy@aeven.io).
+Aeven lo presta **NiftyLabs**, que opera como Æven, Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos, KvK 91706653 («Aeven», «nosotros»). Para cualquier cuestión de esta página, escribe a [privacy@aeven.io](mailto:privacy@aeven.io).
 
 ## 2. Qué se queda en tu computadora
 

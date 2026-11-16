@@ -6,9 +6,9 @@ slug: /terms
 
 # Condiciones del servicio
 
-**Última actualización: 8 de noviembre de 2026**
+**Última actualización: 16 de noviembre de 2026**
 
-Estas condiciones son el acuerdo entre tú y **Aeven**, Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos («Aeven», «nosotros») para la aplicación Aeven, Aeven Web en [chat.aeven.io](https://chat.aeven.io), la extensión de Aeven para el navegador, tu cuenta de Aeven y este centro de ayuda. Al instalar Aeven, iniciar sesión o usar el servicio, las aceptas.
+Estas condiciones son el acuerdo entre tú y **NiftyLabs**, que opera como Æven, Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos, inscrita en la Cámara de Comercio neerlandesa (KvK) con el número 91706653 («Aeven», «nosotros») para la aplicación Aeven, Aeven Web en [chat.aeven.io](https://chat.aeven.io), la extensión de Aeven para el navegador, tu cuenta de Aeven y este centro de ayuda. Al instalar Aeven, iniciar sesión o usar el servicio, las aceptas.
 
 ## 1. Quién puede usar Aeven
 
@@ -113,7 +113,7 @@ Podemos actualizar estas condiciones. Los cambios sustanciales se anuncian en la
 
 ## 15. Contacto
 
-**Aeven**, Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos
+**NiftyLabs** (que opera como Æven), Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos · KvK 91706653
 [legal@aeven.io](mailto:legal@aeven.io)
 
 ## Relacionado
