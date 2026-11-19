@@ -5,7 +5,7 @@ description: Crea una imagen o un clip corto en una conversación, o edita una f
 
 # Imágenes y vídeo
 
-Aeven crea imágenes y vídeos cortos. Pídelo en una conversación o abre **Inspiración** en la barra lateral y empieza con una idea ya hecha; en cualquiera de los dos casos, el resultado llega a la conversación, donde puedes pedir cambios.
+Æven crea imágenes y vídeos cortos. Pídelo en una conversación o abre **Inspiración** en la barra lateral y empieza con una idea ya hecha; en cualquiera de los dos casos, el resultado llega a la conversación, donde puedes pedir cambios.
 
 ## Pedirlo en una conversación
 
@@ -25,11 +25,11 @@ La pestaña **Presentaciones**, al lado, reúne las plantillas de presentación.
 
 ## Editar una imagen que ya tienes
 
-Adjunta la imagen y di qué quieres cambiar. Aeven la toma como referencia: *«la misma persona, la misma pose, luz más cálida, fondo más limpio»* conserva lo que no pediste cambiar y cambia solo aquello que pediste. Di **same face** o **keep the framing** cuando importe; un retoque de foto sale mal cuando el modelo vuelve a dibujar la escena en lugar de terminarla.
+Adjunta la imagen y di qué quieres cambiar. Æven la toma como referencia: *«la misma persona, la misma pose, luz más cálida, fondo más limpio»* conserva lo que no pediste cambiar y cambia solo aquello que pediste. Di **same face** o **keep the framing** cuando importe; un retoque de foto sale mal cuando el modelo vuelve a dibujar la escena en lugar de terminarla.
 
 ## Vídeo
 
-El vídeo funciona igual: describe el plano, el movimiento de cámara y cuánto debe durar, y el clip llega a la conversación. Un clip tarda más que una imagen, así que Aeven sigue trabajando mientras tú sigues con lo tuyo — la [lista de trabajos](background-jobs.md) lo muestra en marcha.
+El vídeo funciona igual: describe el plano, el movimiento de cámara y cuánto debe durar, y el clip llega a la conversación. Un clip tarda más que una imagen, así que Æven sigue trabajando mientras tú sigues con lo tuyo — la [lista de trabajos](background-jobs.md) lo muestra en marcha.
 
 ## Cambiar el resultado
 

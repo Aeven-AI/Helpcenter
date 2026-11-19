@@ -5,27 +5,27 @@ description: Dónde viven tus archivos, tus conversaciones y tus cuentas conecta
 
 # Tus datos
 
-Aeven trabaja con tus propios archivos, en tus propias carpetas, en tu propio computadora. Esta página dice qué se guarda y dónde.
+Æven trabaja con tus propios archivos, en tus propias carpetas, en tu propio computadora. Esta página dice qué se guarda y dónde.
 
 ## En tu computadora
 
-- **Tus archivos** se quedan donde están. Aeven los lee y los escribe en la carpeta que elegiste; no copia tus carpetas a ningún otro sitio.
-- **Las conversaciones y los ajustes** se guardan en la carpeta de datos propia de Aeven en tu computadora, así que las conversaciones anteriores están ahí cuando vuelves a abrir la aplicación. Una copia también se sincroniza con tu cuenta, para que aparezcan en tus otros dispositivos.
+- **Tus archivos** se quedan donde están. Æven los lee y los escribe en la carpeta que elegiste; no copia tus carpetas a ningún otro sitio.
+- **Las conversaciones y los ajustes** se guardan en la carpeta de datos propia de Æven en tu computadora, así que las conversaciones anteriores están ahí cuando vuelves a abrir la aplicación. Una copia también se sincroniza con tu cuenta, para que aparezcan en tus otros dispositivos.
 - **El estado de inicio de sesión** se guarda en ese computadora, así que no tienes que iniciar sesión otra vez en cada arranque.
 
 ## En tus otros dispositivos
 
 Inicia sesión con la misma cuenta en un segundo computadora y verás la misma memoria, las mismas conversaciones, los mismos ajustes y la misma personalización. Cada cambio se cifra en el dispositivo donde ocurre y se envía a tu cuenta; los otros dispositivos lo recogen, normalmente en menos de un segundo mientras ambos están conectados.
 
-Una conversación sigue en el dispositivo donde Aeven la respondió por última vez, porque ahí están los archivos que hizo y las tareas que inició. Con la aplicación de escritorio abierta, una conversación que escribes en [chat.aeven.io](https://chat.aeven.io) se ejecuta en tu computadora; si no hay ningún escritorio encendido, Aeven responde en sus servidores, que aparecen como **Aeven Cloud**. **Opciones → Elegir escritorio** elige en qué escritorio se ejecuta una conversación. Los archivos ya hechos se quedan en el dispositivo que los hizo. [Tu escritorio desde Aeven Web](../using/desktop-from-web.md)
+Una conversación sigue en el dispositivo donde Æven la respondió por última vez, porque ahí están los archivos que hizo y las tareas que inició. Con la aplicación de escritorio abierta, una conversación que escribes en [chat.aeven.io](https://chat.aeven.io) se ejecuta en tu computadora; si no hay ningún escritorio encendido, Æven responde en sus servidores, que aparecen como **Æven Cloud**. **Opciones → Elegir escritorio** elige en qué escritorio se ejecuta una conversación. Los archivos ya hechos se quedan en el dispositivo que los hizo. [Tu escritorio desde Æven Web](../using/desktop-from-web.md)
 
 **Settings → Sync** enumera los dispositivos de tu cuenta, muestra si este está al día y tiene **Sync this device**, que impide que una computadora se sincronice sin borrar lo que ya contiene. **Remove** quita un dispositivo de esa lista; una computadora que sigue con la sesión iniciada y sincronizando se vuelve a añadir la próxima vez que sincronice.
 
-La copia sincronizada se guarda cifrada en los servidores de Aeven, y Aeven tiene la clave que la abre. Aeven no lee tu memoria: el acceso está limitado a las personas que operan el servicio y queda registrado. La protección de extremo a extremo, en la que la clave se queda en tus propios dispositivos y solo tú puedes abrir lo sincronizado, está en despliegue.
+La copia sincronizada se guarda cifrada en los servidores de Æven, y Æven tiene la clave que la abre. Æven no lee tu memoria: el acceso está limitado a las personas que operan el servicio y queda registrado. La protección de extremo a extremo, en la que la clave se queda en tus propios dispositivos y solo tú puedes abrir lo sincronizado, está en despliegue.
 
-## En los servidores de Aeven
+## En los servidores de Æven {#en-los-servidores-de-aeven}
 
-Tu cuenta, tu plan y tu saldo de créditos viven con tu cuenta de Aeven. La copia de tu memoria, tus conversaciones, tus ajustes y tu personalización que viaja entre tus dispositivos también se guarda allí, para que un dispositivo que estuvo desconectado pueda ponerse al día. A los servicios conectados se llega mediante tokens que emite el proveedor cuando inicias sesión; esos tokens son lo que hace funcionar una conexión hasta que la quitas.
+Tu cuenta, tu plan y tu saldo de créditos viven con tu cuenta de Æven. La copia de tu memoria, tus conversaciones, tus ajustes y tu personalización que viaja entre tus dispositivos también se guarda allí, para que un dispositivo que estuvo desconectado pueda ponerse al día. A los servicios conectados se llega mediante tokens que emite el proveedor cuando inicias sesión; esos tokens son lo que hace funcionar una conexión hasta que la quitas.
 
 El contenido de una tarea se envía al modelo que la responde para producir la respuesta. [Elige un modelo](../using/models.md) dice qué modelo responde.
 
@@ -44,6 +44,6 @@ Eliminar un bot detiene sus ejecuciones futuras; los archivos que ya produjo se 
 
 ## Relacionado
 
-- [Lo que Aeven recuerda](../using/memory.md)
+- [Lo que Æven recuerda](../using/memory.md)
 - [Conectores](../connections/connected-apps.md)
 - [Skills](../using/skills.md)

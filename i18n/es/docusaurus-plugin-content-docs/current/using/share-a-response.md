@@ -1,11 +1,11 @@
 ---
 title: Compartir una respuesta
-description: Convierte una respuesta de Aeven en un enlace público, mira la vista previa con la que se muestra en las apps de chat, y encuentra, abre o elimina cada enlace que creaste.
+description: Convierte una respuesta de Æven en un enlace público, mira la vista previa con la que se muestra en las apps de chat, y encuentra, abre o elimina cada enlace que creaste.
 ---
 
 # Compartir una respuesta
 
-Cualquier respuesta de Aeven puede convertirse en un enlace público: envíalo en un chat, un correo o una publicación, y quien lo abra lee la respuesta en una página propia. Solo se comparte la respuesta. Tu pregunta, tu nombre y el resto de la conversación siguen siendo privados.
+Cualquier respuesta de Æven puede convertirse en un enlace público: envíalo en un chat, un correo o una publicación, y quien lo abra lee la respuesta en una página propia. Solo se comparte la respuesta. Tu pregunta, tu nombre y el resto de la conversación siguen siendo privados.
 
 ## Crear un enlace
 
@@ -26,7 +26,7 @@ Compartir de nuevo la misma respuesta no crea un segundo enlace. Actualiza la p�
 | | El resto de la conversación |
 | | Archivos que no son imágenes |
 
-La página tiene un botón hacia Aeven: **Prueba Æven** para quien no tiene cuenta, **Ir a Æven** para quien ya inició sesión.
+La página tiene un botón hacia Æven: **Prueba Æven** para quien no tiene cuenta, **Ir a Æven** para quien ya inició sesión.
 
 Cuando un turno tiene varios pasos, el enlace lleva la respuesta final, el mismo texto que toma **Copiar**.
 
@@ -38,11 +38,11 @@ Elige **Gestionar** en el diálogo de compartir. **Enlaces creados** muestra cad
 - **Eliminar**: usa la papelera junto al enlace para borrar uno. Deja de funcionar al instante, y quien lo abra verá que ya no existe.
 - **Eliminar todos los enlaces** borra todos tras confirmar. No se puede deshacer.
 
-Tus enlaces pertenecen a tu cuenta de Aeven, no a un dispositivo: la lista es la misma en la aplicación de escritorio y en [chat.aeven.io](https://chat.aeven.io).
+Tus enlaces pertenecen a tu cuenta de Æven, no a un dispositivo: la lista es la misma en la aplicación de escritorio y en [chat.aeven.io](https://chat.aeven.io).
 
 ## Conviene saber
 
-- **Necesitas haber iniciado sesión.** Los enlaces los crea y guarda tu cuenta de Aeven.
+- **Necesitas haber iniciado sesión.** Los enlaces los crea y guarda tu cuenta de Æven.
 - **Un enlace eliminado puede seguir en las vistas previas.** Las apps de chat y las redes sociales conservan la tarjeta que ya descargaron, así que una vista previa antigua puede seguir apareciendo después de que la página haya desaparecido.
 - **Hay un límite de 5.000 enlaces por cuenta.** Elimina algunos para hacer sitio.
 - **Las respuestas muy largas** pueden ser demasiado grandes para compartir; el diálogo lo indica.

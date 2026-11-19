@@ -19,7 +19,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Using Aeven',
+      label: 'Using Æven',
       collapsible: false,
       items: [
         'using/sidebar',

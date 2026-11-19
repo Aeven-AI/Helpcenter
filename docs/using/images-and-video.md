@@ -5,7 +5,7 @@ description: Make a picture or a short clip in a conversation, or edit a photo y
 
 # Images and video
 
-Aeven makes images and short videos. Ask for one in a conversation, or open **Inspiration** in the sidebar and start from a ready-made idea; either way the result arrives in the conversation, where you can ask for changes.
+Æven makes images and short videos. Ask for one in a conversation, or open **Inspiration** in the sidebar and start from a ready-made idea; either way the result arrives in the conversation, where you can ask for changes.
 
 ## Asking in a conversation
 
@@ -25,11 +25,11 @@ The **Slides** tab next to it holds the presentation templates. [Slides and pres
 
 ## Editing an image you already have
 
-Attach the picture and say what to change. Aeven treats it as the reference: *"same person, same pose, warmer light, cleaner background"* keeps what you did not ask about and changes only what you did. Say **same face** or **keep the framing** when that matters; a photo retouch goes wrong when a model redraws the scene instead of finishing it.
+Attach the picture and say what to change. Æven treats it as the reference: *"same person, same pose, warmer light, cleaner background"* keeps what you did not ask about and changes only what you did. Say **same face** or **keep the framing** when that matters; a photo retouch goes wrong when a model redraws the scene instead of finishing it.
 
 ## Video
 
-Video works the same way: describe the shot, the camera movement and how long it should be, and the clip arrives in the conversation. A clip takes longer than an image, so Aeven keeps working while you carry on — the [jobs list](/docs/using/background-jobs) shows it running.
+Video works the same way: describe the shot, the camera movement and how long it should be, and the clip arrives in the conversation. A clip takes longer than an image, so Æven keeps working while you carry on — the [jobs list](/docs/using/background-jobs) shows it running.
 
 ## Changing the result
 

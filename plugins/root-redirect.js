@@ -18,7 +18,7 @@ function page() {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex" />
-    <title>Aeven Help center</title>
+    <title>Æven Help center</title>
     <link rel="alternate" hreflang="en" href="/en/" />
     <link rel="alternate" hreflang="zh-Hans" href="/cn/" />
     <link rel="alternate" hreflang="es" href="/es/" />
@@ -70,7 +70,7 @@ function notFoundPage() {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex" />
-    <title>Not found — Aeven Help center</title>
+    <title>Not found — Æven Help center</title>
     <style>
       body {
         margin: 0;

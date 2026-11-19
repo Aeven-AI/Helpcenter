@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-description: What Aeven collects, where it is stored, who it is shared with, and how to get it back or remove it.
+description: What Æven collects, where it is stored, who it is shared with, and how to get it back or remove it.
 slug: /privacy
 ---
 
@@ -8,50 +8,50 @@ slug: /privacy
 
 **Last updated: 16 November 2026**
 
-Aeven is a desktop application, and it is built so that much of what you do with it stays on your computer. This page says what leaves it, why, and what you can do about that. Aeven Web, at [chat.aeven.io](https://chat.aeven.io), runs the same assistant on our servers instead of your computer; [On Aeven Web](#on-aeven-web) says what that changes.
+Æven is a desktop application, and it is built so that much of what you do with it stays on your computer. This page says what leaves it, why, and what you can do about that. Æven Web, at [chat.aeven.io](https://chat.aeven.io), runs the same assistant on our servers instead of your computer; [On Æven Web](#on-aeven-web) says what that changes.
 
-It covers the Aeven application, this help center, and the Aeven account behind them. It does not cover the services you connect to Aeven — mail, calendars, chat, code hosting — which keep their own policies.
+It covers the Æven application, this help center, and the Æven account behind them. It does not cover the services you connect to Æven — mail, calendars, chat, code hosting — which keep their own policies.
 
 ## 1. Who is responsible
 
-Aeven is provided by **NiftyLabs**, trading as Æven, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands, KvK 91706653 ("Aeven", "we"). For anything on this page, write to [privacy@aeven.io](mailto:privacy@aeven.io).
+Æven is provided by **NiftyLabs**, trading as Æven, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands, KvK 91706653 ("Æven", "we"). For anything on this page, write to [privacy@aeven.io](mailto:privacy@aeven.io).
 
 ## 2. What stays on your computer
 
-These things are stored locally, in Aeven's own data folder on the machine where it runs:
+These things are stored locally, in Æven's own data folder on the machine where it runs:
 
-- **Your files.** Aeven reads and writes the files in the folder you chose. They stay where they are.
-- **Your conversations** with Aeven, unless a model needs to receive one to answer (see section 5).
+- **Your files.** Æven reads and writes the files in the folder you chose. They stay where they are.
+- **Your conversations** with Æven, unless a model needs to receive one to answer (see section 5).
 - **Your settings**, including the folder you chose, your approval policy, and the standing instructions you wrote.
-- **Your memory**, meaning the facts, preferences and learned procedures Aeven keeps across conversations, unless you chose to host that layer elsewhere.
+- **Your memory**, meaning the facts, preferences and learned procedures Æven keeps across conversations, unless you chose to host that layer elsewhere.
 - **Your sign-in state** for the account you signed in with.
 
-Conversations, settings and memory also sync to your Aeven account, so they follow you to your other devices; section 10 describes how that copy is protected. You can turn syncing off per device in **Settings → Sync**.
+Conversations, settings and memory also sync to your Æven account, so they follow you to your other devices; section 10 describes how that copy is protected. You can turn syncing off per device in **Settings → Sync**.
 
-You can delete any of it by deleting the relevant item in the app, or by removing Aeven's data folder. [Your data](/docs/account/your-data) lists where each thing lives.
+You can delete any of it by deleting the relevant item in the app, or by removing Æven's data folder. [Your data](/docs/account/your-data) lists where each thing lives.
 
-### On Aeven Web
+### On Æven Web {#on-aeven-web}
 
-When you use Aeven Web, nothing runs on your computer, so what the desktop keeps locally is kept on our servers instead:
+When you use Æven Web, nothing runs on your computer, so what the desktop keeps locally is kept on our servers instead:
 
 - **Your conversations, memory, settings and personalisation**, stored with your account so the assistant can continue them.
 - **Files you upload** to a conversation.
 - **Your account folder**: files the assistant creates or changes for you, such as charts, spreadsheets, documents and videos, up to 5 GB per account. They stay there between conversations until you or the assistant delete them.
 
-To answer you, our servers read this content and pass the parts a task needs to the model, as section 5 describes. It is therefore **not end-to-end encrypted**: unlike the synced copy in section 10, Aeven's systems can open it. No one at Aeven reads your content, and access to the systems that hold it is limited to the people who run the service and is logged. If you need your conversations and files never to reside on our servers, use the desktop application.
+To answer you, our servers read this content and pass the parts a task needs to the model, as section 5 describes. It is therefore **not end-to-end encrypted**: unlike the synced copy in section 10, Æven's systems can open it. No one at Æven reads your content, and access to the systems that hold it is limited to the people who run the service and is logged. If you need your conversations and files never to reside on our servers, use the desktop application.
 
 Commands the assistant runs for you, for example to analyse data or make a chart, run in an isolated sandbox that sees only your own account folder and has no internet access. Your account folder is not backed up; keep your own copy of anything you cannot lose.
 
-### The Aeven browser extension
+### The Æven browser extension {#the-aeven-browser-extension}
 
-If you install the Aeven browser extension, Aeven can work in your own Chrome, Brave or Edge, with your sign-ins:
+If you install the Æven browser extension, Æven can work in your own Chrome, Brave or Edge, with your sign-ins:
 
-- **Its own tabs only.** Aeven opens tabs in an "Aeven" tab group and reads and acts only in those. It does not read your other tabs or the pages you browse yourself.
-- **History and bookmarks on request.** Aeven searches your browsing history or bookmarks only when a task needs it and you approve, and uses only the matching entries.
-- **Where it goes.** The extension talks only to the Aeven app on your computer, or to the Aeven Web page you have open. What it reads in its tabs becomes part of that conversation, is handled as this policy describes for the desktop app or for Aeven Web, and reaches a model when a task needs it (section 5).
-- **What it keeps.** The extension stores only which tabs are Aeven's and a random identifier for this installation. It has no analytics and sends nothing to Aeven's servers on its own.
+- **Its own tabs only.** Æven opens tabs in an "Æven" tab group and reads and acts only in those. It does not read your other tabs or the pages you browse yourself.
+- **History and bookmarks on request.** Æven searches your browsing history or bookmarks only when a task needs it and you approve, and uses only the matching entries.
+- **Where it goes.** The extension talks only to the Æven app on your computer, or to the Æven Web page you have open. What it reads in its tabs becomes part of that conversation, is handled as this policy describes for the desktop app or for Æven Web, and reaches a model when a task needs it (section 5).
+- **What it keeps.** The extension stores only which tabs are Æven's and a random identifier for this installation. It has no analytics and sends nothing to Æven's servers on its own.
 
-While Aeven acts in a tab, your browser shows that Aeven is debugging it. You can remove the extension at any time from your browser's extensions page.
+While Æven acts in a tab, your browser shows that Æven is debugging it. You can remove the extension at any time from your browser's extensions page.
 
 ## 3. What we hold on our side
 
@@ -63,7 +63,7 @@ While Aeven acts in a tab, your browser shows that Aeven is debugging it. You ca
 | Technical logs | To keep the service working and secure | App version, platform, error reports, request times, coarse location derived from IP |
 | Support conversations | To answer you | The messages you send to support |
 | Synced data | So your memory, conversations, settings and personalisation appear on each device you sign in on | Encrypted updates of those items, and the list of your devices |
-| Aeven Web data | So the assistant can work for you without your computer | Conversations, memory, settings, uploaded files, and the files in your account folder |
+| Æven Web data | So the assistant can work for you without your computer | Conversations, memory, settings, uploaded files, and the files in your account folder |
 | Sign-up network | To give the free preview credit to a limited number of accounts per network, so it cannot be collected repeatedly | A keyed hash of the network you signed up from (your IP address, or the block an IPv6 address belongs to), never the address itself |
 
 We do not buy personal data about you from anyone, and we do not sell or rent what we hold.
@@ -79,9 +79,9 @@ Under the GDPR we rely on:
 
 ## 5. What happens when a model answers
 
-To produce an answer, the content of a task — your message, the parts of your files or web pages Aeven read for it, the images you attached, and the relevant conversation history — is sent to the model that is answering.
+To produce an answer, the content of a task — your message, the parts of your files or web pages Æven read for it, the images you attached, and the relevant conversation history — is sent to the model that is answering.
 
-- **Aeven models.** The task goes to the model infrastructure we operate with our processors, under a data processing agreement that forbids using it to train models for anyone else.
+- **Æven models.** The task goes to the model infrastructure we operate with our processors, under a data processing agreement that forbids using it to train models for anyone else.
 - **Your own provider.** If you connected one, the task goes to that provider directly, under their terms and their privacy policy. You chose that; we do not sit in the middle.
 
 We do not use your content to train models. Where a model provider is involved that is their commitment to us as well, and it is written into our agreements with them.
@@ -90,11 +90,11 @@ Changing which model answers does not move your memory, conversations or connect
 
 ## 6. Connected accounts
 
-When you connect Gmail, Google Drive, Outlook, Slack, Discord, Telegram, WhatsApp, GitHub or another service, the provider issues a token that Aeven uses to act on your behalf. That token is stored by Aeven for as long as the connection exists.
+When you connect Gmail, Google Drive, Outlook, Slack, Discord, Telegram, WhatsApp, GitHub or another service, the provider issues a token that Æven uses to act on your behalf. That token is stored by Æven for as long as the connection exists.
 
 - We do not ask for your passwords to those services.
-- Removing a connection in **Settings → Connectors** deletes the token on our side; revoking Aeven in the provider's own settings does the same from their side.
-- What Aeven may read or write in a connected service is limited by the scopes you granted when you connected it.
+- Removing a connection in **Settings → Connectors** deletes the token on our side; revoking Æven in the provider's own settings does the same from their side.
+- What Æven may read or write in a connected service is limited by the scopes you granted when you connected it.
 
 ## 7. Who else sees your data
 
@@ -117,11 +117,11 @@ A current list of processors is available on request from [privacy@aeven.io](mai
 | Technical logs | 30 days, unless needed to investigate a security incident |
 | Support conversations | Two years after the last message |
 | Synced data | While your account exists — deleting it in the app removes it from the synced copy |
-| Aeven Web data | While your account exists, or until you delete a conversation or file |
+| Æven Web data | While your account exists, or until you delete a conversation or file |
 | Sign-up network | 30 days after you sign up |
 | Anything else on your computer | Until you delete it — we have no copy |
 
-Deleting your account removes the account data we hold, including the synced copy and everything Aeven Web stored for you. Other files and conversations on your computer stay there, because they were never ours.
+Deleting your account removes the account data we hold, including the synced copy and everything Æven Web stored for you. Other files and conversations on your computer stay there, because they were never ours.
 
 ## 9. Your rights
 
@@ -133,17 +133,17 @@ If you are not satisfied with our answer, you can complain to the Dutch Data Pro
 
 Traffic between the app and our services is encrypted in transit. Account data at rest is encrypted by our hosting providers. Access to production data is limited to the people who need it to run the service, and is logged.
 
-The copy of your memory, conversations, settings and personalisation that syncs between your devices is encrypted before it leaves the app, and the relay that stores it keeps it encrypted. Aeven holds the key that opens that copy; we do not use it to read your memory. No one at Aeven reads or inspects your memory, and access to the systems that hold it is limited to the people who need them to run the service and is logged. Protection where the key stays on your own devices, so the copy cannot be opened by us at all, is being rolled out.
+The copy of your memory, conversations, settings and personalisation that syncs between your devices is encrypted before it leaves the app, and the relay that stores it keeps it encrypted. Æven holds the key that opens that copy; we do not use it to read your memory. No one at Æven reads or inspects your memory, and access to the systems that hold it is limited to the people who need them to run the service and is logged. Protection where the key stays on your own devices, so the copy cannot be opened by us at all, is being rolled out.
 
-On Aeven Web, your content is stored on encrypted disks and protected by your account's sign-in, but it is not end-to-end encrypted, for the reason [On Aeven Web](#on-aeven-web) gives. The sandbox that runs commands is isolated per account and runs as a separate system user that cannot read the rest of our servers.
+On Æven Web, your content is stored on encrypted disks and protected by your account's sign-in, but it is not end-to-end encrypted, for the reason [On Æven Web](#on-aeven-web) gives. The sandbox that runs commands is isolated per account and runs as a separate system user that cannot read the rest of our servers.
 
 No system is perfect. If you find a vulnerability, report it to [security@aeven.io](mailto:security@aeven.io) rather than publishing it, and we will work with you.
 
-Because Aeven is open source under the Apache 2.0 licence, you can also read the code and check what it does with your files: [github.com/Aeven-AI/Aeven](https://github.com/Aeven-AI/Aeven).
+Because Æven is open source under the Apache 2.0 licence, you can also read the code and check what it does with your files: [github.com/Aeven-AI/Aeven](https://github.com/Aeven-AI/Aeven).
 
 ## 11. Children
 
-Aeven is not for people under 16. We do not knowingly collect data from them; if you believe a child has an account, write to us and we will remove it.
+Æven is not for people under 16. We do not knowingly collect data from them; if you believe a child has an account, write to us and we will remove it.
 
 ## 12. Cookies and this help center
 
@@ -157,4 +157,4 @@ When something material changes, we change the date at the top and, for anything
 
 - [Terms of Service](/docs/terms)
 - [Your data](/docs/account/your-data) — where each kind of data lives
-- [What Aeven remembers](/docs/using/memory) — the part you control directly
+- [What Æven remembers](/docs/using/memory) — the part you control directly

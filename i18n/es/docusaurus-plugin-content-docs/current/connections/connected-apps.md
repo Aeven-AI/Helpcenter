@@ -1,11 +1,11 @@
 ---
 title: Conectores
-description: Da a Aeven acceso a tu correo, calendario, archivos, repositorios y chats — un clic para los grandes proveedores, un token o una cuenta vinculada para el resto.
+description: Da a Æven acceso a tu correo, calendario, archivos, repositorios y chats — un clic para los grandes proveedores, un token o una cuenta vinculada para el resto.
 ---
 
 # Conectores
 
-Un conector es el acceso a una cuenta que ya tienes: un buzón, un calendario, un disco, un repositorio, un chat de equipo. Una vez conectado, se convierte en algo que Aeven puede usar dentro de una tarea — «resume el correo de hoy», «qué tengo mañana en el calendario», «abre un pull request para esto».
+Un conector es el acceso a una cuenta que ya tienes: un buzón, un calendario, un disco, un repositorio, un chat de equipo. Una vez conectado, se convierte en algo que Æven puede usar dentro de una tarea — «resume el correo de hoy», «qué tengo mañana en el calendario», «abre un pull request para esto».
 
 Los conectores están en **Settings → Connectors**. La página que está a su lado, [Skills](../using/skills.md), reúne los procedimientos que los usan.
 
@@ -14,7 +14,7 @@ Los conectores están en **Settings → Connectors**. La página que está a su 
 1. Abre **Settings → Connectors**.
 2. Elige el servicio y pulsa **Sign in**.
 3. Aprueba el acceso que pide en la ventana que se abre.
-4. De vuelta en Aeven, la fila muestra la cuenta a la que está vinculado y aparece como **On**.
+4. De vuelta en Æven, la fila muestra la cuenta a la que está vinculado y aparece como **On**.
 
 El inicio de sesión con un clic funciona con Gmail, Google Drive, Google Calendar, Outlook, Outlook Calendar, OneDrive, SharePoint, Teams, GitHub y Slack. SharePoint y Teams son cuentas de trabajo: una cuenta personal de Microsoft no las vincula.
 
@@ -25,24 +25,24 @@ El inicio de sesión con un clic funciona con Gmail, Google Drive, Google Calend
 | Email accounts | Tu dirección y los datos del servidor para recibir (IMAP o POP3) y, opcionalmente, para enviar (SMTP) — para un buzón que no tiene conector de un clic |
 | WhatsApp | Vincula un número de teléfono; la fila muestra el número una vez vinculado |
 | Telegram | Tu número de teléfono, el código que te envía Telegram y tu contraseña de dos pasos si la tienes configurada |
-| Discord | Añade un servidor; el bot de Aeven se une a los servidores que elijas y responde allí |
+| Discord | Añade un servidor; el bot de Æven se une a los servidores que elijas y responde allí |
 | Slack | Inicia sesión y elige el espacio de trabajo |
 
 Una cuenta se puede vincular más de una vez — dos buzones, dos calendarios — y cada una tiene su propia fila.
 
 ## Tu propio servidor MCP
 
-**Custom MCP** conecta cualquier cosa que hable el Model Context Protocol. Dale un nombre, su dirección y, si el servidor lo necesita, un token mediante **Use an access token instead** cuando no haya un flujo de inicio de sesión que seguir. Aeven comprueba el servidor antes de guardarlo; si no puede llegar a él, lo dice, y puedes quitarlo y volver a añadirlo.
+**Custom MCP** conecta cualquier cosa que hable el Model Context Protocol. Dale un nombre, su dirección y, si el servidor lo necesita, un token mediante **Use an access token instead** cuando no haya un flujo de inicio de sesión que seguir. Æven comprueba el servidor antes de guardarlo; si no puede llegar a él, lo dice, y puedes quitarlo y volver a añadirlo.
 
 Esta es también la vía hacia un servicio del catálogo que aún no tiene inicio de sesión con un clic.
 
 ## El catálogo
 
-El **Catalog** reúne servicios muy usados a los que Aeven puede llegar — Canva, Notion, Slack, Figma, Linear, Jira y Confluence, Dropbox, Box, Asana, HubSpot, Salesforce, Stripe. Una entrada del catálogo no es una conexión: te dice que el servicio funciona y cómo conectarlo, normalmente mediante un servidor MCP propio con un token de ese proveedor. Algunos tienen sus propias salvedades — puede que Figma necesite que el proveedor apruebe un cliente nuevo, el endpoint predefinido de Linear es de solo lectura y Stripe pide una clave de Agent API.
+El **Catalog** reúne servicios muy usados a los que Æven puede llegar — Canva, Notion, Slack, Figma, Linear, Jira y Confluence, Dropbox, Box, Asana, HubSpot, Salesforce, Stripe. Una entrada del catálogo no es una conexión: te dice que el servicio funciona y cómo conectarlo, normalmente mediante un servidor MCP propio con un token de ese proveedor. Algunos tienen sus propias salvedades — puede que Figma necesite que el proveedor apruebe un cliente nuevo, el endpoint predefinido de Linear es de solo lectura y Stripe pide una clave de Agent API.
 
 ## Qué añade cada conector
 
-| Conector | Aeven puede |
+| Conector | Æven puede |
 | --- | --- |
 | Gmail | Leer, buscar, redactar y organizar el correo, y enviarlo |
 | Google Drive | Buscar y gestionar archivos, Docs, Sheets, Slides, Forms y comentarios |
@@ -64,7 +64,7 @@ El **Catalog** reúne servicios muy usados a los que Aeven puede llegar — Canv
 
 Leer una cuenta funciona por su cuenta. Todo lo que cambia algo — enviar, editar, borrar, reenviar, reaccionar, fijar, silenciar, programar, marcar como leído o cualquier cambio de grupo y de canal — te pregunta antes. En Discord, cada llamada de administración y moderación pregunta por separado y nombra exactamente qué va a cambiar.
 
-Permitir para la tarea cubre esa cuenta y esa operación, así que un lote de cambios parecidos pregunta una vez en lugar de cuarenta. [Lo que Aeven pregunta antes de actuar](../using/approvals.md)
+Permitir para la tarea cubre esa cuenta y esa operación, así que un lote de cambios parecidos pregunta una vez en lugar de cuarenta. [Lo que Æven pregunta antes de actuar](../using/approvals.md)
 
 ## Cuando un conector deja de funcionar
 
@@ -78,7 +78,7 @@ Permitir para la tarea cubre esa cuenta y esa operación, así que un lote de ca
 
 ## Quitar el acceso
 
-Abre el conector, elige la cuenta y desconéctala. Aeven revoca lo que el proveedor le permite revocar y no conserva más acceso; la siguiente tarea que necesite ese servicio tendrá que pedirlo de nuevo. Revocar desde la página de seguridad del proveedor tiene el mismo efecto, y la fila muestra entonces que la cuenta necesita vincularse otra vez.
+Abre el conector, elige la cuenta y desconéctala. Æven revoca lo que el proveedor le permite revocar y no conserva más acceso; la siguiente tarea que necesite ese servicio tendrá que pedirlo de nuevo. Revocar desde la página de seguridad del proveedor tiene el mismo efecto, y la fila muestra entonces que la cuenta necesita vincularse otra vez.
 
 ## Qué sale de tu computadora
 

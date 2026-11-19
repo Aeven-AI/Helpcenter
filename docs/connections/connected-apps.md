@@ -1,11 +1,11 @@
 ---
 title: Connectors
-description: Give Aeven access to your mail, calendar, files, repositories and chats — one click for the big providers, a token or a linked account for the rest.
+description: Give Æven access to your mail, calendar, files, repositories and chats — one click for the big providers, a token or a linked account for the rest.
 ---
 
 # Connectors
 
-A connector is access to an account you already have: a mailbox, a calendar, a drive, a repository, a team chat. Connected, it becomes something Aeven can use inside a task — "summarise today's mail", "what is on my calendar tomorrow", "open a pull request for this".
+A connector is access to an account you already have: a mailbox, a calendar, a drive, a repository, a team chat. Connected, it becomes something Æven can use inside a task — "summarise today's mail", "what is on my calendar tomorrow", "open a pull request for this".
 
 **Settings → Connectors** is where they live. The page beside it, [Skills](/docs/using/skills), holds the procedures that use them.
 
@@ -14,7 +14,7 @@ A connector is access to an account you already have: a mailbox, a calendar, a d
 1. Open **Settings → Connectors**.
 2. Choose the service and press **Sign in**.
 3. Approve the access it asks for in the window that opens.
-4. Back in Aeven, the row shows the account it is linked to and is **On**.
+4. Back in Æven, the row shows the account it is linked to and is **On**.
 
 One-click sign-in works for Gmail, Google Drive, Google Calendar, Outlook, Outlook Calendar, OneDrive, SharePoint, Teams, GitHub and Slack. SharePoint and Teams are work accounts: a personal Microsoft account will not link them.
 
@@ -25,24 +25,24 @@ One-click sign-in works for Gmail, Google Drive, Google Calendar, Outlook, Outlo
 | Email accounts | Your address and the server details for receiving (IMAP or POP3) and, optionally, sending (SMTP) — for a mailbox with no one-click connector |
 | WhatsApp | Link a phone number; the row shows the number once it is linked |
 | Telegram | Your phone number, the code Telegram sends you, and your two-step password if you set one |
-| Discord | Add a server; Aeven's bot joins the servers you choose and answers there |
+| Discord | Add a server; Æven's bot joins the servers you choose and answers there |
 | Slack | Sign in and pick the workspace |
 
 An account can be linked more than once — two mailboxes, two calendars — and each one is its own row.
 
 ## Your own MCP server
 
-**Custom MCP** connects anything that speaks the Model Context Protocol. Give it a name, its address, and — if the server needs one — a token through **Use an access token instead** when there is no sign-in flow to go through. Aeven checks the server before it saves it; a server it cannot reach says so, and you can remove it and add it again.
+**Custom MCP** connects anything that speaks the Model Context Protocol. Give it a name, its address, and — if the server needs one — a token through **Use an access token instead** when there is no sign-in flow to go through. Æven checks the server before it saves it; a server it cannot reach says so, and you can remove it and add it again.
 
 This is also the route to a service in the catalog that has no one-click sign-in yet.
 
 ## The catalog
 
-The **Catalog** lists widely used services Aeven can reach — Canva, Notion, Slack, Figma, Linear, Jira and Confluence, Dropbox, Box, Asana, HubSpot, Salesforce, Stripe. A catalog entry is not a connection: it tells you the service works and how to get it connected, usually through a custom MCP server with a token from that provider. A few carry their own caveats — Figma may need the provider to approve a new client, Linear's preset endpoint is read-only, and Stripe wants an Agent API key.
+The **Catalog** lists widely used services Æven can reach — Canva, Notion, Slack, Figma, Linear, Jira and Confluence, Dropbox, Box, Asana, HubSpot, Salesforce, Stripe. A catalog entry is not a connection: it tells you the service works and how to get it connected, usually through a custom MCP server with a token from that provider. A few carry their own caveats — Figma may need the provider to approve a new client, Linear's preset endpoint is read-only, and Stripe wants an Agent API key.
 
 ## What each connector adds
 
-| Connector | Aeven can |
+| Connector | Æven can |
 | --- | --- |
 | Gmail | Read, search, draft and organise mail, and send it |
 | Google Drive | Find and manage files, Docs, Sheets, Slides, Forms and comments |
@@ -64,7 +64,7 @@ The **Catalog** lists widely used services Aeven can reach — Canva, Notion, Sl
 
 Reading an account runs on its own. Anything that changes something — sending, editing, deleting, forwarding, reacting, pinning, muting, scheduling, marking as read, or any group and channel change — asks you first. On Discord every administration and moderation call asks separately, naming exactly what it will change.
 
-Allowing for the task covers that account and that operation, so a batch of similar changes asks once rather than forty times. [What Aeven asks first](/docs/using/approvals)
+Allowing for the task covers that account and that operation, so a batch of similar changes asks once rather than forty times. [What Æven asks first](/docs/using/approvals)
 
 ## When a connector stops working
 
@@ -78,7 +78,7 @@ Allowing for the task covers that account and that operation, so a batch of simi
 
 ## Removing access
 
-Open the connector, choose the account, and disconnect it. Aeven revokes what the provider lets it revoke and keeps no further access; the next task that needs that service has to ask again. Revoking from the provider's security page has the same effect, and the row then shows the account as needing to be linked again.
+Open the connector, choose the account, and disconnect it. Æven revokes what the provider lets it revoke and keeps no further access; the next task that needs that service has to ask again. Revoking from the provider's security page has the same effect, and the row then shows the account as needing to be linked again.
 
 ## What leaves your computer
 

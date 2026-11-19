@@ -10,7 +10,7 @@ const languageSlot = '<div data-language-switcher></div>'
 
 const config: Config = {
   title: 'Help center',
-  tagline: 'You bring the idea. Aeven finds the way.',
+  tagline: 'You bring the idea. Æven finds the way.',
   favicon: 'img/favicon.svg',
 
   url: 'https://helpcenter.aeven.io',
@@ -102,7 +102,7 @@ const config: Config = {
       /* The mark alone signs the header; the browser title stays "Help center". */
       hideOnScroll: false,
       logo: {
-        alt: 'Aeven help center',
+        alt: 'Æven help center',
         src: 'img/mark.svg',
         width: 26,
         height: 23,
@@ -126,7 +126,7 @@ const config: Config = {
         },
         {
           href: 'https://aeven.io',
-          label: 'Aeven',
+          label: 'Æven',
           position: 'right',
         },
         {

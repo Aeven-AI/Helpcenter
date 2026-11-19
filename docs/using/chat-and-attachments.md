@@ -5,11 +5,11 @@ description: Add files, images, and screenshots to a request, and use voice inst
 
 # Chat and attachments
 
-A conversation is where every task starts. You can also hand Aeven material instead of describing it.
+A conversation is where every task starts. You can also hand Æven material instead of describing it.
 
 ## Attach a file
 
-Add a file to the message before you send it. Aeven reads what you attach and uses it as part of the request — a spreadsheet to analyse, a contract to summarise, a screenshot of an error.
+Add a file to the message before you send it. Æven reads what you attach and uses it as part of the request — a spreadsheet to analyse, a contract to summarise, a screenshot of an error.
 
 The **+** control at the left of the message box is where a message gains something besides words:
 
@@ -21,9 +21,9 @@ The **+** control at the left of the message box is where a message gains someth
 | --- | --- |
 | File | A file from your computer, attached to this message |
 | Camera | A photo taken now, instead of a file you already have |
-| Goal | A long-running objective Aeven keeps working on across messages |
+| Goal | A long-running objective Æven keeps working on across messages |
 | Plan | Ask for the steps first, before anything is done |
-| Feedback | Tell us something about Aeven itself, without leaving the task |
+| Feedback | Tell us something about Æven itself, without leaving the task |
 
 PDFs, images, office documents, and plain text are read directly. Very large files and long videos take longer and may be read in parts.
 

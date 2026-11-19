@@ -1,19 +1,19 @@
 ---
 title: Skills
-description: Procedures Aeven follows the same way every time — what ships, how to import your own, and who can start one.
+description: Procedures Æven follows the same way every time — what ships, how to import your own, and who can start one.
 ---
 
 # Skills
 
-A skill is a written procedure: the steps of a job you do often, with the instructions and files it needs. Teach Aeven once and it runs the same way next time, instead of you explaining the format, the order and the exceptions again.
+A skill is a written procedure: the steps of a job you do often, with the instructions and files it needs. Teach Æven once and it runs the same way next time, instead of you explaining the format, the order and the exceptions again.
 
 A skill is how to do something. A [bot](/docs/automation/automations) is when it runs on its own. A skill that uses an account needs that account [connected](/docs/connections/connected-apps).
 
 ## Where they are
 
-**Settings → Skills** has two views: **Skills**, the ones you have, and **Catalog**, the ones that ship with Aeven. Type `/` in the message box to see what you can start by name.
+**Settings → Skills** has two views: **Skills**, the ones you have, and **Catalog**, the ones that ship with Æven. Type `/` in the message box to see what you can start by name.
 
-Built-in skills come with Aeven and are always available. They are deliberately not in your list, because there is nothing to switch off.
+Built-in skills come with Æven and are always available. They are deliberately not in your list, because there is nothing to switch off.
 
 ## Skills that come with a connector
 
@@ -25,17 +25,17 @@ The catalog also carries skills written for general work. Search it, look at how
 
 **Settings → Skills → Import skill** takes:
 
-- a GitHub URL, an npm package, or an `owner/repository` shorthand — Aeven downloads the archive and imports every skill it carries;
+- a GitHub URL, an npm package, or an `owner/repository` shorthand — Æven downloads the archive and imports every skill it carries;
 - a file: a `SKILL.md`, a `.skill` bundle, or a ZIP with exactly one skill in it.
 
-Only import skills you trust. A skill is instructions Aeven will follow with your tools and your files, which is why the app asks you to confirm what you are bringing in.
+Only import skills you trust. A skill is instructions Æven will follow with your tools and your files, which is why the app asks you to confirm what you are bringing in.
 
 After an import, the result tells you what arrived:
 
 | What it says | What happened |
 | --- | --- |
 | Added | A new skill is in your library |
-| Kept built in | Aeven already answers that name with its own or an earlier skill; the import did not replace it |
+| Kept built in | Æven already answers that name with its own or an earlier skill; the import did not replace it |
 | Some referenced files were not in the repository | The skill arrived without files it names; it still works with what came |
 
 ## Skills installed by another agent
@@ -57,7 +57,7 @@ Open a skill to see its **Source**, the files in its bundle, and its references.
 
 ## When a skill needs a program
 
-Some skills depend on software on your computer. The first time you use one, Aeven installs what it needs and shows the progress; if that fails, it says which step failed and offers to try again on the skill's page. The rest of the conversation carries on meanwhile.
+Some skills depend on software on your computer. The first time you use one, Æven installs what it needs and shows the progress; if that fails, it says which step failed and offers to try again on the skill's page. The rest of the conversation carries on meanwhile.
 
 ## Removing one
 
@@ -66,5 +66,5 @@ Some skills depend on software on your computer. The first time you use one, Aev
 ## Related
 
 - [Connectors](/docs/connections/connected-apps)
-- [What Aeven asks first](/docs/using/approvals)
+- [What Æven asks first](/docs/using/approvals)
 - [Bots](/docs/automation/automations)

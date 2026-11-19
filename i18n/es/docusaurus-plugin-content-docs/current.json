@@ -7,9 +7,9 @@
     "message": "Primeros pasos",
     "description": "The label for category 'Getting started' in sidebar 'help'"
   },
-  "sidebar.help.category.Using Aeven": {
-    "message": "Usar Aeven",
-    "description": "The label for category 'Using Aeven' in sidebar 'help'"
+  "sidebar.help.category.Using Æven": {
+    "message": "Usar Æven",
+    "description": "The label for category 'Using Æven' in sidebar 'help'"
   },
   "sidebar.help.category.Bots": {
     "message": "Bots",

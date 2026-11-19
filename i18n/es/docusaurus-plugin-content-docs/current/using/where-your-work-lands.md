@@ -1,11 +1,11 @@
 ---
 title: Dónde queda tu trabajo
-description: Dónde acaban en realidad los archivos, documentos y vistas previas que crea Aeven.
+description: Dónde acaban en realidad los archivos, documentos y vistas previas que crea Æven.
 ---
 
 # Dónde queda tu trabajo
 
-Aeven deja los resultados donde puedas usarlos después: en la conversación, en la carpeta en la que trabaja o en una vista previa que puedes abrir al lado.
+Æven deja los resultados donde puedas usarlos después: en la conversación, en la carpeta en la que trabaja o en una vista previa que puedes abrir al lado.
 
 ## En la conversación
 
@@ -13,11 +13,11 @@ Las respuestas llegan como texto: un resumen, una tabla, un plan, una explicaci�
 
 ## En tu carpeta
 
-Cuando una tarea produce un archivo — un documento, una hoja de cálculo, un script, un conjunto de imágenes renombradas —, Aeven lo escribe en la carpeta que elegiste y lo nombra en la conversación. La barra lateral de archivos muestra la carpeta a medida que cambia.
+Cuando una tarea produce un archivo — un documento, una hoja de cálculo, un script, un conjunto de imágenes renombradas —, Æven lo escribe en la carpeta que elegiste y lo nombra en la conversación. La barra lateral de archivos muestra la carpeta a medida que cambia.
 
 ## Al lado
 
-Los archivos, las páginas y la terminal se abren en la barra lateral derecha mientras Aeven trabaja, así puedes ver lo que hace sin salir de la conversación. Las salidas largas siguen disponibles ahí cuando la tarea termina.
+Los archivos, las páginas y la terminal se abren en la barra lateral derecha mientras Æven trabaja, así puedes ver lo que hace sin salir de la conversación. Las salidas largas siguen disponibles ahí cuando la tarea termina.
 
 ## Los archivos adjuntos que enviaste
 

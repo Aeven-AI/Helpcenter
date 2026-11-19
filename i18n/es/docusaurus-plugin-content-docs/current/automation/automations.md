@@ -11,9 +11,9 @@ Un bot es una tarea que se repite por su cuenta: un resumen matinal, un repaso d
 
 Abre **Bots** en la barra lateral y elige **New**. Después, escoge una idea o describe la rutina en el compositor — *«cada mañana de lunes a viernes, resúmeme el calendario de hoy y el correo que necesita mi atención»*.
 
-Aeven hace el resto en una conversación corta: pregunta lo que le falta (qué carpeta, qué cuenta, a qué hora, en qué zona horaria) y luego muestra lo que se propone usar — sus **task**, **schedule** y **permissions**. No se guarda nada hasta que confirmas, y puedes cambiar cualquiera de los tres en esa conversación antes de decir que sí.
+Æven hace el resto en una conversación corta: pregunta lo que le falta (qué carpeta, qué cuenta, a qué hora, en qué zona horaria) y luego muestra lo que se propone usar — sus **task**, **schedule** y **permissions**. No se guarda nada hasta que confirmas, y puedes cambiar cualquiera de los tres en esa conversación antes de decir que sí.
 
-Las **Ideas** son peticiones de trabajo que puedes adaptar, agrupadas en Start the day, Plan the week, Stay informed, Work and money y Everyday life. **Ideas for you** sugiere bots a partir de lo que Aeven ya sabe de tu trabajo y tus rutinas; cuando hay poca memoria de la que tirar, hace primero algunas preguntas.
+Las **Ideas** son peticiones de trabajo que puedes adaptar, agrupadas en Start the day, Plan the week, Stay informed, Work and money y Everyday life. **Ideas for you** sugiere bots a partir de lo que Æven ya sabe de tu trabajo y tus rutinas; cuando hay poca memoria de la que tirar, hace primero algunas preguntas.
 
 Los bots sacan mucho más partido de las cuentas conectadas. Las ideas que necesitan correo, calendario o GitHub están marcadas, y **Connect accounts** te lleva directo a ello. [Conectores](../connections/connected-apps.md)
 
@@ -66,7 +66,7 @@ Abre un bot para:
 
 ## Reintentar una ejecución que falló
 
-**Retry** vuelve a ejecutar la misma tarea. Lee antes la ejecución fallida: puede que ya haya cambiado algo fuera de Aeven, y hacer los mismos pasos dos veces puede duplicar el efecto.
+**Retry** vuelve a ejecutar la misma tarea. Lee antes la ejecución fallida: puede que ya haya cambiado algo fuera de Æven, y hacer los mismos pasos dos veces puede duplicar el efecto.
 
 ## Iniciar uno desde fuera
 
@@ -74,16 +74,16 @@ Un bot puede llevar un **inbound trigger** — una dirección privada y una clav
 
 ## Dónde se ejecuta un bot
 
-Cada tarjeta de bot muestra **Se ejecuta en**. Un bot que no necesita nada de tu computadora —solo la web y tus cuentas conectadas— se ejecuta en **Aeven Cloud**, así que sigue funcionando con tu computadora apagada. Un bot que usa tus archivos, tu navegador o tus aplicaciones se ejecuta en **tu computadora**, y la tarjeta dice cuál de ellos necesita. Para mantener en tu equipo un bot que podría ejecutarse en la nube, ábrelo y elige **Ejecutar solo en mi ordenador**; **Permitir Aeven Cloud** lo deshace.
+Cada tarjeta de bot muestra **Se ejecuta en**. Un bot que no necesita nada de tu computadora —solo la web y tus cuentas conectadas— se ejecuta en **Æven Cloud**, así que sigue funcionando con tu computadora apagada. Un bot que usa tus archivos, tu navegador o tus aplicaciones se ejecuta en **tu computadora**, y la tarjeta dice cuál de ellos necesita. Para mantener en tu equipo un bot que podría ejecutarse en la nube, ábrelo y elige **Ejecutar solo en mi ordenador**; **Permitir Æven Cloud** lo deshace.
 
-## Mientras Aeven está cerrado
+## Mientras Æven está cerrado {#mientras-aeven-está-cerrado}
 
-Un bot que se ejecuta en tu computadora necesita que Aeven esté en marcha allí. Con **Settings → General → Run in the background** activado — lo predeterminado —, cerrar la ventana no lo detiene; salir de la aplicación sí. Una computadora que está dormida a la hora programada ejecuta el bot en cuanto se despierta, y un horario que venció mientras Aeven estaba cerrado se recupera entonces en lugar de perderse. Si has cerrado sesión, los horarios siguen ahí pero no se ejecuta nada, y la página de Bots lo indica hasta que vuelvas a iniciar sesión.
+Un bot que se ejecuta en tu computadora necesita que Æven esté en marcha allí. Con **Settings → General → Run in the background** activado — lo predeterminado —, cerrar la ventana no lo detiene; salir de la aplicación sí. Una computadora que está dormida a la hora programada ejecuta el bot en cuanto se despierta, y un horario que venció mientras Æven estaba cerrado se recupera entonces en lugar de perderse. Si has cerrado sesión, los horarios siguen ahí pero no se ejecuta nada, y la página de Bots lo indica hasta que vuelvas a iniciar sesión.
 
 ## Relacionado
 
 - [Bots que vale la pena configurar](../tips/useful-bots.md)
 - [Conectores](../connections/connected-apps.md)
 - [Skills](../using/skills.md)
-- [Lo que Aeven pregunta antes de actuar](../using/approvals.md)
+- [Lo que Æven pregunta antes de actuar](../using/approvals.md)
 - [Tus datos](../account/your-data.md)

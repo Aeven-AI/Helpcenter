@@ -11,9 +11,9 @@ A bot is a task that runs again on its own: a morning brief, an inbox triage, a 
 
 Open **Bots** in the sidebar and choose **New**. Then either pick an idea, or describe the routine in the composer — *"every weekday morning, brief me on today's calendar and the mail that needs me"*.
 
-Aeven does the rest as a short conversation: it asks what it is missing (which folder, which account, what time, which timezone), then shows the **task**, the **schedule** and the **permissions** it intends to use. Nothing is saved until you confirm, and you can change any of the three in that conversation before saying yes.
+Æven does the rest as a short conversation: it asks what it is missing (which folder, which account, what time, which timezone), then shows the **task**, the **schedule** and the **permissions** it intends to use. Nothing is saved until you confirm, and you can change any of the three in that conversation before saying yes.
 
-**Ideas** are working requests you can adapt, grouped as Start the day, Plan the week, Stay informed, Work and money, and Everyday life. **Ideas for you** suggests bots from what Aeven already knows about your work and routines; with little memory to go on, it asks a few questions first.
+**Ideas** are working requests you can adapt, grouped as Start the day, Plan the week, Stay informed, Work and money, and Everyday life. **Ideas for you** suggests bots from what Æven already knows about your work and routines; with little memory to go on, it asks a few questions first.
 
 Bots get much more out of connected accounts. Ideas that need mail, calendar or GitHub are marked, and **Connect accounts** takes you straight there. [Connectors](/docs/connections/connected-apps)
 
@@ -66,7 +66,7 @@ Open a bot to:
 
 ## Retrying a run that failed
 
-**Retry** runs the same task again. Read the failed run first: it may already have changed something outside Aeven, and running the same steps twice can double the effect.
+**Retry** runs the same task again. Read the failed run first: it may already have changed something outside Æven, and running the same steps twice can double the effect.
 
 ## Starting one from outside
 
@@ -74,16 +74,16 @@ A bot can carry an **inbound trigger** — a private address and a key. Anything
 
 ## Where a bot runs
 
-Each bot card shows **Runs on**. A bot that needs nothing from your computer — only the web and your connected accounts — runs in **Aeven Cloud**, so it keeps working while your computer is off. A bot that uses your files, your browser or your apps runs on **your computer**, and the card says which of those it needs. To keep a bot that could run in the cloud on your own machine, open it and choose **Only run on my computer**; **Allow Aeven Cloud** undoes that.
+Each bot card shows **Runs on**. A bot that needs nothing from your computer — only the web and your connected accounts — runs in **Æven Cloud**, so it keeps working while your computer is off. A bot that uses your files, your browser or your apps runs on **your computer**, and the card says which of those it needs. To keep a bot that could run in the cloud on your own machine, open it and choose **Only run on my computer**; **Allow Æven Cloud** undoes that.
 
-## While Aeven is closed
+## While Æven is closed {#while-aeven-is-closed}
 
-A bot that runs on your computer needs Aeven running there. With **Settings → General → Run in the background** on — the default — closing the window does not stop it; quitting does. A computer that is asleep at the scheduled time runs the bot when it wakes, and a schedule that came due while Aeven was closed is picked up then rather than lost. If you are signed out, the schedules stay but nothing runs, and the Bots page says so until you sign back in.
+A bot that runs on your computer needs Æven running there. With **Settings → General → Run in the background** on — the default — closing the window does not stop it; quitting does. A computer that is asleep at the scheduled time runs the bot when it wakes, and a schedule that came due while Æven was closed is picked up then rather than lost. If you are signed out, the schedules stay but nothing runs, and the Bots page says so until you sign back in.
 
 ## Related
 
 - [Bots worth setting up](/docs/tips/useful-bots)
 - [Connectors](/docs/connections/connected-apps)
 - [Skills](/docs/using/skills)
-- [What Aeven asks first](/docs/using/approvals)
+- [What Æven asks first](/docs/using/approvals)
 - [Your data](/docs/account/your-data)

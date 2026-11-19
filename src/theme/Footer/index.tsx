@@ -24,7 +24,7 @@ interface Group {
 
 const groups: Group[] = [
   {
-    title: 'Use Aeven',
+    title: 'Use Æven',
     links: [
       {label: 'Start here', to: '/docs/'},
       {label: 'Your first task', to: '/docs/getting-started/your-first-task'},
@@ -110,7 +110,7 @@ export default function Footer(): ReactNode {
                 to="/docs/terms"
                 className={styles.legalLink}
               />
-              <span className={styles.copyright}>© {new Date().getFullYear()} Aeven</span>
+              <span className={styles.copyright}>© {new Date().getFullYear()} Æven</span>
             </div>
           </div>
 

@@ -5,9 +5,9 @@ description: What is in Settings → Skills → Catalog — the humanizer, rever
 
 # The skill catalog
 
-A skill is a procedure Aeven follows the same way every time. The **Catalog** in **Settings → Skills** holds about a hundred ready-made ones that ship with Aeven. Switch one on and it joins your library; Aeven then uses it when the task calls for it, or you start it yourself by typing `/` and its name. [Skills](/docs/using/skills)
+A skill is a procedure Æven follows the same way every time. The **Catalog** in **Settings → Skills** holds about a hundred ready-made ones that ship with Æven. Switch one on and it joins your library; Æven then uses it when the task calls for it, or you start it yourself by typing `/` and its name. [Skills](/docs/using/skills)
 
-You do not need the catalog for everyday work — Aeven already writes, reads documents, searches and builds without it. A catalog skill adds a specialist's method on top: a checklist, a house style, a set of scripts that do one job very well.
+You do not need the catalog for everyday work — Æven already writes, reads documents, searches and builds without it. A catalog skill adds a specialist's method on top: a checklist, a house style, a set of scripts that do one job very well.
 
 ## Writing
 
@@ -41,7 +41,7 @@ Use these on software you own or are allowed to examine — to check what an app
 
 | Skill | Use it to |
 | --- | --- |
-| **motion-design** | Plan a film properly: the brief, the beats, pacing, typography and continuity. Pairs with Aeven's Motion films |
+| **motion-design** | Plan a film properly: the brief, the beats, pacing, typography and continuity. Pairs with Æven's Motion films |
 | **huashu-art-motion** | Explain an idea with generative art in one of dozens of illustrated styles |
 | **chat-motion-overlay** | Turn a chat transcript or screenshot into an animated chat scene |
 | **motion-lab** | Pick one effect from a library of 160 documented web animations and fit it to your page |
@@ -96,14 +96,14 @@ The **aeven-stack** set — about thirty skills whose names start with `avn-` �
 
 ## Tips
 
-- **Switch on only what you will use.** Every skill in your library is one more thing Aeven considers; a short library chooses faster.
+- **Switch on only what you will use.** Every skill in your library is one more thing Æven considers; a short library chooses faster.
 - **Start one by name** with `/` when you want that exact method, for example `/humanizer`.
-- **Let the model start it** by leaving **Model can start this skill** on, so Aeven picks it up when the task fits.
+- **Let the model start it** by leaving **Model can start this skill** on, so Æven picks it up when the task fits.
 - **Look inside first.** Each skill's page shows the instructions and files it brings.
 - **Bring your own.** Any repository with skills in the same `SKILL.md` layout can be imported. [Skills](/docs/using/skills#importing-your-own)
 
 ## Related
 
 - [Skills](/docs/using/skills)
-- [Everything Aeven can do](/docs/tips/everything-aeven-can-do)
+- [Everything Æven can do](/docs/tips/everything-aeven-can-do)
 - [Put features together](/docs/tips/combine-features)

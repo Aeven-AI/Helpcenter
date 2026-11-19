@@ -5,7 +5,7 @@ description: Workspaces, sessions, search, and the View options that decide how 
 
 # The sidebar
 
-The left sidebar is where your work is kept: the folders you have opened, and the conversations you have had in them. Everything else in Aeven is opened from here.
+The left sidebar is where your work is kept: the folders you have opened, and the conversations you have had in them. Everything else in Æven is opened from here.
 
 ## Workspaces and sessions
 
@@ -41,7 +41,7 @@ By workspace answers "where was I working"; by status answers "what is still ope
 
 The field at the top searches your conversations. Typing matches session names immediately; content search looks inside them as well, and needs **Session search** switched on in **Settings → Plugin settings**.
 
-Results say which they are: when content search is off, or could not complete, Aeven says so and shows name matches only. A very broad query returns the first results and asks you to narrow it rather than pretending it showed everything.
+Results say which they are: when content search is off, or could not complete, Æven says so and shows name matches only. A very broad query returns the first results and asks you to narrow it rather than pretending it showed everything.
 
 ## The session menu
 

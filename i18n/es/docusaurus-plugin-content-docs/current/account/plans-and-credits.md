@@ -1,6 +1,6 @@
 ---
 title: Cuenta, planes y créditos
-description: Qué contiene tu cuenta de Aeven, qué incluye cada plan, cómo se gastan los créditos y dónde está la facturación.
+description: Qué contiene tu cuenta de Æven, qué incluye cada plan, cómo se gastan los créditos y dónde está la facturación.
 ---
 
 # Cuenta, planes y créditos
@@ -17,8 +17,8 @@ Iniciar sesión con la misma cuenta en un segundo computadora trae consigo tu me
 
 | Plan | Para qué sirve |
 | --- | --- |
-| Free | Una asignación de vista previa, suficiente para usar Aeven de verdad antes de pagar por él |
-| Pro | Una asignación mensual y los modelos Aeven Flash y Pro: el plan que quiere la mayoría de la gente |
+| Free | Una asignación de vista previa, suficiente para usar Æven de verdad antes de pagar por él |
+| Pro | Una asignación mensual y los modelos Æven Flash y Pro: el plan que quiere la mayoría de la gente |
 | Heavy | Varias veces la asignación de Pro, para trabajo que se pasa el día funcionando |
 
 La página de la cuenta muestra las cifras exactas de tu cuenta, qué incluye el plan actual y si se renueva o termina, con la fecha. **Upgrade** y **Downgrade** están junto al plan en el que estás.
@@ -46,7 +46,7 @@ El uso se mide en créditos: una solicitud los gasta en proporción al modelo qu
 - **Añade créditos cuando quieras** desde la página de la cuenta: elige un importe o introduce el tuyo, paga con Stripe y el saldo se actualiza en cuanto se compensa el pago.
 - Las recargas no están disponibles en todas las instalaciones; donde no lo están, la página lo dice en lugar de ofrecer un proceso de pago.
 
-Cuando la asignación de un periodo está casi agotada, Aeven lo dice una vez y señala las dos salidas: un plan mayor o más créditos.
+Cuando la asignación de un periodo está casi agotada, Æven lo dice una vez y señala las dos salidas: un plan mayor o más créditos.
 
 ## Uso
 
@@ -54,7 +54,7 @@ La sección de uso cubre el periodo actual: las fechas, la parte de la asignaci�
 
 ## Facturación y facturas
 
-**Manage billing** abre el portal de facturación: el método de pago, las facturas anteriores, los recibos y los datos de IVA están todos ahí, y el cambio de tarjeta se hace ahí y no en Aeven.
+**Manage billing** abre el portal de facturación: el método de pago, las facturas anteriores, los recibos y los datos de IVA están todos ahí, y el cambio de tarjeta se hace ahí y no en Æven.
 
 ## Cuando te quedas sin saldo
 
@@ -68,4 +68,4 @@ Two-factor authentication usa una aplicación de autenticación: escanea el cód
 
 - [Tus datos](your-data.md)
 - [Elige un modelo](../using/models.md)
-- [Cómo te habla Aeven](personalisation.md)
+- [Cómo te habla Æven](personalisation.md)

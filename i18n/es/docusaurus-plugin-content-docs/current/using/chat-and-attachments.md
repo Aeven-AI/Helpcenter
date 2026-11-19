@@ -5,11 +5,11 @@ description: Añade archivos, imágenes y capturas de pantalla a una petición, 
 
 # Chat y archivos adjuntos
 
-Una conversación es donde empieza cada tarea. También puedes entregarle material a Aeven en lugar de describirlo.
+Una conversación es donde empieza cada tarea. También puedes entregarle material a Æven en lugar de describirlo.
 
 ## Adjuntar un archivo
 
-Añade un archivo al mensaje antes de enviarlo. Aeven lee lo que adjuntas y lo usa como parte de la petición: una hoja de cálculo que analizar, un contrato que resumir, una captura de pantalla de un error.
+Añade un archivo al mensaje antes de enviarlo. Æven lee lo que adjuntas y lo usa como parte de la petición: una hoja de cálculo que analizar, un contrato que resumir, una captura de pantalla de un error.
 
 El control **+** a la izquierda del cuadro de mensaje es donde un mensaje recibe algo más que palabras:
 
@@ -21,9 +21,9 @@ El control **+** a la izquierda del cuadro de mensaje es donde un mensaje recibe
 | --- | --- |
 | File | Un archivo de tu computadora, adjunto a este mensaje |
 | Camera | Una foto tomada ahora, en lugar de un archivo que ya tienes |
-| Goal | Un objetivo de larga duración en el que Aeven sigue trabajando a lo largo de varios mensajes |
+| Goal | Un objetivo de larga duración en el que Æven sigue trabajando a lo largo de varios mensajes |
 | Plan | Pedir primero los pasos, antes de que se haga nada |
-| Feedback | Contarnos algo sobre Aeven en sí, sin salir de la tarea |
+| Feedback | Contarnos algo sobre Æven en sí, sin salir de la tarea |
 
 Los PDF, las imágenes, los documentos de oficina y el texto plano se leen directamente. Los archivos muy grandes y los videos largos tardan más y pueden leerse por partes.
 

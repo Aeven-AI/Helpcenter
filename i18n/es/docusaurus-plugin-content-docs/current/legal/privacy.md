@@ -1,6 +1,6 @@
 ---
 title: Política de privacidad
-description: Qué recoge Aeven, dónde se guarda, con quién se comparte y cómo recuperarlo o eliminarlo.
+description: Qué recoge Æven, dónde se guarda, con quién se comparte y cómo recuperarlo o eliminarlo.
 slug: /privacy
 ---
 
@@ -8,50 +8,50 @@ slug: /privacy
 
 **Última actualización: 16 de noviembre de 2026**
 
-Aeven es una aplicación de escritorio y está construida para que buena parte de lo que haces con ella se quede en tu computadora. Esta página dice qué sale de él, por qué y qué puedes hacer al respecto. Aeven Web, en [chat.aeven.io](https://chat.aeven.io), ejecuta el mismo asistente en nuestros servidores en lugar de en tu computadora; [En Aeven Web](#en-aeven-web) explica qué cambia con ello.
+Æven es una aplicación de escritorio y está construida para que buena parte de lo que haces con ella se quede en tu computadora. Esta página dice qué sale de él, por qué y qué puedes hacer al respecto. Æven Web, en [chat.aeven.io](https://chat.aeven.io), ejecuta el mismo asistente en nuestros servidores en lugar de en tu computadora; [En Æven Web](#en-aeven-web) explica qué cambia con ello.
 
-Cubre la aplicación Aeven, este centro de ayuda y la cuenta de Aeven que hay detrás. No cubre los servicios que conectas a Aeven —correo, calendarios, chat, alojamiento de código—, que mantienen sus propias políticas.
+Cubre la aplicación Æven, este centro de ayuda y la cuenta de Æven que hay detrás. No cubre los servicios que conectas a Æven —correo, calendarios, chat, alojamiento de código—, que mantienen sus propias políticas.
 
 ## 1. Quién es responsable
 
-Aeven lo presta **NiftyLabs**, que opera como Æven, Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos, KvK 91706653 («Aeven», «nosotros»). Para cualquier cuestión de esta página, escribe a [privacy@aeven.io](mailto:privacy@aeven.io).
+Æven lo presta **NiftyLabs**, que opera como Æven, Hestiastraat 58, 1076 DM Amsterdam, los Países Bajos, KvK 91706653 («Æven», «nosotros»). Para cualquier cuestión de esta página, escribe a [privacy@aeven.io](mailto:privacy@aeven.io).
 
 ## 2. Qué se queda en tu computadora
 
-Estas cosas se guardan localmente, en la carpeta de datos propia de Aeven en la máquina donde se ejecuta:
+Estas cosas se guardan localmente, en la carpeta de datos propia de Æven en la máquina donde se ejecuta:
 
-- **Tus archivos.** Aeven lee y escribe los archivos de la carpeta que elegiste. Se quedan donde están.
-- **Tus conversaciones** con Aeven, salvo que un modelo necesite recibir una para responder (véase la sección 5).
+- **Tus archivos.** Æven lee y escribe los archivos de la carpeta que elegiste. Se quedan donde están.
+- **Tus conversaciones** con Æven, salvo que un modelo necesite recibir una para responder (véase la sección 5).
 - **Tus ajustes**, incluida la carpeta que elegiste, tu política de aprobación y las instrucciones permanentes que escribiste.
-- **Tu memoria**, es decir, los hechos, las preferencias y los procedimientos aprendidos que Aeven mantiene entre conversaciones, salvo que hayas elegido alojar esa capa en otro sitio.
+- **Tu memoria**, es decir, los hechos, las preferencias y los procedimientos aprendidos que Æven mantiene entre conversaciones, salvo que hayas elegido alojar esa capa en otro sitio.
 - **Tu estado de inicio de sesión** para la cuenta con la que iniciaste sesión.
 
-Las conversaciones, los ajustes y la memoria también se sincronizan con tu cuenta de Aeven, para que te sigan a tus otros dispositivos; la sección 10 describe cómo se protege esa copia. Puedes desactivar la sincronización en cada dispositivo en **Settings → Sync**.
+Las conversaciones, los ajustes y la memoria también se sincronizan con tu cuenta de Æven, para que te sigan a tus otros dispositivos; la sección 10 describe cómo se protege esa copia. Puedes desactivar la sincronización en cada dispositivo en **Settings → Sync**.
 
-Puedes eliminar cualquiera de estas cosas borrando el elemento correspondiente en la aplicación o quitando la carpeta de datos de Aeven. [Tus datos](../account/your-data.md) enumera dónde vive cada cosa.
+Puedes eliminar cualquiera de estas cosas borrando el elemento correspondiente en la aplicación o quitando la carpeta de datos de Æven. [Tus datos](../account/your-data.md) enumera dónde vive cada cosa.
 
-### En Aeven Web
+### En Æven Web {#en-aeven-web}
 
-Cuando usas Aeven Web, nada se ejecuta en tu computadora, así que lo que la aplicación de escritorio guarda localmente se guarda en nuestros servidores:
+Cuando usas Æven Web, nada se ejecuta en tu computadora, así que lo que la aplicación de escritorio guarda localmente se guarda en nuestros servidores:
 
 - **Tus conversaciones, tu memoria, tus ajustes y tu personalización**, guardados con tu cuenta para que el asistente pueda continuarlos.
 - **Los archivos que subes** a una conversación.
 - **La carpeta de tu cuenta**: los archivos que el asistente crea o modifica para ti, como gráficos, hojas de cálculo, documentos y vídeos, hasta 5 GB por cuenta. Se quedan ahí entre conversaciones hasta que tú o el asistente los eliminéis.
 
-Para responderte, nuestros servidores leen este contenido y pasan al modelo las partes que la tarea necesita, como describe la sección 5. Por eso **no está cifrado de extremo a extremo**: a diferencia de la copia sincronizada de la sección 10, los sistemas de Aeven pueden abrirlo. Nadie en Aeven lee tu contenido, y el acceso a los sistemas que lo guardan está limitado a las personas que operan el servicio y queda registrado. Si necesitas que tus conversaciones y archivos nunca residan en nuestros servidores, usa la aplicación de escritorio.
+Para responderte, nuestros servidores leen este contenido y pasan al modelo las partes que la tarea necesita, como describe la sección 5. Por eso **no está cifrado de extremo a extremo**: a diferencia de la copia sincronizada de la sección 10, los sistemas de Æven pueden abrirlo. Nadie en Æven lee tu contenido, y el acceso a los sistemas que lo guardan está limitado a las personas que operan el servicio y queda registrado. Si necesitas que tus conversaciones y archivos nunca residan en nuestros servidores, usa la aplicación de escritorio.
 
 Los comandos que el asistente ejecuta por ti, por ejemplo para analizar datos o hacer un gráfico, se ejecutan en un entorno aislado que solo ve la carpeta de tu propia cuenta y no tiene acceso a internet. La carpeta de tu cuenta no tiene copia de seguridad; guarda tu propia copia de todo lo que no puedas perder.
 
-### La extensión de Aeven para el navegador
+### La extensión de Æven para el navegador {#la-extensión-de-aeven-para-el-navegador}
 
-Si instalas la extensión de Aeven para el navegador, Aeven puede trabajar en tu propio Chrome, Brave o Edge, con tus sesiones iniciadas:
+Si instalas la extensión de Æven para el navegador, Æven puede trabajar en tu propio Chrome, Brave o Edge, con tus sesiones iniciadas:
 
-- **Solo sus propias pestañas.** Aeven abre pestañas en un grupo de pestañas «Aeven» y solo lee y actúa en ellas. No lee tus otras pestañas ni las páginas que visitas tú.
-- **Historial y marcadores, solo cuando hace falta.** Aeven busca en tu historial de navegación o en tus marcadores solo cuando una tarea lo necesita y tú lo apruebas, y usa solo las entradas que coinciden.
-- **Adónde va.** La extensión solo se comunica con la aplicación Aeven de tu computadora o con la página de Aeven Web que tengas abierta. Lo que lee en sus pestañas pasa a formar parte de esa conversación, se trata como esta política describe para la aplicación de escritorio o para Aeven Web, y llega a un modelo cuando una tarea lo necesita (sección 5).
-- **Qué guarda.** La extensión guarda solo qué pestañas son de Aeven y un identificador aleatorio de esta instalación. No tiene analítica y no envía nada a los servidores de Aeven por su cuenta.
+- **Solo sus propias pestañas.** Æven abre pestañas en un grupo de pestañas «Æven» y solo lee y actúa en ellas. No lee tus otras pestañas ni las páginas que visitas tú.
+- **Historial y marcadores, solo cuando hace falta.** Æven busca en tu historial de navegación o en tus marcadores solo cuando una tarea lo necesita y tú lo apruebas, y usa solo las entradas que coinciden.
+- **Adónde va.** La extensión solo se comunica con la aplicación Æven de tu computadora o con la página de Æven Web que tengas abierta. Lo que lee en sus pestañas pasa a formar parte de esa conversación, se trata como esta política describe para la aplicación de escritorio o para Æven Web, y llega a un modelo cuando una tarea lo necesita (sección 5).
+- **Qué guarda.** La extensión guarda solo qué pestañas son de Æven y un identificador aleatorio de esta instalación. No tiene analítica y no envía nada a los servidores de Æven por su cuenta.
 
-Mientras Aeven actúa en una pestaña, tu navegador indica que Aeven la está depurando. Puedes quitar la extensión en cualquier momento desde la página de extensiones de tu navegador.
+Mientras Æven actúa en una pestaña, tu navegador indica que Æven la está depurando. Puedes quitar la extensión en cualquier momento desde la página de extensiones de tu navegador.
 
 ## 3. Qué guardamos por nuestra parte
 
@@ -63,7 +63,7 @@ Mientras Aeven actúa en una pestaña, tu navegador indica que Aeven la está de
 | Registros técnicos | Para mantener el servicio funcionando y seguro | Versión de la aplicación, plataforma, informes de errores, horas de las solicitudes, ubicación aproximada derivada de la IP |
 | Conversaciones de soporte | Para responderte | Los mensajes que envías al soporte |
 | Datos sincronizados | Para que tu memoria, tus conversaciones, tus ajustes y tu personalización aparezcan en cada dispositivo en el que inicias sesión | Actualizaciones cifradas de esos elementos y la lista de tus dispositivos |
-| Datos de Aeven Web | Para que el asistente pueda trabajar para ti sin tu computadora | Conversaciones, memoria, ajustes, archivos subidos y los archivos de la carpeta de tu cuenta |
+| Datos de Æven Web | Para que el asistente pueda trabajar para ti sin tu computadora | Conversaciones, memoria, ajustes, archivos subidos y los archivos de la carpeta de tu cuenta |
 | Red de registro | Para dar el crédito gratuito de la vista previa a un número limitado de cuentas por red, de modo que no pueda obtenerse una y otra vez | Un hash con clave de la red desde la que te registraste (tu dirección IP, o el bloque al que pertenece una dirección IPv6), nunca la dirección en sí |
 
 No compramos datos personales sobre ti a nadie, y no vendemos ni alquilamos lo que guardamos.
@@ -79,9 +79,9 @@ Conforme al RGPD, nos basamos en:
 
 ## 5. Qué ocurre cuando un modelo responde
 
-Para producir una respuesta, el contenido de una tarea —tu mensaje, las partes de tus archivos o de las páginas web que Aeven leyó para ella, las imágenes que adjuntaste y el historial de conversación relevante— se envía al modelo que responde.
+Para producir una respuesta, el contenido de una tarea —tu mensaje, las partes de tus archivos o de las páginas web que Æven leyó para ella, las imágenes que adjuntaste y el historial de conversación relevante— se envía al modelo que responde.
 
-- **Modelos de Aeven.** La tarea va a la infraestructura de modelos que operamos con nuestros encargados del tratamiento, bajo un acuerdo de tratamiento de datos que prohíbe usarla para entrenar modelos para nadie más.
+- **Modelos de Æven.** La tarea va a la infraestructura de modelos que operamos con nuestros encargados del tratamiento, bajo un acuerdo de tratamiento de datos que prohíbe usarla para entrenar modelos para nadie más.
 - **Tu propio proveedor.** Si conectaste uno, la tarea va directamente a ese proveedor, bajo sus términos y su política de privacidad. Lo elegiste tú; nosotros no estamos en medio.
 
 No usamos tu contenido para entrenar modelos. Cuando interviene un proveedor de modelos, ese es también su compromiso con nosotros, y está recogido en nuestros acuerdos con ellos.
@@ -90,11 +90,11 @@ Cambiar qué modelo responde no mueve tu memoria, tus conversaciones ni tus cone
 
 ## 6. Cuentas conectadas
 
-Cuando conectas Gmail, Google Drive, Outlook, Slack, Discord, Telegram, WhatsApp, GitHub u otro servicio, el proveedor emite un token que Aeven usa para actuar en tu nombre. Aeven guarda ese token mientras exista la conexión.
+Cuando conectas Gmail, Google Drive, Outlook, Slack, Discord, Telegram, WhatsApp, GitHub u otro servicio, el proveedor emite un token que Æven usa para actuar en tu nombre. Æven guarda ese token mientras exista la conexión.
 
 - No te pedimos las contraseñas de esos servicios.
-- Eliminar una conexión en **Settings → Connectors** borra el token por nuestra parte; revocar Aeven en los ajustes del propio proveedor hace lo mismo desde su lado.
-- Lo que Aeven puede leer o escribir en un servicio conectado está limitado por los permisos que concediste al conectarlo.
+- Eliminar una conexión en **Settings → Connectors** borra el token por nuestra parte; revocar Æven en los ajustes del propio proveedor hace lo mismo desde su lado.
+- Lo que Æven puede leer o escribir en un servicio conectado está limitado por los permisos que concediste al conectarlo.
 
 ## 7. Quién más ve tus datos
 
@@ -117,11 +117,11 @@ Puedes solicitar una lista actualizada de encargados del tratamiento en [privacy
 | Registros técnicos | 30 días, salvo que haga falta para investigar un incidente de seguridad |
 | Conversaciones de soporte | Dos años después del último mensaje |
 | Datos sincronizados | Mientras exista tu cuenta: eliminarlos en la aplicación los quita de la copia sincronizada |
-| Datos de Aeven Web | Mientras exista tu cuenta, o hasta que elimines una conversación o un archivo |
+| Datos de Æven Web | Mientras exista tu cuenta, o hasta que elimines una conversación o un archivo |
 | Red de registro | 30 días después de registrarte |
 | Cualquier otra cosa en tu computadora | Hasta que la borres: no tenemos copia |
 
-Eliminar tu cuenta borra los datos de cuenta que guardamos, incluida la copia sincronizada y todo lo que Aeven Web guardó para ti. Los demás archivos y conversaciones de tu computadora se quedan ahí, porque nunca fueron nuestros.
+Eliminar tu cuenta borra los datos de cuenta que guardamos, incluida la copia sincronizada y todo lo que Æven Web guardó para ti. Los demás archivos y conversaciones de tu computadora se quedan ahí, porque nunca fueron nuestros.
 
 ## 9. Tus derechos
 
@@ -133,17 +133,17 @@ Si no estás satisfecho con nuestra respuesta, puedes reclamar ante la autoridad
 
 El tráfico entre la aplicación y nuestros servicios va cifrado en tránsito. Los proveedores de alojamiento cifran los datos de cuenta en reposo. El acceso a los datos de producción está limitado a las personas que lo necesitan para operar el servicio y queda registrado.
 
-La copia de tu memoria, tus conversaciones, tus ajustes y tu personalización que se sincroniza entre tus dispositivos se cifra antes de salir de la aplicación, y el relé que la guarda la mantiene cifrada. Aeven tiene la clave que abre esa copia; no la usamos para leer tu memoria. Nadie en Aeven lee ni inspecciona tu memoria, y el acceso a los sistemas que la contienen está limitado a las personas que los necesitan para operar el servicio y queda registrado. La protección en la que la clave se queda en tus propios dispositivos, de modo que nosotros no podamos abrir la copia en absoluto, está en despliegue.
+La copia de tu memoria, tus conversaciones, tus ajustes y tu personalización que se sincroniza entre tus dispositivos se cifra antes de salir de la aplicación, y el relé que la guarda la mantiene cifrada. Æven tiene la clave que abre esa copia; no la usamos para leer tu memoria. Nadie en Æven lee ni inspecciona tu memoria, y el acceso a los sistemas que la contienen está limitado a las personas que los necesitan para operar el servicio y queda registrado. La protección en la que la clave se queda en tus propios dispositivos, de modo que nosotros no podamos abrir la copia en absoluto, está en despliegue.
 
-En Aeven Web, tu contenido se guarda en discos cifrados y lo protege el inicio de sesión de tu cuenta, pero no está cifrado de extremo a extremo, por la razón que da [En Aeven Web](#en-aeven-web). El entorno aislado que ejecuta los comandos está separado por cuenta y se ejecuta como un usuario del sistema distinto que no puede leer el resto de nuestros servidores.
+En Æven Web, tu contenido se guarda en discos cifrados y lo protege el inicio de sesión de tu cuenta, pero no está cifrado de extremo a extremo, por la razón que da [En Æven Web](#en-aeven-web). El entorno aislado que ejecuta los comandos está separado por cuenta y se ejecuta como un usuario del sistema distinto que no puede leer el resto de nuestros servidores.
 
 Ningún sistema es perfecto. Si encuentras una vulnerabilidad, comunícala a [security@aeven.io](mailto:security@aeven.io) en lugar de publicarla, y trabajaremos contigo.
 
-Como Aeven es de código abierto bajo la licencia Apache 2.0, también puedes leer el código y comprobar qué hace con tus archivos: [github.com/Aeven-AI/Aeven](https://github.com/Aeven-AI/Aeven).
+Como Æven es de código abierto bajo la licencia Apache 2.0, también puedes leer el código y comprobar qué hace con tus archivos: [github.com/Aeven-AI/Aeven](https://github.com/Aeven-AI/Aeven).
 
 ## 11. Menores
 
-Aeven no es para personas menores de 16 años. No recogemos datos de menores a sabiendas; si crees que un menor tiene una cuenta, escríbenos y la eliminaremos.
+Æven no es para personas menores de 16 años. No recogemos datos de menores a sabiendas; si crees que un menor tiene una cuenta, escríbenos y la eliminaremos.
 
 ## 12. Cookies y este centro de ayuda
 
@@ -157,4 +157,4 @@ Cuando cambia algo sustancial, cambiamos la fecha del encabezado y, si es import
 
 - [Condiciones del servicio](terms.md)
 - [Tus datos](../account/your-data.md): dónde vive cada tipo de dato
-- [Lo que Aeven recuerda](../using/memory.md): la parte que controlas directamente
+- [Lo que Æven recuerda](../using/memory.md): la parte que controlas directamente

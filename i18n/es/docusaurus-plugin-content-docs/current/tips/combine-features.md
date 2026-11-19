@@ -1,11 +1,11 @@
 ---
 title: Combina funciones
-description: "La verdadera fuerza de Aeven es encadenar: un correo convertido en película y luego en un chat de equipo, una pantalla del teléfono convertida en un informe de error. Peticiones listas para usar que combinan varias funciones de una vez."
+description: "La verdadera fuerza de Æven es encadenar: un correo convertido en película y luego en un chat de equipo, una pantalla del teléfono convertida en un informe de error. Peticiones listas para usar que combinan varias funciones de una vez."
 ---
 
 # Combina funciones
 
-Cada función por separado te ahorra unos minutos. Encadenadas, sustituyen una tarde. No hace falta dividir el trabajo en pasos: describe el trabajo completo en un mensaje y Aeven lee, crea, comprueba y entrega en orden. Se detiene a preguntarte antes de que algo salga en tu nombre.
+Cada función por separado te ahorra unos minutos. Encadenadas, sustituyen una tarde. No hace falta dividir el trabajo en pasos: describe el trabajo completo en un mensaje y Æven lee, crea, comprueba y entrega en orden. Se detiene a preguntarte antes de que algo salga en tu nombre.
 
 Cada ejemplo es una petición que puedes pegar y adaptar. Las flechas indican qué funciones encadena.
 
@@ -13,7 +13,7 @@ Cada ejemplo es una petición que puedes pegar y adaptar. Las flechas indican qu
 
 > Lee el último correo de Northwind sobre su campaña de primavera. Haz una película Motion de 30 segundos que presente los tres puntos clave, con su logo del adjunto. Luego publica el MP4 en #marketing en Slack y en nuestro grupo de equipo de Telegram con un resumen de dos líneas.
 
-**Correo → adjuntos → Motion → Slack y Telegram.** Aeven encuentra el correo, toma el logo, escribe y reproduce la película en la conversación, genera el MP4 y redacta las dos publicaciones. Ves cada publicación antes de que se envíe. Mira primero la película y pide cambios —"más corta", "cifras más grandes", "subtítulos en neerlandés"— antes de dar el visto bueno.
+**Correo → adjuntos → Motion → Slack y Telegram.** Æven encuentra el correo, toma el logo, escribe y reproduce la película en la conversación, genera el MP4 y redacta las dos publicaciones. Ves cada publicación antes de que se envíe. Mira primero la película y pide cambios —"más corta", "cifras más grandes", "subtítulos en neerlandés"— antes de dar el visto bueno.
 
 ## Prepara las reuniones de mañana
 
@@ -31,13 +31,13 @@ Cada ejemplo es una petición que puedes pegar y adaptar. Las flechas indican qu
 
 > Investiga a los cinco mayores competidores de nuestro producto: precios, posicionamiento, últimos lanzamientos. Pon los hallazgos en una hoja de cálculo con fuentes, grafica la comparación de precios y crea una presentación de diez diapositivas. Redacta un correo a Sam con la presentación adjunta.
 
-**Búsqueda web → ayudantes en paralelo → hoja de cálculo y gráfico → diapositivas → borrador de correo.** Para una investigación grande, Aeven la reparte entre varios ayudantes que trabajan a la vez; la [lista de tareas](../using/background-jobs.md) los muestra.
+**Búsqueda web → ayudantes en paralelo → hoja de cálculo y gráfico → diapositivas → borrador de correo.** Para una investigación grande, Æven la reparte entre varios ayudantes que trabajan a la vez; la [lista de tareas](../using/background-jobs.md) los muestra.
 
 ## A través de una web que solo tú puedes abrir
 
 > En mi propio Chrome, entra en el portal del proveedor, descarga todas las facturas de octubre, guárdalas en la carpeta Facturas y haz una hoja de cálculo con fecha, número e importe.
 
-**Tu navegador → archivos → hoja de cálculo.** La extensión trabaja en tu navegador con tus sesiones, así que Aeven llega a sitios que no tienen conector. Pregunta antes de enviar un formulario o confirmar algo.
+**Tu navegador → archivos → hoja de cálculo.** La extensión trabaja en tu navegador con tus sesiones, así que Æven llega a sitios que no tienen conector. Pregunta antes de enviar un formulario o confirmar algo.
 
 ## Un programa sin conector
 
@@ -65,18 +65,18 @@ Cada ejemplo es una petición que puedes pegar y adaptar. Las flechas indican qu
 
 ## Haz que funcione solo
 
-Cualquiera de estas peticiones puede convertirse en un bot: cuando una ejecución salga bien, di *"convierte esto en un bot que se ejecute cada lunes a las 8"*. Aeven convierte la conversación en una tarea programada, te muestra lo que hará y qué cuentas puede usar, y espera tu sí. [Bots que vale la pena configurar](./useful-bots.md)
+Cualquiera de estas peticiones puede convertirse en un bot: cuando una ejecución salga bien, di *"convierte esto en un bot que se ejecute cada lunes a las 8"*. Æven convierte la conversación en una tarea programada, te muestra lo que hará y qué cuentas puede usar, y espera tu sí. [Bots que vale la pena configurar](./useful-bots.md)
 
 ## Consejos para que las cadenas funcionen
 
 - **Di adónde va el resultado.** "Guárdalo en la carpeta Informes", "publícalo en #team", "como documento de Google"; si no, el resultado se queda en la conversación.
 - **Nombra las cuentas cuando tengas varias.** "Desde mi Gmail del trabajo", "en el Slack de Acme".
 - **Pide un paso de revisión.** "Enséñame la película antes de publicarla" o "enumera las facturas antes de crear la hoja" pone una pausa justo donde la quieres.
-- **Corrige sobre la marcha.** Una cadena sigue siendo una conversación: cambia un eslabón —"usa el segundo logo", "sáltate Telegram"— y Aeven rehace solo lo que depende de él.
-- **Conserva lo que funcionó.** "Recuerda que Northwind quiere subtítulos en neerlandés" lo guarda para la próxima vez, y Aeven aprende por sí mismo los procedimientos que salieron bien.
+- **Corrige sobre la marcha.** Una cadena sigue siendo una conversación: cambia un eslabón —"usa el segundo logo", "sáltate Telegram"— y Æven rehace solo lo que depende de él.
+- **Conserva lo que funcionó.** "Recuerda que Northwind quiere subtítulos en neerlandés" lo guarda para la próxima vez, y Æven aprende por sí mismo los procedimientos que salieron bien.
 
 ## Relacionado
 
-- [Todo lo que Aeven puede hacer](./everything-aeven-can-do.md)
+- [Todo lo que Æven puede hacer](./everything-aeven-can-do.md)
 - [Conectores](../connections/connected-apps.md)
-- [Qué te pregunta Aeven primero](../using/approvals.md)
+- [Qué te pregunta Æven primero](../using/approvals.md)
