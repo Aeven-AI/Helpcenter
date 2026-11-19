@@ -47,7 +47,7 @@ curl -s -o /dev/null -w '%{http_code}\n' https://helpcenter.aeven.io/
 curl -s https://helpcenter.aeven.io/ | grep -o '<title>[^<]*</title>'
 ```
 
-Then load `/docs/getting-started/why-aeven` and the footer's legal links in a browser —
+Then load `/en/docs/getting-started/why-aeven` and the footer's legal links in a browser —
 those are the pages a build breaks first, because `onBrokenLinks: 'throw'` only catches
 paths, not a wrong base URL.
 
@@ -61,6 +61,19 @@ sudo nginx -t && sudo systemctl reload nginx
 
 `nginx -t` before the reload is not optional: this box also serves `aeven.io` from the
 same nginx, and a bad file takes both down.
+
+## Old addresses
+
+The vhost answers two kinds of old address with a permanent redirect, so search engines move their index instead of collecting 404s:
+
+| Old address | Goes to |
+| --- | --- |
+| `help.aeven.io/<path>` | `helpcenter.aeven.io/<path>` |
+| `helpcenter.aeven.io/docs/…` and `help.aeven.io/docs/…` | `/<language>/docs/…` on `helpcenter.aeven.io` |
+
+`<language>` comes from the request's `Accept-Language` (`zh-*` → `cn`, `es-*` → `es`, otherwise `en`) through the `$helpcenter_language` map at the top of the vhost. `aeven.io.conf` on the same box uses that map for the help center's addresses from when it lived on aeven.io, so keep the map in this file when editing it.
+
+The site URL in `docusaurus.config.ts` must stay `https://helpcenter.aeven.io`: it is written into every canonical link, hreflang alternate and sitemap entry.
 
 ## Two things not to do
 
