@@ -75,6 +75,14 @@ The vhost answers two kinds of old address with a permanent redirect, so search 
 
 The site URL in `docusaurus.config.ts` must stay `https://helpcenter.aeven.io`: it is written into every canonical link, hreflang alternate and sitemap entry.
 
+## Files for AI agents
+
+The build writes `/llms.txt` (naming the three locales), `/<locale>/llms.txt`, `/<locale>/llms-full.txt` and a Markdown copy of every page at its address plus `.md` (`docusaurus-plugin-llms`, then `scripts/clean-llms.mjs`). The vhost serves `.md` as UTF-8 `text/markdown` with a `Link: rel="canonical"` header naming the HTML page, and a request whose `Accept` header names `text/markdown` gets the Markdown copy of the page it asked for (`Vary: Accept`). Check it with:
+
+```sh
+curl -sH 'Accept: text/markdown' https://helpcenter.aeven.io/en/docs/using/memory | head -3
+```
+
 ## Two things not to do
 
 - **Do not delete old files by hand.** `rsync --delete` already keeps the directory exactly
