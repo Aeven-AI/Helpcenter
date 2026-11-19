@@ -13,7 +13,7 @@ const config: Config = {
   tagline: 'You bring the idea. Aeven finds the way.',
   favicon: 'img/favicon.svg',
 
-  url: 'https://help.aeven.io',
+  url: 'https://helpcenter.aeven.io',
   baseUrl,
 
   organizationName: 'Aeven-AI',
@@ -21,8 +21,9 @@ const config: Config = {
 
   /* A visit that names no language lands in the visitor's own language
      (languageDetection.ts), the header's switch is mounted by languageSwitcher.ts, and the
-     site root is written by plugins/root-redirect.js. */
-  plugins: [require.resolve('./plugins/root-redirect.js')],
+     site root is written by plugins/root-redirect.js; the root's robots.txt and sitemap
+     index by plugins/root-crawl.js. */
+  plugins: [require.resolve('./plugins/root-redirect.js'), require.resolve('./plugins/root-crawl.js')],
 
   clientModules: [
     require.resolve('./src/clientModules/languageDetection.ts'),
@@ -61,6 +62,8 @@ const config: Config = {
         },
         blog: false,
         pages: {},
+        /* The search page has no content of its own to index. */
+        sitemap: {ignorePatterns: ['/**/search']},
         theme: {
           customCss: ['./src/css/tokens.css', './src/css/custom.css'],
         },
@@ -87,6 +90,9 @@ const config: Config = {
   ],
 
   themeConfig: {
+    /* The card a shared link shows, the same one aeven.io uses. */
+    image: 'img/og-card.jpg',
+    metadata: [{name: 'twitter:card', content: 'summary_large_image'}],
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
