@@ -21,9 +21,28 @@ const config: Config = {
 
   /* A visit that names no language lands in the visitor's own language
      (languageDetection.ts), the header's switch is mounted by languageSwitcher.ts, and the
-     site root is written by plugins/root-redirect.js; the root's robots.txt and sitemap
-     index by plugins/root-crawl.js. */
-  plugins: [require.resolve('./plugins/root-redirect.js'), require.resolve('./plugins/root-crawl.js')],
+     site root is written by plugins/root-redirect.js; the root's robots.txt, sitemap index
+     and llms.txt by plugins/root-crawl.js. */
+  plugins: [
+    require.resolve('./plugins/root-redirect.js'),
+    require.resolve('./plugins/root-crawl.js'),
+    /* Per locale: /<locale>/llms.txt (an index of every page), /<locale>/llms-full.txt (every
+       page's text in one file) and a .md copy beside each page, for AI agents and assistants. */
+    [
+      'docusaurus-plugin-llms',
+      {
+        generateLLMsTxt: true,
+        generateLLMsFullTxt: true,
+        generateMarkdownFiles: true,
+        excludeImports: true,
+        removeDuplicateHeadings: true,
+        title: 'Æven Help center',
+        description:
+          'How to use Æven, the AI that works on your computer and in your connected apps: getting started, folders, conversations, approvals, memory, skills, models, bots, connectors and your account.',
+        logLevel: 'quiet',
+      },
+    ],
+  ],
 
   clientModules: [
     require.resolve('./src/clientModules/languageDetection.ts'),

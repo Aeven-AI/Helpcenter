@@ -6,7 +6,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start --host 127.0.0.1 --port 3050",
-    "build": "docusaurus build",
+    "build": "docusaurus build && node scripts/clean-llms.mjs",
     "serve": "docusaurus serve --host 127.0.0.1 --port 3051",
     "clear": "docusaurus clear",
     "typecheck": "tsc --noEmit"
@@ -29,6 +29,7 @@
     "@docusaurus/types": "3.10.2",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.3.0",
+    "docusaurus-plugin-llms": "0.6.1",
     "typescript": "^5.9.3"
   },
   "browserslist": {
