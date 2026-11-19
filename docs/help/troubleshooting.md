@@ -1,6 +1,6 @@
 ---
 title: Fix a problem
-description: What to try when Aeven will not start, will not answer, or stops in the middle of a task.
+description: What to try when Æven will not start, will not answer, or stops in the middle of a task.
 ---
 
 # Fix a problem
@@ -30,7 +30,7 @@ Check the folder in the folder control — a task writes into the folder it was 
 
 ## A new version will not install
 
-Aeven installs an update when you quit. Quit completely — from the application menu, not just by closing the window — and start it again. If it still reports the same version, **Check for Updates…** in the application menu reports what the updater found.
+Æven installs an update when you quit. Quit completely — from the application menu, not just by closing the window — and start it again. If it still reports the same version, **Check for Updates…** in the application menu reports what the updater found.
 
 ## Nothing here matches
 

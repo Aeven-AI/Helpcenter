@@ -1,9 +1,9 @@
 ---
-title: Cómo te habla Aeven
-description: "La voz, tus propias notas y el prompt maestro: qué cambia la forma en que Aeven responde y qué no."
+title: Cómo te habla Æven
+description: "La voz, tus propias notas y el prompt maestro: qué cambia la forma en que Æven responde y qué no."
 ---
 
-# Cómo te habla Aeven
+# Cómo te habla Æven
 
 Dos personas que hacen la misma pregunta quieren respuestas distintas. **Settings → Personalization** es donde dices cómo te gustan las tuyas: el tono, la longitud, el idioma, las cosas que debería dejar de hacer.
 
@@ -18,7 +18,7 @@ Los cambios se aplican desde tu siguiente mensaje; nada de lo que ya está en un
 | Straight to the point | Breve y llano en cada respuesta, temas personales incluidos |
 | Playful | Ligero e informal, con espacio para el humor |
 
-Automatic es el ajuste que menos sorprende a la gente: cambia de registro a la vez que la conversación. Si prefieres un solo tono en todas partes, elígelo y Aeven deja de adaptarse.
+Automatic es el ajuste que menos sorprende a la gente: cambia de registro a la vez que la conversación. Si prefieres un solo tono en todas partes, elígelo y Æven deja de adaptarse.
 
 ## Notas sobre tus respuestas
 
@@ -28,18 +28,18 @@ Hay un límite de longitud y el campo cuenta mientras escribes. Con guardar bast
 
 ## El prompt maestro
 
-Debajo de las notas está el prompt maestro: las instrucciones que definen quién es Aeven. El tuyo sustituye al prompt integrado en tus propias sesiones, y así obtienes un asistente con un carácter distinto en lugar de uno afinado de otra manera. Reset vuelve al prompt integrado.
+Debajo de las notas está el prompt maestro: las instrucciones que definen quién es Æven. El tuyo sustituye al prompt integrado en tus propias sesiones, y así obtienes un asistente con un carácter distinto en lugar de uno afinado de otra manera. Reset vuelve al prompt integrado.
 
-Los ayudantes delegados conservan el prompt integrado, así que el trabajo que Aeven pasa a un subagente se comporta de forma predecible, escribas lo que escribas aquí.
+Los ayudantes delegados conservan el prompt integrado, así que el trabajo que Æven pasa a un subagente se comporta de forma predecible, escribas lo que escribas aquí.
 
 ## Lo que no está aquí
 
-- **Los datos sobre ti** pertenecen a la [memoria](../using/memory.md), no a la personalización. Esta página trata de cómo habla Aeven; la memoria, de lo que sabe.
+- **Los datos sobre ti** pertenecen a la [memoria](../using/memory.md), no a la personalización. Esta página trata de cómo habla Æven; la memoria, de lo que sabe.
 - **Qué modelo responde** se elige en el cuadro de mensaje. [Elige un modelo](../using/models.md)
-- **Con qué frecuencia pregunta** antes de actuar es un ajuste de permisos. [Qué pregunta antes Aeven](../using/approvals.md)
+- **Con qué frecuencia pregunta** antes de actuar es un ajuste de permisos. [Qué pregunta antes Æven](../using/approvals.md)
 
 ## Relacionado
 
-- [Lo que Aeven recuerda](../using/memory.md)
+- [Lo que Æven recuerda](../using/memory.md)
 - [Tus datos](your-data.md)
 - [Cuenta, planes y créditos](plans-and-credits.md)

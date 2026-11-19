@@ -5,7 +5,7 @@ description: Espacios de trabajo, sesiones, búsqueda y las opciones de vista qu
 
 # La barra lateral
 
-La barra lateral izquierda es donde se guarda tu trabajo: las carpetas que has abierto y las conversaciones que has tenido en ellas. Todo lo demás en Aeven se abre desde aquí.
+La barra lateral izquierda es donde se guarda tu trabajo: las carpetas que has abierto y las conversaciones que has tenido en ellas. Todo lo demás en Æven se abre desde aquí.
 
 ## Espacios de trabajo y sesiones
 
@@ -41,7 +41,7 @@ Por espacio de trabajo responde a "¿dónde estaba trabajando?"; por estado resp
 
 El campo de la parte superior busca en tus conversaciones. Al escribir se buscan coincidencias en los nombres de sesión al momento; la búsqueda en el contenido mira también dentro de ellas y necesita **Session search** activado en **Settings → Plugin settings**.
 
-Los resultados dicen qué son: cuando la búsqueda en el contenido está desactivada o no se pudo completar, Aeven lo dice y muestra solo coincidencias en el nombre. Una consulta muy amplia devuelve los primeros resultados y te pide que la concretes, en lugar de fingir que lo mostró todo.
+Los resultados dicen qué son: cuando la búsqueda en el contenido está desactivada o no se pudo completar, Æven lo dice y muestra solo coincidencias en el nombre. Una consulta muy amplia devuelve los primeros resultados y te pide que la concretes, en lugar de fingir que lo mostró todo.
 
 ## El menú de la sesión
 

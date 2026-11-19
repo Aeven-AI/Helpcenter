@@ -5,13 +5,13 @@ description: Pick which AI model answers, what the difference means in practice,
 
 # Choose a model
 
-Aeven is not tied to one AI model. A model is the engine that reads your request and writes the answer; Aeven decides how to compose itself around it, and you decide which one answers.
+Æven is not tied to one AI model. A model is the engine that reads your request and writes the answer; Æven decides how to compose itself around it, and you decide which one answers.
 
-## Start with the Aeven models
+## Start with the Æven models {#start-with-the-aeven-models}
 
-The Aeven models are included with the app and need no setup: they answer as soon as you are signed in, and your plan's credits pay for what you use. They are the recommended default — they are tuned for how Aeven works, with its tools, approvals and long conversations, so a task that uses several steps and a few files behaves the way the rest of these pages describe.
+The Æven models are included with the app and need no setup: they answer as soon as you are signed in, and your plan's credits pay for what you use. They are the recommended default — they are tuned for how Æven works, with its tools, approvals and long conversations, so a task that uses several steps and a few files behaves the way the rest of these pages describe.
 
-If a model is all you want from Aeven, you never have to open this page's next section.
+If a model is all you want from Æven, you never have to open this page's next section.
 
 ## Where the choice lives
 
@@ -30,9 +30,9 @@ The name of the model answering is visible in the conversation, so you can tell 
 
 ## Your own provider
 
-Your own key is a first-class way to run Aeven, not a workaround. If your account is set up with your own API key, an OpenAI-compatible endpoint, or a model you subscribe to elsewhere, **Settings → Models** takes the key or the address and the model name. Saving is enough; no restart is needed.
+Your own key is a first-class way to run Æven, not a workaround. If your account is set up with your own API key, an OpenAI-compatible endpoint, or a model you subscribe to elsewhere, **Settings → Models** takes the key or the address and the model name. Saving is enough; no restart is needed.
 
-Running a model on your own machine counts as your own provider too: point Aeven at its local address and it answers from there. The conversations, memory and connections stay where they were — they belong to Aeven, not to the model.
+Running a model on your own machine counts as your own provider too: point Æven at its local address and it answers from there. The conversations, memory and connections stay where they were — they belong to Æven, not to the model.
 
 ## When a model is unavailable
 
@@ -41,4 +41,4 @@ A message that fails usually reports why: a key that expired, a plan limit reach
 ## Related
 
 - [Plans and credits](/docs/account/plans-and-credits)
-- [What Aeven remembers](/docs/using/memory)
+- [What Æven remembers](/docs/using/memory)

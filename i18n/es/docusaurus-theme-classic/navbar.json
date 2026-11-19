@@ -1,6 +1,6 @@
 {
   "logo.alt": {
-    "message": "Centro de ayuda de Aeven",
+    "message": "Centro de ayuda de Æven",
     "description": "The alt text of navbar logo"
   },
   "item.label.Guides": {
@@ -11,9 +11,9 @@
     "message": "Resolver un problema",
     "description": "Navbar item with label Fix a problem"
   },
-  "item.label.Aeven": {
-    "message": "Aeven",
-    "description": "Navbar item with label Aeven"
+  "item.label.Æven": {
+    "message": "Æven",
+    "description": "Navbar item with label Æven"
   },
   "item.label.GitHub": {
     "message": "GitHub",

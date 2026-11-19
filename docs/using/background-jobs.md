@@ -5,7 +5,7 @@ description: The jobs list — long commands, subagents and workflows that run w
 
 # Work that keeps running
 
-A task is rarely one step. Aeven runs commands, hands part of the work to a helper agent, and chains steps into a workflow — and none of that has to hold the conversation still. The **Jobs** list shows what is running right now and what has just finished.
+A task is rarely one step. Æven runs commands, hands part of the work to a helper agent, and chains steps into a workflow — and none of that has to hold the conversation still. The **Jobs** list shows what is running right now and what has just finished.
 
 ## What appears there
 
@@ -24,7 +24,7 @@ A running job shows how long it has been going. While it runs you can keep askin
 
 ## Stopping one
 
-**Stop job** ends it immediately. A stopped job cannot be resumed; ask for the work again and it starts from the beginning. Aeven asks you to confirm, because a half-finished command can leave things behind.
+**Stop job** ends it immediately. A stopped job cannot be resumed; ask for the work again and it starts from the beginning. Æven asks you to confirm, because a half-finished command can leave things behind.
 
 ## When it is done
 
@@ -32,5 +32,5 @@ The list keeps finished jobs with their outcome: **Done**, **Stopped** or **Fail
 
 ## Related
 
-- [What Aeven asks first](/docs/using/approvals)
+- [What Æven asks first](/docs/using/approvals)
 - [Fix a problem](/docs/help/troubleshooting)

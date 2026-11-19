@@ -82,10 +82,10 @@ const en = build(
   {
     pageTitle: 'Help center',
     pageDescription:
-      'How to use Aeven: your first task, folders, the sidebar, approvals, memory, skills, models, bots, connectors, and account settings.',
+      'How to use Æven: your first task, folders, the sidebar, approvals, memory, skills, models, bots, connectors, and account settings.',
     heroTitle: 'What do you want to get done?',
     heroTagline:
-      'Guides for using Aeven, written for people who would rather not read about software.',
+      'Guides for using Æven, written for people who would rather not read about software.',
     searchLabel: 'Search the help center',
     closingLead: 'Can’t find what you were looking for? ',
     closingLink: 'Tell us what went wrong',
@@ -93,18 +93,18 @@ const en = build(
   [
     {
       title: 'Start here',
-      blurb: 'Install Aeven, sign in, and finish a first task.',
-      labels: ['Why Aeven is different', 'Install and sign in', 'Your first task'],
+      blurb: 'Install Æven, sign in, and finish a first task.',
+      labels: ['Why Æven is different', 'Install and sign in', 'Your first task'],
     },
     {
       title: 'Everyday use',
       blurb: 'Pick a folder, ask, attach, approve, and correct.',
-      labels: ['Choose a folder', 'Chat and attachments', 'What Aeven asks first'],
+      labels: ['Choose a folder', 'Chat and attachments', 'What Æven asks first'],
     },
     {
       title: 'Memory, skills and models',
-      blurb: 'What Aeven remembers, the procedures it follows, and which model answers.',
-      labels: ['What Aeven remembers', 'Skills', 'Choose a model'],
+      blurb: 'What Æven remembers, the procedures it follows, and which model answers.',
+      labels: ['What Æven remembers', 'Skills', 'Choose a model'],
     },
     {
       title: 'Bots',
@@ -128,9 +128,9 @@ const cn = build(
   {
     pageTitle: '帮助中心',
     pageDescription:
-      '如何使用 Aeven：第一个任务、文件夹、侧边栏、审批、记忆、技能、模型、机器人、连接和账户设置。',
+      '如何使用 Æven：第一个任务、文件夹、侧边栏、审批、记忆、技能、模型、机器人、连接和账户设置。',
     heroTitle: '你想完成什么？',
-    heroTagline: '写给不想研究软件说明的人的 Aeven 使用指南。',
+    heroTagline: '写给不想研究软件说明的人的 Æven 使用指南。',
     searchLabel: '搜索帮助中心',
     closingLead: '没有找到你要的内容？',
     closingLink: '告诉我们哪里出了问题',
@@ -138,18 +138,18 @@ const cn = build(
   [
     {
       title: '从这里开始',
-      blurb: '安装 Aeven、登录，并完成第一个任务。',
-      labels: ['Aeven 的不同之处', '安装并登录', '你的第一个任务'],
+      blurb: '安装 Æven、登录，并完成第一个任务。',
+      labels: ['Æven 的不同之处', '安装并登录', '你的第一个任务'],
     },
     {
       title: '日常使用',
       blurb: '选择文件夹、提问、添加附件、审批并纠正。',
-      labels: ['选择文件夹', '对话与附件', 'Aeven 会先问什么'],
+      labels: ['选择文件夹', '对话与附件', 'Æven 会先问什么'],
     },
     {
       title: '记忆、技能与模型',
-      blurb: 'Aeven 记住什么、它遵循的流程，以及由哪个模型来回答。',
-      labels: ['Aeven 记得什么', '技能', '选择模型'],
+      blurb: 'Æven 记住什么、它遵循的流程，以及由哪个模型来回答。',
+      labels: ['Æven 记得什么', '技能', '选择模型'],
     },
     {
       title: '机器人',
@@ -173,9 +173,9 @@ const es = build(
   {
     pageTitle: 'Centro de ayuda',
     pageDescription:
-      'Cómo usar Aeven: tu primera tarea, carpetas, la barra lateral, aprobaciones, memoria, skills, modelos, bots, conectores y ajustes de cuenta.',
+      'Cómo usar Æven: tu primera tarea, carpetas, la barra lateral, aprobaciones, memoria, skills, modelos, bots, conectores y ajustes de cuenta.',
     heroTitle: '¿Qué quieres conseguir?',
-    heroTagline: 'Guías para usar Aeven, escritas para quien prefiere no leer sobre software.',
+    heroTagline: 'Guías para usar Æven, escritas para quien prefiere no leer sobre software.',
     searchLabel: 'Buscar en el centro de ayuda',
     closingLead: '¿No encuentras lo que buscabas? ',
     closingLink: 'Cuéntanos qué ha fallado',
@@ -183,18 +183,18 @@ const es = build(
   [
     {
       title: 'Empieza aquí',
-      blurb: 'Instala Aeven, inicia sesión y completa una primera tarea.',
-      labels: ['Por qué Aeven es diferente', 'Instalar e iniciar sesión', 'Tu primera tarea'],
+      blurb: 'Instala Æven, inicia sesión y completa una primera tarea.',
+      labels: ['Por qué Æven es diferente', 'Instalar e iniciar sesión', 'Tu primera tarea'],
     },
     {
       title: 'Uso diario',
       blurb: 'Elige una carpeta, pregunta, adjunta, aprueba y corrige.',
-      labels: ['Elegir una carpeta', 'Chat y adjuntos', 'Qué te pregunta Aeven primero'],
+      labels: ['Elegir una carpeta', 'Chat y adjuntos', 'Qué te pregunta Æven primero'],
     },
     {
       title: 'Memoria, skills y modelos',
-      blurb: 'Qué recuerda Aeven, los procedimientos que sigue y qué modelo responde.',
-      labels: ['Qué recuerda Aeven', 'Skills', 'Elegir un modelo'],
+      blurb: 'Qué recuerda Æven, los procedimientos que sigue y qué modelo responde.',
+      labels: ['Qué recuerda Æven', 'Skills', 'Elegir un modelo'],
     },
     {
       title: 'Bots',

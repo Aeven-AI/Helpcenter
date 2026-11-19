@@ -5,9 +5,9 @@ description: Qué hay en Ajustes → Skills → Catálogo —el humanizer, ingen
 
 # El catálogo de skills
 
-Una skill es un procedimiento que Aeven sigue siempre de la misma manera. El **Catálogo** en **Ajustes → Skills** reúne un centenar de skills listas que vienen con Aeven. Activa una y se une a tu biblioteca; Aeven la usa cuando la tarea lo pide, o la inicias tú escribiendo `/` y su nombre. [Skills](../using/skills.md)
+Una skill es un procedimiento que Æven sigue siempre de la misma manera. El **Catálogo** en **Ajustes → Skills** reúne un centenar de skills listas que vienen con Æven. Activa una y se une a tu biblioteca; Æven la usa cuando la tarea lo pide, o la inicias tú escribiendo `/` y su nombre. [Skills](../using/skills.md)
 
-No necesitas el catálogo para el trabajo diario: Aeven ya escribe, lee documentos, busca y construye sin él. Una skill del catálogo añade el método de un especialista: una lista de comprobación, un estilo propio, un conjunto de scripts que hacen muy bien una cosa.
+No necesitas el catálogo para el trabajo diario: Æven ya escribe, lee documentos, busca y construye sin él. Una skill del catálogo añade el método de un especialista: una lista de comprobación, un estilo propio, un conjunto de scripts que hacen muy bien una cosa.
 
 ## Escritura
 
@@ -41,7 +41,7 @@ No necesitas el catálogo para el trabajo diario: Aeven ya escribe, lee document
 
 | Skill | Úsala para |
 | --- | --- |
-| **motion-design** | Planificar bien una película: el briefing, los momentos, el ritmo, la tipografía y la continuidad. Combina con las películas Motion de Aeven |
+| **motion-design** | Planificar bien una película: el briefing, los momentos, el ritmo, la tipografía y la continuidad. Combina con las películas Motion de Æven |
 | **huashu-art-motion** | Explicar una idea con arte generativo en uno de decenas de estilos ilustrados |
 | **chat-motion-overlay** | Convertir una conversación de chat o una captura en una escena de chat animada |
 | **motion-lab** | Elegir un efecto de una biblioteca de 160 animaciones web documentadas y adaptarlo a tu página |
@@ -96,14 +96,14 @@ El conjunto **aeven-stack** —una treintena de skills cuyo nombre empieza por `
 
 ## Consejos
 
-- **Activa solo lo que vayas a usar.** Cada skill de tu biblioteca es una cosa más que Aeven considera; una biblioteca corta elige más rápido.
+- **Activa solo lo que vayas a usar.** Cada skill de tu biblioteca es una cosa más que Æven considera; una biblioteca corta elige más rápido.
 - **Inicia una por su nombre** con `/` cuando quieras ese método exacto, por ejemplo `/humanizer`.
-- **Deja que el modelo la inicie** manteniendo activado **El modelo puede iniciar esta habilidad**, para que Aeven la use cuando la tarea encaje.
+- **Deja que el modelo la inicie** manteniendo activado **El modelo puede iniciar esta habilidad**, para que Æven la use cuando la tarea encaje.
 - **Mira dentro primero.** La página de cada skill muestra las instrucciones y archivos que trae.
 - **Trae las tuyas.** Puedes importar cualquier repositorio con skills en el mismo formato `SKILL.md`. [Skills](../using/skills.md#importar-las-tuyas)
 
 ## Relacionado
 
 - [Skills](../using/skills.md)
-- [Todo lo que Aeven puede hacer](./everything-aeven-can-do.md)
+- [Todo lo que Æven puede hacer](./everything-aeven-can-do.md)
 - [Combina funciones](./combine-features.md)

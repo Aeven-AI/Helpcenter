@@ -1,11 +1,11 @@
 ---
 title: Put features together
-description: The real strength of Aeven is chaining — mail into a film into a team chat, a phone screen into a bug report. Ready-to-use requests that combine several features in one go.
+description: The real strength of Æven is chaining — mail into a film into a team chat, a phone screen into a bug report. Ready-to-use requests that combine several features in one go.
 ---
 
 # Put features together
 
-Each feature on its own saves a few minutes. Chained together they replace an afternoon. You do not need to split the work into steps: describe the whole job in one message, and Aeven reads, makes, checks and delivers in order. It stops to ask before anything goes out in your name.
+Each feature on its own saves a few minutes. Chained together they replace an afternoon. You do not need to split the work into steps: describe the whole job in one message, and Æven reads, makes, checks and delivers in order. It stops to ask before anything goes out in your name.
 
 Every example below is a request you can paste and adapt. The arrows show which features it strings together.
 
@@ -13,7 +13,7 @@ Every example below is a request you can paste and adapt. The arrows show which 
 
 > Read the latest email from Northwind about their spring campaign. Make a 30-second Motion film that presents the three key points, with their logo from the attachment. Then post the MP4 to #marketing in Slack and to our Telegram team group with a two-line summary.
 
-**Mail → attachments → Motion → Slack and Telegram.** Aeven finds the email, takes the logo from it, writes and plays the film in the conversation, renders the MP4, and drafts both posts. You see each post before it is sent. Watch the film first and ask for changes — "shorter", "bigger numbers", "Dutch captions" — before you say go.
+**Mail → attachments → Motion → Slack and Telegram.** Æven finds the email, takes the logo from it, writes and plays the film in the conversation, renders the MP4, and drafts both posts. You see each post before it is sent. Watch the film first and ask for changes — "shorter", "bigger numbers", "Dutch captions" — before you say go.
 
 ## Prepare tomorrow's meetings
 
@@ -31,13 +31,13 @@ Every example below is a request you can paste and adapt. The arrows show which 
 
 > Research the five biggest competitors of our product: pricing, positioning, latest launches. Put the findings in a spreadsheet with sources, chart the price comparison, and build a ten-slide deck from it. Draft an email to Sam with the deck attached.
 
-**Web search → helpers in parallel → spreadsheet and chart → slides → mail draft.** For a large research job, Aeven splits it over several helpers that work at once; the [jobs list](/docs/using/background-jobs) shows them.
+**Web search → helpers in parallel → spreadsheet and chart → slides → mail draft.** For a large research job, Æven splits it over several helpers that work at once; the [jobs list](/docs/using/background-jobs) shows them.
 
 ## Through a website only you can open
 
 > In my own Chrome, go to the supplier portal, download every invoice from October, save them in the Invoices folder, and make a spreadsheet with date, number and amount.
 
-**Your browser → files → spreadsheet.** The extension works in your browser with your sign-ins, so Aeven reaches sites that have no connector. It asks before it submits a form or confirms anything.
+**Your browser → files → spreadsheet.** The extension works in your browser with your sign-ins, so Æven reaches sites that have no connector. It asks before it submits a form or confirms anything.
 
 ## A program with no connector
 
@@ -65,18 +65,18 @@ Every example below is a request you can paste and adapt. The arrows show which 
 
 ## Make it run on its own
 
-Any of the requests above can become a bot: when a run went well, say *"make this a bot that runs every Monday at 8"*. Aeven turns the conversation into a scheduled task, shows you what it will do and which accounts it may use, and waits for your yes. [Bots worth setting up](/docs/tips/useful-bots)
+Any of the requests above can become a bot: when a run went well, say *"make this a bot that runs every Monday at 8"*. Æven turns the conversation into a scheduled task, shows you what it will do and which accounts it may use, and waits for your yes. [Bots worth setting up](/docs/tips/useful-bots)
 
 ## Tips that make chains work
 
 - **Say where the result goes.** "Save it in the Reports folder", "post it in #team", "as a Google Doc" — otherwise the result stays in the conversation.
 - **Name the accounts when you have several.** "From my work Gmail", "in the Acme Slack".
 - **Ask for a check step.** "Show me the film before posting" or "list the invoices before you build the sheet" puts a pause exactly where you want it.
-- **Correct as you go.** A chain is still a conversation: change one link — "use the second logo", "skip Telegram" — and Aeven redoes only what depends on it.
-- **Keep what worked.** "Remember that Northwind wants Dutch captions" saves it for next time, and Aeven learns procedures that went well on its own.
+- **Correct as you go.** A chain is still a conversation: change one link — "use the second logo", "skip Telegram" — and Æven redoes only what depends on it.
+- **Keep what worked.** "Remember that Northwind wants Dutch captions" saves it for next time, and Æven learns procedures that went well on its own.
 
 ## Related
 
-- [Everything Aeven can do](/docs/tips/everything-aeven-can-do)
+- [Everything Æven can do](/docs/tips/everything-aeven-can-do)
 - [Connectors](/docs/connections/connected-apps)
-- [What Aeven asks first](/docs/using/approvals)
+- [What Æven asks first](/docs/using/approvals)

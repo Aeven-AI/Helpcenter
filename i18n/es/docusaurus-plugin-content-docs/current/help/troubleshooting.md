@@ -1,6 +1,6 @@
 ---
 title: Solucionar un problema
-description: Qué probar cuando Aeven no arranca, no responde o se detiene en mitad de una tarea.
+description: Qué probar cuando Æven no arranca, no responde o se detiene en mitad de una tarea.
 ---
 
 # Solucionar un problema
@@ -30,7 +30,7 @@ Comprueba la carpeta en el control de carpetas: una tarea escribe en la carpeta 
 
 ## Una versión nueva no se instala
 
-Aeven instala una actualización cuando sales. Sal del todo —desde el menú de la aplicación, no solo cerrando la ventana— y vuelve a iniciarla. Si sigue indicando la misma versión, **Check for Updates…** en el menú de la aplicación dice lo que encontró el actualizador.
+Æven instala una actualización cuando sales. Sal del todo —desde el menú de la aplicación, no solo cerrando la ventana— y vuelve a iniciarla. Si sigue indicando la misma versión, **Check for Updates…** en el menú de la aplicación dice lo que encontró el actualizador.
 
 ## Aquí no hay nada que encaje
 

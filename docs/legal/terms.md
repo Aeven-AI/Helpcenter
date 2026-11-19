@@ -1,6 +1,6 @@
 ---
 title: Terms of Service
-description: The agreement for using Aeven — accounts, plans and credits, acceptable use, your content, AI output, and liability.
+description: The agreement for using Æven — accounts, plans and credits, acceptable use, your content, AI output, and liability.
 slug: /terms
 ---
 
@@ -8,21 +8,21 @@ slug: /terms
 
 **Last updated: 16 November 2026**
 
-These terms are the agreement between you and **NiftyLabs**, trading as Æven, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands, registered with the Netherlands Chamber of Commerce (KvK) under number 91706653 ("Aeven", "we") for the Aeven application, Aeven Web at [chat.aeven.io](https://chat.aeven.io), the Aeven browser extension, your Aeven account, and this help center. By installing Aeven, signing in, or using the service, you accept them.
+These terms are the agreement between you and **NiftyLabs**, trading as Æven, Hestiastraat 58, 1076 DM Amsterdam, the Netherlands, registered with the Netherlands Chamber of Commerce (KvK) under number 91706653 ("Æven", "we") for the Æven application, Æven Web at [chat.aeven.io](https://chat.aeven.io), the Æven browser extension, your Æven account, and this help center. By installing Æven, signing in, or using the service, you accept them.
 
-## 1. Who can use Aeven
+## 1. Who can use Æven {#1-who-can-use-aeven}
 
-You must be at least 16 years old and able to enter into a contract. If you use Aeven for an organisation, you confirm you are allowed to accept these terms on its behalf, and "you" means that organisation.
+You must be at least 16 years old and able to enter into a contract. If you use Æven for an organisation, you confirm you are allowed to accept these terms on its behalf, and "you" means that organisation.
 
-## 2. Aeven is in developer preview
+## 2. Æven is in developer preview {#2-aeven-is-in-developer-preview}
 
-Aeven is released as a developer preview. Features, interfaces, data formats and limits can change, and some of it will break from time to time. We may change, deprecate or withdraw parts of the service. Where a change removes something you rely on, we tell you in the app before it happens where we reasonably can.
+Æven is released as a developer preview. Features, interfaces, data formats and limits can change, and some of it will break from time to time. We may change, deprecate or withdraw parts of the service. Where a change removes something you rely on, we tell you in the app before it happens where we reasonably can.
 
-The [safety notice](https://github.com/Aeven-AI/Aeven/blob/main/SAFETY.md) explains the risks of giving an AI access to your files, accounts and computer. Read it. You are the one who decides what Aeven may touch.
+The [safety notice](https://github.com/Aeven-AI/Aeven/blob/main/SAFETY.md) explains the risks of giving an AI access to your files, accounts and computer. Read it. You are the one who decides what Æven may touch.
 
 ## 3. Your account
 
-- Sign-in happens through Google, Apple or X. Keep that account secure; anything done through your Aeven account is treated as done by you.
+- Sign-in happens through Google, Apple or X. Keep that account secure; anything done through your Æven account is treated as done by you.
 - You are responsible for what happens on your machines and in the accounts you connect.
 - Do not share an account. Plans and credits are per account.
 - You can delete your account at any time from the account page.
@@ -38,14 +38,14 @@ The [safety notice](https://github.com/Aeven-AI/Aeven/blob/main/SAFETY.md) expla
 
 ## 5. What you may not do
 
-Do not use Aeven to:
+Do not use Æven to:
 
 - break the law, infringe someone's rights, or help someone else do either;
 - send spam, run fraud, harass people, or build malware;
 - attack, scan or overload systems you do not own or have permission to test;
 - get around plan limits, credit metering, rate limits or access controls;
 - open several accounts to collect the free preview credit again;
-- on Aeven Web, try to break out of the sandbox that runs commands, reach other people's accounts or our servers, or use its computing power for things unrelated to your own work, such as mining cryptocurrency;
+- on Æven Web, try to break out of the sandbox that runs commands, reach other people's accounts or our servers, or use its computing power for things unrelated to your own work, such as mining cryptocurrency;
 - resell or white-label the service without an agreement with us;
 - reverse engineer a part of the service that carries a contractual or technical restriction.
 
@@ -53,33 +53,33 @@ We may suspend an account that does these things, and will tell you why unless t
 
 ## 6. Your content, and ours
 
-**Yours.** You keep all rights in the files, text, images and other material you give Aeven, and in what Aeven produces for you from it. You grant us only the narrow licence needed to run the service: to transmit a task to the model that answers it, to store what is stored on our side, and to make backups. That licence ends when the content is deleted.
+**Yours.** You keep all rights in the files, text, images and other material you give Æven, and in what Æven produces for you from it. You grant us only the narrow licence needed to run the service: to transmit a task to the model that answers it, to store what is stored on our side, and to make backups. That licence ends when the content is deleted.
 
-**Ours.** The Aeven name, the Æven mark, the design of the application, and this help center's text belong to us. The application's source code is open source under the Apache 2.0 licence; that licence, not these terms, governs the code itself.
+**Ours.** The Æven name, the Æven mark, the design of the application, and this help center's text belong to us. The application's source code is open source under the Apache 2.0 licence; that licence, not these terms, governs the code itself.
 
 **Both.** Feedback you send us about the product may be used to improve it, without obligation to you.
 
 ## 7. AI output needs checking
 
-Aeven is a tool, not an authority. Models produce plausible text that is sometimes wrong, out of date, or inappropriate for your situation. Aeven may read, write or run things on your computer when you allow it.
+Æven is a tool, not an authority. Models produce plausible text that is sometimes wrong, out of date, or inappropriate for your situation. Æven may read, write or run things on your computer when you allow it.
 
 - Check anything that matters before you rely on it: figures, legal or medical statements, code before it runs in production, anything sent to a client.
-- Aeven does not give legal, medical, tax or financial advice.
+- Æven does not give legal, medical, tax or financial advice.
 - You decide what to approve. Approvals exist so that consequential actions wait for you.
 
 ## 8. Models and connected services
 
-Aeven works with models we provide and with models and services you connect yourself. If you connect your own provider or an account such as Google, Microsoft, Slack or GitHub, your use of it is between you and them, under their terms. We are not responsible for their availability, output or handling of data.
+Æven works with models we provide and with models and services you connect yourself. If you connect your own provider or an account such as Google, Microsoft, Slack or GitHub, your use of it is between you and them, under their terms. We are not responsible for their availability, output or handling of data.
 
 Which model answers, and therefore where a task is processed, is your choice. [Privacy Policy](/docs/privacy) section 5 explains it.
 
-**The browser extension** lets Aeven act on websites in your own browser, with your sign-ins. What it does there happens in your accounts and under those websites' terms: approve its actions with that in mind, and use it only on sites whose terms allow it. [Privacy Policy](/docs/privacy) section 2 says what the extension reads and where it goes.
+**The browser extension** lets Æven act on websites in your own browser, with your sign-ins. What it does there happens in your accounts and under those websites' terms: approve its actions with that in mind, and use it only on sites whose terms allow it. [Privacy Policy](/docs/privacy) section 2 says what the extension reads and where it goes.
 
 ## 9. Availability and support
 
 We aim to keep the account service available, but we do not promise uninterrupted service and we do not offer a service level agreement for the developer preview.
 
-**Aeven Web** runs the assistant, and the commands it runs for you, on our servers. Each account has limits on storage (5 GB for your account folder), processing and running time, which we may change; a command that exceeds them is stopped. Files in your account folder are not backed up, so keep your own copy of anything you cannot lose. [Privacy Policy](/docs/privacy) explains what Aeven Web stores. Support is by email at [help@aeven.io](mailto:help@aeven.io) and in [GitHub Discussions](https://github.com/Aeven-AI/Aeven/discussions).
+**Æven Web** runs the assistant, and the commands it runs for you, on our servers. Each account has limits on storage (5 GB for your account folder), processing and running time, which we may change; a command that exceeds them is stopped. Files in your account folder are not backed up, so keep your own copy of anything you cannot lose. [Privacy Policy](/docs/privacy) explains what Æven Web stores. Support is by email at [help@aeven.io](mailto:help@aeven.io) and in [GitHub Discussions](https://github.com/Aeven-AI/Aeven/discussions).
 
 ## 10. Ending it
 
@@ -99,7 +99,7 @@ Subject to that:
 
 ## 12. Indemnity
 
-If a third party claims against us because of how you used Aeven — content you processed, a service you connected, or use that breaks section 5 — you cover our reasonable costs and damages, provided we tell you promptly and let you lead the defence.
+If a third party claims against us because of how you used Æven — content you processed, a service you connected, or use that breaks section 5 — you cover our reasonable costs and damages, provided we tell you promptly and let you lead the defence.
 
 ## 13. Governing law and disputes
 
@@ -107,7 +107,7 @@ These terms are governed by the laws of the Netherlands. Disputes go to the cour
 
 ## 14. Changes to these terms
 
-We may update these terms. Material changes are announced in the app or by email before they take effect, and the date at the top always shows the current version. Continuing to use Aeven after a change takes effect means you accept it.
+We may update these terms. Material changes are announced in the app or by email before they take effect, and the date at the top always shows the current version. Continuing to use Æven after a change takes effect means you accept it.
 
 ## 15. Contact
 

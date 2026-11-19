@@ -7,9 +7,9 @@
     "message": "入门",
     "description": "The label for category 'Getting started' in sidebar 'help'"
   },
-  "sidebar.help.category.Using Aeven": {
-    "message": "使用 Aeven",
-    "description": "The label for category 'Using Aeven' in sidebar 'help'"
+  "sidebar.help.category.Using Æven": {
+    "message": "使用 Æven",
+    "description": "The label for category 'Using Æven' in sidebar 'help'"
   },
   "sidebar.help.category.Bots": {
     "message": "机器人",

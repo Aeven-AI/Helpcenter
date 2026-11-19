@@ -5,13 +5,13 @@ description: Elige qué modelo de IA responde, qué significa la diferencia en l
 
 # Elegir un modelo
 
-Aeven no está atado a un solo modelo de IA. Un modelo es el motor que lee tu petición y escribe la respuesta; Aeven decide cómo componerse a su alrededor, y tú decides cuál responde.
+Æven no está atado a un solo modelo de IA. Un modelo es el motor que lee tu petición y escribe la respuesta; Æven decide cómo componerse a su alrededor, y tú decides cuál responde.
 
-## Empieza por los modelos de Aeven
+## Empieza por los modelos de Æven {#empieza-por-los-modelos-de-aeven}
 
-Los modelos de Aeven vienen incluidos con la aplicación y no necesitan configuración: responden en cuanto inicias sesión, y los créditos de tu plan pagan lo que usas. Son la opción predeterminada recomendada: están ajustados a cómo funciona Aeven, con sus herramientas, sus aprobaciones y las conversaciones largas, así que una tarea que usa varios pasos y unos cuantos archivos se comporta como describen el resto de estas páginas.
+Los modelos de Æven vienen incluidos con la aplicación y no necesitan configuración: responden en cuanto inicias sesión, y los créditos de tu plan pagan lo que usas. Son la opción predeterminada recomendada: están ajustados a cómo funciona Æven, con sus herramientas, sus aprobaciones y las conversaciones largas, así que una tarea que usa varios pasos y unos cuantos archivos se comporta como describen el resto de estas páginas.
 
-Si un modelo es todo lo que quieres de Aeven, no hace falta que abras la siguiente sección de esta página.
+Si un modelo es todo lo que quieres de Æven, no hace falta que abras la siguiente sección de esta página.
 
 ## Dónde está la elección
 
@@ -30,9 +30,9 @@ El nombre del modelo que responde se ve en la conversación, así puedes saber c
 
 ## Tu propio proveedor
 
-Tu propia clave es una forma de primera clase de usar Aeven, no una solución provisional. Si tu cuenta está configurada con tu propia clave de API, un endpoint compatible con OpenAI o un modelo al que estás suscrito en otro sitio, **Settings → Models** acepta la clave o la dirección y el nombre del modelo. Basta con guardar; no hace falta reiniciar.
+Tu propia clave es una forma de primera clase de usar Æven, no una solución provisional. Si tu cuenta está configurada con tu propia clave de API, un endpoint compatible con OpenAI o un modelo al que estás suscrito en otro sitio, **Settings → Models** acepta la clave o la dirección y el nombre del modelo. Basta con guardar; no hace falta reiniciar.
 
-Ejecutar un modelo en tu propia máquina también cuenta como tu propio proveedor: apunta Aeven a su dirección local y responde desde ahí. Las conversaciones, la memoria y las conexiones se quedan donde estaban: pertenecen a Aeven, no al modelo.
+Ejecutar un modelo en tu propia máquina también cuenta como tu propio proveedor: apunta Æven a su dirección local y responde desde ahí. Las conversaciones, la memoria y las conexiones se quedan donde estaban: pertenecen a Æven, no al modelo.
 
 ## Cuando un modelo no está disponible
 
@@ -41,4 +41,4 @@ Un mensaje que falla normalmente explica por qué: una clave caducada, un límit
 ## Relacionado
 
 - [Cuenta, planes y créditos](../account/plans-and-credits.md)
-- [Lo que Aeven recuerda](./memory.md)
+- [Lo que Æven recuerda](./memory.md)

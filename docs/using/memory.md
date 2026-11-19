@@ -1,25 +1,25 @@
 ---
-title: What Aeven remembers
+title: What Æven remembers
 description: What carries over between conversations, what stays in one conversation, and how to change or forget it.
 ---
 
-# What Aeven remembers
+# What Æven remembers
 
-Aeven keeps useful knowledge between conversations so you do not repeat yourself. Everything else stays where it happened.
+Æven keeps useful knowledge between conversations so you do not repeat yourself. Everything else stays where it happened.
 
 ## Three kinds of memory
 
 | Kind | What it holds | Where it lives |
 | --- | --- | --- |
-| The conversation | What you said and what Aeven did in this task | That conversation's own history |
+| The conversation | What you said and what Æven did in this task | That conversation's own history |
 | Memory | Durable facts and preferences about you, your projects, and how you like work done | **Settings → Memory** |
 | Learned procedures | Ways of doing something that worked before and are worth repeating | **Settings → Memory** |
 
-A conversation does not automatically become memory. What you tell Aeven about yourself, or what it learns that stays true next week, does.
+A conversation does not automatically become memory. What you tell Æven about yourself, or what it learns that stays true next week, does.
 
 ## Who can read it
 
-Memory belongs to your account, so it is there on each device you sign in on. Aeven does not read it: no one at Aeven opens your memory, and access to the systems that hold the synced copy is limited to the people who run the service and is logged.
+Memory belongs to your account, so it is there on each device you sign in on. Æven does not read it: no one at Æven opens your memory, and access to the systems that hold the synced copy is limited to the people who run the service and is logged.
 
 The copy that keeps your devices in step is encrypted, and end-to-end protection — where the key stays on your own devices — is being rolled out. [Your data](/docs/account/your-data) says where each copy lives; the [Privacy Policy](/docs/privacy) says what leaves your computer.
 
@@ -29,11 +29,11 @@ Open **Settings → Memory** to read what is stored, edit a line that is wrong, 
 
 ## Instructions you set yourself
 
-**Settings → Personalisation** holds the standing instructions you write: how you like answers, what to avoid, what to always do. These apply to every conversation and take precedence over what Aeven infers.
+**Settings → Personalisation** holds the standing instructions you write: how you like answers, what to avoid, what to always do. These apply to every conversation and take precedence over what Æven infers.
 
 ## What it does not do
 
-Aeven does not remember by accident. If something should carry over, say so — "remember that this client prefers short updates" — and check it in Memory later.
+Æven does not remember by accident. If something should carry over, say so — "remember that this client prefers short updates" — and check it in Memory later.
 
 ## Related
 

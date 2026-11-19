@@ -1,38 +1,38 @@
 ---
-title: Why Aeven is different
-description: Your files, your memory, any model, and open source — the four things Aeven does that most AI tools do not, and what each one means in a working day.
+title: Why Æven is different
+description: Your files, your memory, any model, and open source — the four things Æven does that most AI tools do not, and what each one means in a working day.
 ---
 
-# Why Aeven is different
+# Why Æven is different
 
 Most AI tools are a chat box on somebody else's server. Your work goes up, an answer comes down, and what the tool learns about you stays on their side, in their format, tied to their model.
 
-Aeven is built the other way round. The Æ in Æven also stands for **Almost Everywhere**: your work, your memory and your computer within reach from wherever you are. Four things follow from that, and each one is something you can check in the app today.
+Æven is built the other way round. The Æ in Æven also stands for **Almost Everywhere**: your work, your memory and your computer within reach from wherever you are. Four things follow from that, and each one is something you can check in the app today.
 
 ## 1. It works where your work already is
 
 A task rarely lives in one place. A message refers to a document, the document belongs to a project, and the project has files, a repository, and decisions in earlier conversations.
 
-Aeven works inside the folder you choose on your own computer, and reaches into the accounts you connect. It reads the files that are there, runs the commands, opens the browser, and leaves what it produced in the same folder. You do not upload your work to a chat window and download a result; the work stays put and Aeven moves through it.
+Æven works inside the folder you choose on your own computer, and reaches into the accounts you connect. It reads the files that are there, runs the commands, opens the browser, and leaves what it produced in the same folder. You do not upload your work to a chat window and download a result; the work stays put and Æven moves through it.
 
 **What that means:** ask for something that spans your mail, your files and your repository, and it can do the whole task instead of the part that fits in a text box.
 
 ## 2. What it learns belongs to you
 
-Aeven keeps a layer above the model: what it knows about you and your work, the accounts you connected, the skills you installed, the procedures it worked out the first time something went well. That layer is not a feature of a vendor's cloud. It is yours, it is portable, and it is not something we read.
+Æven keeps a layer above the model: what it knows about you and your work, the accounts you connected, the skills you installed, the procedures it worked out the first time something went well. That layer is not a feature of a vendor's cloud. It is yours, it is portable, and it is not something we read.
 
 - **Readable.** Open **Settings → Memory** and see what it holds.
 - **Editable.** Correct a line that is wrong, remove one you no longer want used.
 - **Movable.** It can live on your laptop, on a machine in the corner, in your own cloud, or with us. It is the same layer in all four.
-- **Yours on the way out.** Export it, take it somewhere else, keep it when you stop using Aeven.
-- **Not read by us.** Aeven does not read your memory. The copy that keeps your devices in step is encrypted, and access to the systems that hold it is limited to the people who run the service and is logged.
+- **Yours on the way out.** Export it, take it somewhere else, keep it when you stop using Æven.
+- **Not read by us.** Æven does not read your memory. The copy that keeps your devices in step is encrypted, and access to the systems that hold it is limited to the people who run the service and is logged.
 - **Everywhere you are.** Sign in on a second computer and the same memory, conversations and settings are already there. [Your data](/docs/account/your-data) says where each copy lives.
 
-**What that means:** the value of using Aeven compounds in something you own, not in an account you rent — and in something we never open. A year of teaching it your clients, your formats and your shortcuts is an asset, not a subscription feature.
+**What that means:** the value of using Æven compounds in something you own, not in an account you rent — and in something we never open. A year of teaching it your clients, your formats and your shortcuts is an asset, not a subscription feature.
 
 ## 3. The model is a replaceable part
 
-Aeven is model-independent by design. The Aeven models come with the app and need no setup; your own API key, an OpenAI-compatible endpoint, a model you subscribe to elsewhere, or one running on your own machine are equally supported.
+Æven is model-independent by design. The Æven models come with the app and need no setup; your own API key, an OpenAI-compatible endpoint, a model you subscribe to elsewhere, or one running on your own machine are equally supported.
 
 Because your context lives above the model, changing it costs you nothing: the conversations, memory, connections and skills stay exactly where they are.
 
@@ -40,7 +40,7 @@ Because your context lives above the model, changing it costs you nothing: the c
 
 ## 4. It is open source
 
-Aeven is open source under the [Apache 2.0 licence](https://github.com/Aeven-AI/Aeven/blob/main/LICENSE), in public at [github.com/Aeven-AI/Aeven](https://github.com/Aeven-AI/Aeven).
+Æven is open source under the [Apache 2.0 licence](https://github.com/Aeven-AI/Aeven/blob/main/LICENSE), in public at [github.com/Aeven-AI/Aeven](https://github.com/Aeven-AI/Aeven).
 
 - **You can check it.** What it reads, what it sends, when it asks — in the code, rather than in a promise.
 - **You can change it.** Every capability is a plugin: the agent loop, model adapters, tools, permissions, storage, the interface. Replace one part without forking the whole thing.
@@ -50,21 +50,21 @@ Aeven is open source under the [Apache 2.0 licence](https://github.com/Aeven-AI/
 
 ## Two more you will notice in the first week
 
-**It asks before it acts.** Aeven can read files, run commands and open pages, so before anything consequential it shows you the exact action and waits. You can allow it once, for the task, or not at all. [What Aeven asks first](/docs/using/approvals)
+**It asks before it acts.** Æven can read files, run commands and open pages, so before anything consequential it shows you the exact action and waits. You can allow it once, for the task, or not at all. [What Æven asks first](/docs/using/approvals)
 
-**It learns the way you do it.** Teach it a way of working once — a report format, a review checklist, a deployment step — and it keeps it as a skill or a procedure. Bots turn a sentence into a job that runs on its own schedule. [What Aeven remembers](/docs/using/memory) · [Skills](/docs/using/skills) · [Bots](/docs/automation/automations)
+**It learns the way you do it.** Teach it a way of working once — a report format, a review checklist, a deployment step — and it keeps it as a skill or a procedure. Bots turn a sentence into a job that runs on its own schedule. [What Æven remembers](/docs/using/memory) · [Skills](/docs/using/skills) · [Bots](/docs/automation/automations)
 
-## What Aeven is not
+## What Æven is not {#what-aeven-is-not}
 
 Being clear about the other side is part of the same honesty:
 
-- **It is not at its best in a browser tab.** [chat.aeven.io](https://chat.aeven.io) gets you started anywhere and reaches your browser tabs through the extension, but on its own it works in a sandbox on our servers: no folders of yours, no terminal, no apps or phones on your computer, unless the desktop app is open, when a web conversation [runs on your computer](/docs/using/desktop-from-web). For serious work, install the desktop app, with the access to your computer that implies. [Everything Aeven can do](/docs/tips/everything-aeven-can-do#desktop-or-web)
+- **It is not at its best in a browser tab.** [chat.aeven.io](https://chat.aeven.io) gets you started anywhere and reaches your browser tabs through the extension, but on its own it works in a sandbox on our servers: no folders of yours, no terminal, no apps or phones on your computer, unless the desktop app is open, when a web conversation [runs on your computer](/docs/using/desktop-from-web). For serious work, install the desktop app, with the access to your computer that implies. [Everything Æven can do](/docs/tips/everything-aeven-can-do#desktop-or-web)
 - **It is not a promise that nothing is shared.** A task goes to the model that answers it, and your account, plan and billing live with us. [Privacy Policy](/docs/privacy) says exactly what leaves your machine.
-- **It is not finished.** Aeven is in developer preview: features and data formats can still change.
+- **It is not finished.** Æven is in developer preview: features and data formats can still change.
 - **It is not an authority.** Models are sometimes wrong, so check what matters before you rely on it.
 
 ## Next
 
-- [Install Aeven and sign in](/docs/getting-started/install-and-sign-in)
+- [Install Æven and sign in](/docs/getting-started/install-and-sign-in)
 - [Pick a folder](/docs/using/choose-a-folder) — the boundary it works inside
 - [Your data](/docs/account/your-data) — what is stored where

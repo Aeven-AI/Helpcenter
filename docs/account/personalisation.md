@@ -1,9 +1,9 @@
 ---
-title: How Aeven talks to you
-description: Voice, your own notes, and the master prompt — what changes how Aeven answers, and what does not.
+title: How Æven talks to you
+description: Voice, your own notes, and the master prompt — what changes how Æven answers, and what does not.
 ---
 
-# How Aeven talks to you
+# How Æven talks to you
 
 Two people asking the same question want different answers. **Settings → Personalization** is where you say how you like yours: the tone, the length, the language, the things it should stop doing.
 
@@ -18,7 +18,7 @@ Changes apply from your next message; nothing already in a conversation is rewri
 | Straight to the point | Brief and plain in every reply, personal topics included |
 | Playful | Light and casual, with room for humour |
 
-Automatic is the setting that surprises people least: it changes register as the conversation does. If you would rather have one tone everywhere, pick it and Aeven stops adapting.
+Automatic is the setting that surprises people least: it changes register as the conversation does. If you would rather have one tone everywhere, pick it and Æven stops adapting.
 
 ## Notes about your answers
 
@@ -28,18 +28,18 @@ There is a length limit and the field counts as you type. Saving is enough — n
 
 ## The master prompt
 
-Below the notes sits the master prompt: the instructions that define who Aeven is. Yours replace the built-in prompt for your own sessions, which is how you get an assistant with a different character rather than a differently tuned one. Reset returns to the built-in prompt.
+Below the notes sits the master prompt: the instructions that define who Æven is. Yours replace the built-in prompt for your own sessions, which is how you get an assistant with a different character rather than a differently tuned one. Reset returns to the built-in prompt.
 
-Delegated helpers keep the built-in prompt, so work Aeven hands to a subagent behaves predictably whatever you write here.
+Delegated helpers keep the built-in prompt, so work Æven hands to a subagent behaves predictably whatever you write here.
 
 ## What is not here
 
-- **Facts about you** belong to [memory](/docs/using/memory), not to personalisation. This page is about how Aeven speaks; memory is about what it knows.
+- **Facts about you** belong to [memory](/docs/using/memory), not to personalisation. This page is about how Æven speaks; memory is about what it knows.
 - **Which model answers** is chosen in the message box. [Choose a model](/docs/using/models)
-- **How often it asks** before acting is a permission setting. [What Aeven asks first](/docs/using/approvals)
+- **How often it asks** before acting is a permission setting. [What Æven asks first](/docs/using/approvals)
 
 ## Related
 
-- [What Aeven remembers](/docs/using/memory)
+- [What Æven remembers](/docs/using/memory)
 - [Your data](/docs/account/your-data)
 - [Account, plans and credits](/docs/account/plans-and-credits)

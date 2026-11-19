@@ -1,6 +1,6 @@
 ---
 title: Account, plans and credits
-description: What your Aeven account holds, what each plan includes, how credits are spent, and where billing lives.
+description: What your Æven account holds, what each plan includes, how credits are spent, and where billing lives.
 ---
 
 # Account, plans and credits
@@ -17,8 +17,8 @@ Signing in with the same account on a second computer brings your memory, conver
 
 | Plan | What it is for |
 | --- | --- |
-| Free | A preview allowance, enough to use Aeven properly before paying for it |
-| Pro | A monthly allowance and the Aeven Flash and Pro models — the plan most people want |
+| Free | A preview allowance, enough to use Æven properly before paying for it |
+| Pro | A monthly allowance and the Æven Flash and Pro models — the plan most people want |
 | Heavy | Several times Pro's allowance, for work that runs all day |
 
 The account page shows the exact figures for your account, what the current plan includes, and whether it renews or ends — with the date. **Upgrade** and **Downgrade** sit next to the plan you are on.
@@ -46,7 +46,7 @@ Usage is metered in credits: a request spends them in proportion to the model th
 - **Add credits any time** from the account page: choose an amount or enter your own, pay through Stripe, and the balance updates as soon as the payment clears.
 - Top-ups are not available on every deployment; where they are not, the page says so instead of offering a checkout.
 
-When a period's allowance is nearly used, Aeven says so once and points at both ways forward: a bigger plan, or more credits.
+When a period's allowance is nearly used, Æven says so once and points at both ways forward: a bigger plan, or more credits.
 
 ## Usage
 
@@ -54,7 +54,7 @@ The usage section covers the current period — the dates, the share of the allo
 
 ## Billing and invoices
 
-**Manage billing** opens the billing portal: payment method, past invoices, receipts and VAT details all live there, and changing a card happens there rather than in Aeven.
+**Manage billing** opens the billing portal: payment method, past invoices, receipts and VAT details all live there, and changing a card happens there rather than in Æven.
 
 ## When you run out
 
@@ -68,4 +68,4 @@ Two-factor authentication uses an authenticator app: scan the code, confirm one 
 
 - [Your data](/docs/account/your-data)
 - [Choose a model](/docs/using/models)
-- [How Aeven talks to you](/docs/account/personalisation)
+- [How Æven talks to you](/docs/account/personalisation)

@@ -1,11 +1,11 @@
 ---
 title: Share a response
-description: Turn one of Aeven's answers into a public link, see the preview it unfurls with in chat apps, and find, open, or delete every link you created.
+description: Turn one of Æven's answers into a public link, see the preview it unfurls with in chat apps, and find, open, or delete every link you created.
 ---
 
 # Share a response
 
-Any answer Aeven gives can become a public link: send it in a chat, a mail, or a post, and whoever opens it reads the answer on a page of its own. Only the answer is shared. Your question, your name, and the rest of the conversation stay private.
+Any answer Æven gives can become a public link: send it in a chat, a mail, or a post, and whoever opens it reads the answer on a page of its own. Only the answer is shared. Your question, your name, and the rest of the conversation stay private.
 
 ## Create a link
 
@@ -26,7 +26,7 @@ Sharing the same answer again does not make a second link. It updates the page b
 | | The rest of the conversation |
 | | Files that are not images |
 
-The page has a button to Aeven: **Try Æven** for someone without an account, **Go to Æven** for someone already signed in.
+The page has a button to Æven: **Try Æven** for someone without an account, **Go to Æven** for someone already signed in.
 
 When a turn takes several steps, the link carries the final answer, the same text **Copy** takes.
 
@@ -38,11 +38,11 @@ Choose **Manage** in the share dialog. **Created links** lists every link your a
 - **Delete** one link with the bin beside it. It stops working at once, and anyone who opens it is told it no longer exists.
 - **Delete all links** removes every link after you confirm. This cannot be undone.
 
-Your links belong to your Aeven account, not to a device: the list is the same in the desktop app and on [chat.aeven.io](https://chat.aeven.io).
+Your links belong to your Æven account, not to a device: the list is the same in the desktop app and on [chat.aeven.io](https://chat.aeven.io).
 
 ## Good to know
 
-- **You need to be signed in.** Links are made and kept by your Aeven account.
+- **You need to be signed in.** Links are made and kept by your Æven account.
 - **A deleted link can live on in previews.** Chat apps and social sites keep the card they already fetched, so an old preview may still show after the page itself is gone.
 - **There is a limit of 5,000 links per account.** Delete some to make room.
 - **Very long answers** may be too large to share; the dialog says so.

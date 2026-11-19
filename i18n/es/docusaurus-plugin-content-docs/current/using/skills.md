@@ -1,19 +1,19 @@
 ---
 title: Skills
-description: "Procedimientos que Aeven sigue igual cada vez: qué viene incluido, cómo importar los tuyos y quién puede iniciar una."
+description: "Procedimientos que Æven sigue igual cada vez: qué viene incluido, cómo importar los tuyos y quién puede iniciar una."
 ---
 
 # Skills
 
-Una skill es un procedimiento escrito: los pasos de una tarea que haces a menudo, con las instrucciones y los archivos que necesita. Se la enseñas a Aeven una vez y la próxima vez se ejecuta igual, en lugar de que vuelvas a explicar el formato, el orden y las excepciones.
+Una skill es un procedimiento escrito: los pasos de una tarea que haces a menudo, con las instrucciones y los archivos que necesita. Se la enseñas a Æven una vez y la próxima vez se ejecuta igual, en lugar de que vuelvas a explicar el formato, el orden y las excepciones.
 
 Una skill es cómo hacer algo. Un [bot](../automation/automations.md) es cuando eso se ejecuta por su cuenta. Una skill que usa una cuenta necesita esa cuenta [conectada](../connections/connected-apps.md).
 
 ## Dónde están
 
-**Settings → Skills** tiene dos vistas: **Skills**, las que tienes, y **Catalog**, las que vienen con Aeven. Escribe `/` en el cuadro de mensaje para ver qué puedes iniciar por su nombre.
+**Settings → Skills** tiene dos vistas: **Skills**, las que tienes, y **Catalog**, las que vienen con Æven. Escribe `/` en el cuadro de mensaje para ver qué puedes iniciar por su nombre.
 
-Las skills integradas vienen con Aeven y están siempre disponibles. A propósito no aparecen en tu lista, porque no hay nada que desactivar.
+Las skills integradas vienen con Æven y están siempre disponibles. A propósito no aparecen en tu lista, porque no hay nada que desactivar.
 
 ## Skills que vienen con un conector
 
@@ -25,17 +25,17 @@ El catálogo también incluye skills escritas para trabajo general. Búscalas, m
 
 **Settings → Skills → Import skill** acepta:
 
-- una URL de GitHub, un paquete npm o la forma abreviada `owner/repository` — Aeven descarga el archivo y importa todas las skills que contiene;
+- una URL de GitHub, un paquete npm o la forma abreviada `owner/repository` — Æven descarga el archivo y importa todas las skills que contiene;
 - un archivo: un `SKILL.md`, un paquete `.skill` o un ZIP con exactamente una skill dentro.
 
-Importa solo skills en las que confíes. Una skill son instrucciones que Aeven seguirá con tus herramientas y tus archivos, y por eso la aplicación te pide confirmar qué estás incorporando.
+Importa solo skills en las que confíes. Una skill son instrucciones que Æven seguirá con tus herramientas y tus archivos, y por eso la aplicación te pide confirmar qué estás incorporando.
 
 Después de una importación, el resultado te dice qué ha llegado:
 
 | Lo que dice | Lo que pasó |
 | --- | --- |
 | Added | Hay una nueva skill en tu biblioteca |
-| Kept built in | Aeven ya responde a ese nombre con una skill propia o una anterior; la importación no la reemplazó |
+| Kept built in | Æven ya responde a ese nombre con una skill propia o una anterior; la importación no la reemplazó |
 | Some referenced files were not in the repository | La skill llegó sin archivos que menciona; aun así funciona con lo que vino |
 
 ## Skills instaladas por otro agente
@@ -57,7 +57,7 @@ Abre una skill para ver su **Source**, los archivos de su paquete y sus referenc
 
 ## Cuando una skill necesita un programa
 
-Algunas skills dependen de software en tu equipo. La primera vez que usas una, Aeven instala lo que necesita y muestra el progreso; si falla, indica qué paso ha fallado y ofrece volver a intentarlo en la página de la skill. El resto de la conversación sigue mientras tanto.
+Algunas skills dependen de software en tu equipo. La primera vez que usas una, Æven instala lo que necesita y muestra el progreso; si falla, indica qué paso ha fallado y ofrece volver a intentarlo en la página de la skill. El resto de la conversación sigue mientras tanto.
 
 ## Quitar una
 
@@ -66,5 +66,5 @@ Algunas skills dependen de software en tu equipo. La primera vez que usas una, A
 ## Relacionado
 
 - [Conectores](../connections/connected-apps.md)
-- [Lo que Aeven pregunta antes de actuar](./approvals.md)
+- [Lo que Æven pregunta antes de actuar](./approvals.md)
 - [Bots](../automation/automations.md)

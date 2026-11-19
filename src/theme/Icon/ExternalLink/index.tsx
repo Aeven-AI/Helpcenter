@@ -2,7 +2,7 @@ import type {ReactNode} from 'react'
 import styles from './styles.module.css'
 
 /* Docusaurus marks a link that leaves the site with an arrow escaping a box, drawn from a
-   sprite. Aeven's own set uses the Lucide `link` glyph (lucide.dev/icons/link), stroked in
+   sprite. Æven's own set uses the Lucide `link` glyph (lucide.dev/icons/link), stroked in
    the ink it is set in, so the arrow never appears. */
 
 export default function IconExternalLink({

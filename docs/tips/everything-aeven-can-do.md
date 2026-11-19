@@ -1,11 +1,11 @@
 ---
-title: Everything Aeven can do
-description: Every capability in one place — what it does, how to ask for it, and whether it works on Aeven Web as well as in the desktop app.
+title: Everything Æven can do
+description: Every capability in one place — what it does, how to ask for it, and whether it works on Æven Web as well as in the desktop app.
 ---
 
-# Everything Aeven can do
+# Everything Æven can do
 
-Aeven is one assistant with a lot of hands. You never pick a tool: you say what you want, and it uses whatever the task needs — often several at once. This page lists those hands so you know what to ask for. [Put features together](/docs/tips/combine-features) shows what happens when you combine them.
+Æven is one assistant with a lot of hands. You never pick a tool: you say what you want, and it uses whatever the task needs — often several at once. This page lists those hands so you know what to ask for. [Put features together](/docs/tips/combine-features) shows what happens when you combine them.
 
 The last column says where each one works. **Desktop** is the app on your computer; **Web** is [chat.aeven.io](https://chat.aeven.io).
 
@@ -16,11 +16,11 @@ The last column says where each one works. **Desktop** is the app on your comput
 | Files in a folder | "Rename these scans by the date on each page" | Desktop. On Web, files live in your account folder |
 | Commands | "Convert every video in this folder to MP4" | Desktop, and in a sandbox on Web |
 | The browser beside the conversation | "Open the supplier's site and find the delivery terms" | Desktop |
-| Your own browser | "In my Chrome, download last month's invoices from the portal" | Desktop and Web, through the [Aeven extension](/docs/using/browser#in-your-own-browser) — it works in your other tabs, signed in as you |
+| Your own browser | "In my Chrome, download last month's invoices from the portal" | Desktop and Web, through the [Æven extension](/docs/using/browser#in-your-own-browser) — it works in your other tabs, signed in as you |
 | Apps on your computer | "Export the quarter's report from my accounting app as PDF" | Desktop |
 | Phones and simulators | "Open the app in the iPhone simulator and screenshot the sign-up screen" | Desktop |
 
-**Apps on your computer** is computer use: Aeven reads an app's window and clicks, types and scrolls in it the way you would. It is the route for anything with no connector and no website — a native dialog, a desktop-only program. The first time, macOS asks you to allow Accessibility and Screen Recording for it.
+**Apps on your computer** is computer use: Æven reads an app's window and clicks, types and scrolls in it the way you would. It is the route for anything with no connector and no website — a native dialog, a desktop-only program. The first time, macOS asks you to allow Accessibility and Screen Recording for it.
 
 ## Make things
 
@@ -40,14 +40,14 @@ The last column says where each one works. **Desktop** is the app on your comput
 
 ## Read anything you give it
 
-Attach a file and Aeven reads it as part of the request: PDF, Word, Excel, PowerPoint, plain text and code, images and screenshots, scanned pages (read with text recognition), and short video clips. Several at once is fine — "compare these three quotes and tell me which one leaves out shipping". [Chat and attachments](/docs/using/chat-and-attachments)
+Attach a file and Æven reads it as part of the request: PDF, Word, Excel, PowerPoint, plain text and code, images and screenshots, scanned pages (read with text recognition), and short video clips. Several at once is fine — "compare these three quotes and tell me which one leaves out shipping". [Chat and attachments](/docs/using/chat-and-attachments)
 
 It also searches the web and reads pages on its own when a task needs current information.
 
 ## Talk instead of type
 
 - **Dictate** turns what you say into text in the message box. In the desktop app, speech is recognised on your own computer.
-- **Read this message aloud** reads a reply to you. Ask Aeven to read every answer aloud — useful when you practise a language — and it keeps doing so.
+- **Read this message aloud** reads a reply to you. Ask Æven to read every answer aloud — useful when you practise a language — and it keeps doing so.
 
 ## Your accounts
 
@@ -66,7 +66,7 @@ Connect mail, calendars, drives, GitHub, Slack, Teams, Discord, Telegram and Wha
 
 | Capability | What it gives you |
 | --- | --- |
-| [Bots](/docs/automation/automations) | A task that runs on a schedule, or when another service calls it. Bots that need nothing from your computer run in Aeven Cloud, so they keep going while your computer is off |
+| [Bots](/docs/automation/automations) | A task that runs on a schedule, or when another service calls it. Bots that need nothing from your computer run in Æven Cloud, so they keep going while your computer is off |
 | [Work that keeps running](/docs/using/background-jobs) | Long commands, helper agents and multi-step workflows that continue while you carry on in the conversation |
 | Helpers in parallel | "Research these five competitors" can run as five helpers at once, each reporting back |
 
@@ -76,9 +76,9 @@ Sign in on another computer or at [chat.aeven.io](https://chat.aeven.io) and the
 
 ## Desktop or Web? {#desktop-or-web}
 
-Aeven Web is the quick way in: nothing to install, and your conversations and memory are already there. It works on our servers, in a sandbox with its own files, and reaches your browser tabs through the extension. On its own it cannot touch your computer: no folders of yours, no terminal, no apps, no phones or simulators, no browser beside the conversation. Keep the desktop app open, though, and a conversation on the web runs on your computer with all of that. [Your desktop from Aeven Web](/docs/using/desktop-from-web)
+Æven Web is the quick way in: nothing to install, and your conversations and memory are already there. It works on our servers, in a sandbox with its own files, and reaches your browser tabs through the extension. On its own it cannot touch your computer: no folders of yours, no terminal, no apps, no phones or simulators, no browser beside the conversation. Keep the desktop app open, though, and a conversation on the web runs on your computer with all of that. [Your desktop from Æven Web](/docs/using/desktop-from-web)
 
-For serious work, use the desktop app. [Install Aeven](/docs/getting-started/install-and-sign-in)
+For serious work, use the desktop app. [Install Æven](/docs/getting-started/install-and-sign-in)
 
 ## Related
 

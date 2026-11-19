@@ -1,11 +1,11 @@
 ---
 title: 连接器
-description: 让 Aeven 访问你的邮件、日历、文件、代码仓库和聊天——大型服务商一键连接，其余的用令牌或关联账户。
+description: 让 Æven 访问你的邮件、日历、文件、代码仓库和聊天——大型服务商一键连接，其余的用令牌或关联账户。
 ---
 
 # 连接器
 
-连接器是对你已有账户的访问权：一个邮箱、一份日历、一个云盘、一个代码仓库、一个团队聊天。连接之后，它就成了 Aeven 可以在任务里使用的东西——“总结今天的邮件”、“我明天日历上有什么”、“为这件事开一个 pull request”。
+连接器是对你已有账户的访问权：一个邮箱、一份日历、一个云盘、一个代码仓库、一个团队聊天。连接之后，它就成了 Æven 可以在任务里使用的东西——“总结今天的邮件”、“我明天日历上有什么”、“为这件事开一个 pull request”。
 
 **Settings → Connectors** 是它们所在的地方。它旁边的那一页 [技能](../using/skills.md) 放着使用它们的流程。
 
@@ -14,7 +14,7 @@ description: 让 Aeven 访问你的邮件、日历、文件、代码仓库和聊
 1. 打开 **Settings → Connectors**。
 2. 选择服务，然后按 **Sign in**。
 3. 在打开的窗口里批准它请求的访问权限。
-4. 回到 Aeven，那一行会显示它关联的账户，并且是 **On**。
+4. 回到 Æven，那一行会显示它关联的账户，并且是 **On**。
 
 Gmail、Google Drive、Google Calendar、Outlook、Outlook Calendar、OneDrive、SharePoint、Teams、GitHub 和 Slack 都支持一键登录。SharePoint 和 Teams 是工作账户：个人的 Microsoft 账户关联不了它们。
 
@@ -25,24 +25,24 @@ Gmail、Google Drive、Google Calendar、Outlook、Outlook Calendar、OneDrive�
 | 邮箱账户 | 你的地址，以及接收（IMAP 或 POP3）和可选发送（SMTP）的服务器信息——用于没有一键连接器的邮箱 |
 | WhatsApp | 关联一个手机号；关联之后那一行会显示这个号码 |
 | Telegram | 你的手机号、Telegram 发给你的验证码，以及你设置过的两步验证密码 |
-| Discord | 添加一个服务器；Aeven 的机器人会加入你选择的服务器，并在那里回答 |
+| Discord | 添加一个服务器；Æven 的机器人会加入你选择的服务器，并在那里回答 |
 | Slack | 登录并选择工作区 |
 
 一个账户可以关联不止一次——两个邮箱、两份日历——每一个都是单独的一行。
 
 ## 你自己的 MCP 服务器
 
-**Custom MCP** 可以连接任何支持 Model Context Protocol 的东西。给它一个名字、它的地址，如果服务器需要令牌，又没有可走的登录流程，就通过 **Use an access token instead** 提供。Aeven 会在保存前检查服务器；连不上的服务器会说明这一点，你可以移除它再重新添加。
+**Custom MCP** 可以连接任何支持 Model Context Protocol 的东西。给它一个名字、它的地址，如果服务器需要令牌，又没有可走的登录流程，就通过 **Use an access token instead** 提供。Æven 会在保存前检查服务器；连不上的服务器会说明这一点，你可以移除它再重新添加。
 
 这也是通往目录里那些还没有一键登录的服务的路。
 
 ## 目录
 
-**Catalog** 列出了 Aeven 能访问的常用服务——Canva、Notion、Slack、Figma、Linear、Jira 和 Confluence、Dropbox、Box、Asana、HubSpot、Salesforce、Stripe。目录里的一条不是连接：它告诉你这项服务可以接通，以及怎么把它连上，通常是通过一个自定义的 MCP 服务器，配合该服务商提供的令牌。有几个各自带有要注意的地方——Figma 可能需要服务商批准新的客户端，Linear 的预设端点只读，Stripe 则需要 Agent API 密钥。
+**Catalog** 列出了 Æven 能访问的常用服务——Canva、Notion、Slack、Figma、Linear、Jira 和 Confluence、Dropbox、Box、Asana、HubSpot、Salesforce、Stripe。目录里的一条不是连接：它告诉你这项服务可以接通，以及怎么把它连上，通常是通过一个自定义的 MCP 服务器，配合该服务商提供的令牌。有几个各自带有要注意的地方——Figma 可能需要服务商批准新的客户端，Linear 的预设端点只读，Stripe 则需要 Agent API 密钥。
 
 ## 每个连接器带来什么
 
-| 连接器 | Aeven 可以 |
+| 连接器 | Æven 可以 |
 | --- | --- |
 | Gmail | 读取、搜索、起草和整理邮件，并发送邮件 |
 | Google Drive | 查找和管理文件、Docs、Sheets、Slides、Forms 和评论 |
@@ -64,7 +64,7 @@ Gmail、Google Drive、Google Calendar、Outlook、Outlook Calendar、OneDrive�
 
 读取账户会自行进行。任何会改变东西的操作——发送、编辑、删除、转发、添加表情回应、置顶、静音、定时发送、标记为已读，以及任何群组和频道变更——都会先问你。在 Discord 上，每一次管理和审核调用都会单独询问，并说明它究竟要改什么。
 
-为某个任务允许一次，覆盖的是那个账户和那种操作，所以一批类似的改动只问一次，而不是四十次。[Aeven 会先问什么](../using/approvals.md)
+为某个任务允许一次，覆盖的是那个账户和那种操作，所以一批类似的改动只问一次，而不是四十次。[Æven 会先问什么](../using/approvals.md)
 
 ## 连接器停止工作时
 
@@ -78,7 +78,7 @@ Gmail、Google Drive、Google Calendar、Outlook、Outlook Calendar、OneDrive�
 
 ## 移除访问权
 
-打开这个连接器，选择账户，然后断开它。服务商允许 Aeven 撤销的，Aeven 会撤销，不再保留任何访问权；下一个需要这项服务的任务必须重新询问。在服务商的安全页面上撤销，效果相同，之后那一行会显示该账户需要重新关联。
+打开这个连接器，选择账户，然后断开它。服务商允许 Æven 撤销的，Æven 会撤销，不再保留任何访问权；下一个需要这项服务的任务必须重新询问。在服务商的安全页面上撤销，效果相同，之后那一行会显示该账户需要重新关联。
 
 ## 什么会离开你的电脑
 

@@ -5,7 +5,7 @@ description: La lista de trabajos — comandos largos, subagentes y flujos de tr
 
 # Trabajo que sigue en marcha
 
-Una tarea rara vez es un solo paso. Aeven ejecuta comandos, le pasa parte del trabajo a un agente de apoyo y encadena pasos en un flujo de trabajo, y nada de eso tiene que dejar la conversación quieta. La lista **Jobs** muestra lo que se está ejecutando ahora mismo y lo que acaba de terminar.
+Una tarea rara vez es un solo paso. Æven ejecuta comandos, le pasa parte del trabajo a un agente de apoyo y encadena pasos en un flujo de trabajo, y nada de eso tiene que dejar la conversación quieta. La lista **Jobs** muestra lo que se está ejecutando ahora mismo y lo que acaba de terminar.
 
 ## Qué aparece ahí
 
@@ -24,7 +24,7 @@ Un trabajo en ejecución muestra cuánto tiempo lleva. Mientras se ejecuta puede
 
 ## Detener uno
 
-**Stop job** lo termina de inmediato. Un trabajo detenido no se puede reanudar; vuelve a pedir el trabajo y empieza desde el principio. Aeven te pide confirmación, porque un comando a medio terminar puede dejar cosas atrás.
+**Stop job** lo termina de inmediato. Un trabajo detenido no se puede reanudar; vuelve a pedir el trabajo y empieza desde el principio. Æven te pide confirmación, porque un comando a medio terminar puede dejar cosas atrás.
 
 ## Cuando termina
 
@@ -32,5 +32,5 @@ La lista conserva los trabajos terminados con su resultado: **Done**, **Stopped*
 
 ## Relacionado
 
-- [Lo que Aeven pregunta antes de actuar](approvals.md)
+- [Lo que Æven pregunta antes de actuar](approvals.md)
 - [Solucionar un problema](../help/troubleshooting.md)
