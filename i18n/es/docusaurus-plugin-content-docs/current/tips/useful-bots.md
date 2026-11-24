@@ -1,11 +1,11 @@
 ---
 title: Bots que vale la pena configurar
-description: Bots que se ganan su sitio —resumen de la mañana, orden en la bandeja de entrada, informes semanales, resúmenes del equipo, vigilantes— con la petición para crear cada uno y cómo hacer más útil cualquier bot.
+description: Bots que se ganan su sitio —resumen de la mañana, preparación de reuniones, orden en la bandeja de entrada, informes semanales, anuncios de releases, vigilantes, equipos de bots— con la petición para crear cada uno y cómo hacer más útil cualquier bot.
 ---
 
 # Bots que vale la pena configurar
 
-Un bot es una petición que se vuelve a ejecutar sola. Los buenos sustituyen algo que ya haces cada semana, dejan el resultado donde lo vas a ver y se quedan callados cuando no hay nada que decir. Cada ejemplo es lo que escribes en **Bots → Nueva**; Æven pregunta lo que le falta, muestra la tarea, el horario y los permisos, y no guarda nada hasta que confirmas. [Bots](../automation/automations.md)
+Un bot es una petición que se vuelve a ejecutar sola. Los buenos sustituyen algo que ya haces cada semana, dejan el resultado donde lo vas a ver y se quedan callados cuando no hay nada que decir. Cada ejemplo es lo que escribes en el compositor de la página **Bots**; Æven pregunta lo que le falta, muestra la tarea, qué lo activa, sus conectores y permisos, y no guarda nada hasta que confirmas. [Bots](../automation/automations.md)
 
 **Se ejecuta en** indica dónde vive cada uno. Los bots que solo necesitan la web y tus cuentas conectadas se ejecutan en **Æven Cloud** y siguen funcionando con tu computadora apagada. Los que necesitan tus archivos, tu navegador o tus aplicaciones se ejecutan en **tu computadora** mientras Æven está abierto allí.
 
@@ -15,6 +15,12 @@ Un bot es una petición que se vuelve a ejecutar sola. Los buenos sustituyen alg
 
 > Cada día laborable a las 7:30, resúmeme las reuniones de hoy, los correos que necesitan respuesta mía y lo que vence esta semana. Menos de diez líneas, enviado por Telegram.
 
+**Preparar reuniones** — Æven Cloud
+
+> Treinta minutos antes de cada reunión con un invitado externo, averigua quién viene, de qué hablamos con ellos por última vez por correo y qué hay de nuevo sobre su empresa. Mándame cinco puntos por Slack.
+
+Este se activa con tu calendario en lugar de con un reloj, así que sigue a las reuniones que cambian de hora.
+
 **Cumpleaños y fechas** — Æven Cloud
 
 > Cada lunes a las 8, enumera los cumpleaños, aniversarios y plazos de las próximas dos semanas según lo que sabes de las personas de mi vida y mi trabajo. No envíes nada si no hay ninguno.
@@ -23,7 +29,9 @@ Un bot es una petición que se vuelve a ejecutar sola. Los buenos sustituyen alg
 
 **Clasificación** — Æven Cloud
 
-> Cada dos horas en días laborables, revisa el correo nuevo de mi Gmail del trabajo. Etiqueta boletines y recibos, marca con estrella lo que venga de un cliente y redacta respuestas a los que pueda contestar en dos frases. Nunca envíes.
+> Cada vez que llegue correo nuevo a mi buzón del trabajo, etiqueta boletines y recibos, marca con estrella lo que venga de un cliente y redacta respuestas a los que pueda contestar en dos frases. Nunca envíes.
+
+Solo se activa cuando llega correo, así que un día tranquilo no cuesta nada.
 
 **Facturas en una sola hoja** — Æven Cloud
 
@@ -69,23 +77,39 @@ Este necesita tu navegador, así que se ejecuta en tu computadora mientras Æven
 
 > Cada noche a las 23:00, comprueba que la carpeta Proyectos se copió hoy al disco de respaldo y avísame solo si no fue así.
 
-## Iniciado por otra cosa
+## Activado por algo que pasa
 
-Un bot con un **disparador entrante** tiene una dirección privada y una clave; cualquier cosa que publique en ella inicia una ejecución.
+**Anuncio de releases** — Æven Cloud
+
+> Cuando se publique una release en el repositorio de nuestra app en GitHub, escribe un anuncio breve a partir de sus notas y publícalo en nuestro canal #announcements de Discord y en nuestro canal de Telegram.
+
+La página del bot muestra después la payload URL y el secreto que hay que añadir como webhook en la configuración del repositorio. «Cuando se publique una release» importa: sin eso, el bot también se activa con cada borrador y cada edición antes de la publicación.
+
+**Nuevo contacto** — Æven Cloud
 
 > Cuando el formulario de la web envíe un nuevo contacto, investiga la empresa, comprueba si ya les hemos escrito y publica en #sales un perfil breve con un primer mensaje sugerido.
 
-Úsalo para formularios, alertas de monitorización u otro servicio que deba pasarle trabajo a Æven.
+Un bot con un **disparador externo** tiene una dirección privada y una clave; cualquier cosa que publique en ella inicia una ejecución. Úsalo para formularios, alertas de monitorización u otro servicio que deba pasarle trabajo a Æven.
+
+## Un equipo de bots
+
+**Investigar, redactar, revisar** — Æven Cloud
+
+> Crea un tablero: un bot investigador que reúna cada jueves las noticias de la semana sobre nuestro mercado, un bot redactor que las convierta en un borrador de newsletter en Notion y un bot revisor que compruebe el borrador con nuestra guía de estilo y se lo devuelva al redactor si necesita cambios. Mantén el tablero por debajo de 200.000 tokens al día.
+
+Cada bot conserva sus propios conectores y permisos, solo pasa trabajo a los bots con los que lo conectaste, y la tarjeta del tablero muestra la última cadena. [Tableros](../automation/automations.md#boards)
 
 ## Cómo hacer más útil cualquier bot
 
 - **Di cómo es "terminado".** "Menos de diez líneas", "una página", "tres puntos por competidor": un bot sin formato escribe ensayos.
 - **Di adónde va el resultado.** Un mensaje para ti por Telegram o Slack, un documento de Google, un archivo en una carpeta, un canal. Un resultado que solo queda en la conversación de la ejecución es fácil de pasar por alto.
-- **Di qué hacer cuando no hay nada nuevo.** "No envíes nada si no hay ninguno" evita que un bot se convierta en ruido.
-- **Dale solo los permisos que necesita.** Un bot hace exactamente lo que confirmaste y nunca pregunta en mitad de la noche, así que lee los permisos y no solo la tarea. Vale la pena escribir "nunca envíes", "solo borradores" y "no borres" en la petición.
-- **Pruébalo una vez con Ejecutar ahora** antes de fiarte del horario, y ajústalo en una conversación desde la página del bot.
-- **Revisa Se ejecuta en.** Un bot que necesita tus archivos o tu navegador solo se ejecuta mientras Æven está abierto en tu computadora; deja activado **Ejecutar en segundo plano**. Para mantener en tu equipo un bot que podría ejecutarse en la nube, elige **Ejecutar solo en mi ordenador**.
-- **Empieza por las ideas.** **Bots → Nueva** tiene ideas agrupadas en Empezar el día, Planificar la semana, Mantente al día, Trabajo y dinero y Vida diaria, e **Ideas para ti** sugiere bots a partir de lo que Æven ya sabe de ti.
+- **Di qué hacer cuando no hay nada nuevo.** "No envíes nada si no hay ninguno" evita que un bot se convierta en ruido; la ejecución se archiva como **Nada nuevo**, y varias seguidas se agrupan en una fila.
+- **Di cuándo parar.** "Para cuando se haya entregado el paquete" permite que un bot se pause solo cuando termina su trabajo.
+- **Actívalo con el evento, no con el reloj.** "Cuando llegue correo nuevo", "treinta minutos antes de cada reunión" o "cuando se publique una release" se ejecuta justo cuando hay algo que hacer, en lugar de comprobar cada hora.
+- **Dale solo los conectores y permisos que necesita.** Un bot actúa con sus propios conectores sin preguntar y nunca pregunta en mitad de la noche, así que léelos y no solo la tarea. Vale la pena escribir "nunca envíes", "solo borradores" y "no borres" en la petición.
+- **Pruébalo una vez con Ejecutar ahora** antes de fiarte del horario, y luego escribe cualquier cambio en **Cambia este bot…** en la página del bot.
+- **Revisa Se ejecuta en.** Un bot que necesita tus archivos o tu navegador solo se ejecuta mientras Æven está abierto en tu computadora; deja activado **Ejecutar en segundo plano**. Para moverlo, abre el bot y elige **Elegir dónde se ejecuta**.
+- **Empieza por las ideas.** La página **Bots** tiene ideas agrupadas en Para tu función, Empezar el día, Planificar la semana, Mantente al día, Trabajo y dinero y Vida diaria, e **Ideas para ti** sugiere bots a partir de lo que Æven ya sabe de ti.
 
 ## Relacionado
 

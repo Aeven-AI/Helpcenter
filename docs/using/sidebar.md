@@ -34,8 +34,8 @@ By workspace answers "where was I working"; by status answers "what is still ope
 
 ## Show
 
+- **Show runs** adds the **Runs** group: one conversation for each run of your [bots](/docs/automation/automations).
 - **Show archived** adds the **Archived conversations** group to the list. Archived sessions keep their history and can be unarchived from their menu; archiving is how you clear the list without deleting anything.
-- **Show automations** decides whether your [bots](/docs/automation/automations) appear as rows among the sessions.
 
 ## Search
 

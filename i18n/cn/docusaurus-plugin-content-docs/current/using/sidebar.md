@@ -34,8 +34,8 @@ description: 工作区、会话、搜索，以及决定列表怎么分组、怎�
 
 ## 显示
 
+- **显示执行记录** 把执行记录分组加进列表：你的 [机器人](../automation/automations.md) 每运行一次就有一个对话。
 - **Show archived** 把 **Archived conversations** 分组加进列表。已归档的会话保留它们的历史，可以从它们的菜单里取消归档；归档是你清空列表而不删掉任何东西的方式。
-- **Show automations** 决定你的 [bots](../automation/automations.md) 是否作为行出现在会话当中。
 
 ## 搜索
 

@@ -66,7 +66,7 @@ Conecta correo, calendarios, unidades, GitHub, Slack, Teams, Discord, Telegram y
 
 | Capacidad | Qué te da |
 | --- | --- |
-| [Bots](../automation/automations.md) | Una tarea que se ejecuta según un horario, o cuando otro servicio la llama. Los bots que no necesitan nada de tu computadora se ejecutan en Æven Cloud, así que siguen funcionando con tu computadora apagada |
+| [Bots](../automation/automations.md) | Una tarea que se ejecuta según un horario, o cuando la activa un correo nuevo, un evento del calendario, actividad en GitHub, otro servicio u otro bot. Los bots que no necesitan nada de tu computadora se ejecutan en Æven Cloud, así que siguen funcionando con tu computadora apagada |
 | [Trabajo que sigue en marcha](../using/background-jobs.md) | Comandos largos, agentes ayudantes y flujos de varios pasos que continúan mientras sigues en la conversación |
 | Ayudantes en paralelo | "Investiga a estos cinco competidores" puede repartirse entre cinco ayudantes a la vez, cada uno con su informe |
 
