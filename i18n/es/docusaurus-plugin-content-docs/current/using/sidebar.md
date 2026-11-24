@@ -34,8 +34,8 @@ Por espacio de trabajo responde a "¿dónde estaba trabajando?"; por estado resp
 
 ## Mostrar
 
+- **Mostrar ejecuciones** añade el grupo de ejecuciones: una conversación por cada ejecución de tus [bots](../automation/automations.md).
 - **Show archived** añade el grupo **Archived conversations** a la lista. Las sesiones archivadas conservan su historial y se pueden desarchivar desde su menú; archivar es la forma de despejar la lista sin borrar nada.
-- **Show automations** decide si tus [bots](../automation/automations.md) aparecen como filas entre las sesiones.
 
 ## Búsqueda
 

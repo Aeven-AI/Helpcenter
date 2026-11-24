@@ -66,7 +66,7 @@ Connect mail, calendars, drives, GitHub, Slack, Teams, Discord, Telegram and Wha
 
 | Capability | What it gives you |
 | --- | --- |
-| [Bots](/docs/automation/automations) | A task that runs on a schedule, or when another service calls it. Bots that need nothing from your computer run in Æven Cloud, so they keep going while your computer is off |
+| [Bots](/docs/automation/automations) | A task that runs on a schedule, or when new mail, a calendar event, GitHub activity, another service or another bot wakes it. Bots that need nothing from your computer run in Æven Cloud, so they keep going while your computer is off |
 | [Work that keeps running](/docs/using/background-jobs) | Long commands, helper agents and multi-step workflows that continue while you carry on in the conversation |
 | Helpers in parallel | "Research these five competitors" can run as five helpers at once, each reporting back |
 
