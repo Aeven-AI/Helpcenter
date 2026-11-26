@@ -6,7 +6,7 @@ slug: /privacy
 
 # Política de privacidad
 
-**Última actualización: 16 de noviembre de 2026**
+**Última actualización: 26 de noviembre de 2026**
 
 Æven es una aplicación de escritorio y está construida para que buena parte de lo que haces con ella se quede en tu computadora. Esta página dice qué sale de él, por qué y qué puedes hacer al respecto. Æven Web, en [chat.aeven.io](https://chat.aeven.io), ejecuta el mismo asistente en nuestros servidores en lugar de en tu computadora; [En Æven Web](#en-aeven-web) explica qué cambia con ello.
 
@@ -52,6 +52,8 @@ Si instalas la extensión de Æven para el navegador, Æven puede trabajar en tu
 - **Qué guarda.** La extensión guarda solo qué pestañas son de Æven y un identificador aleatorio de esta instalación. No tiene analítica y no envía nada a los servidores de Æven por su cuenta.
 
 Mientras Æven actúa en una pestaña, tu navegador indica que Æven la está depurando. Puedes quitar la extensión en cualquier momento desde la página de extensiones de tu navegador.
+
+Para que la extensión pueda comunicarse con la aplicación de escritorio, la aplicación se registra en Chrome, Brave y Edge: un pequeño archivo de host para cada navegador y, en Windows, una entrada del registro que apunta a él. Desactivar **Ajustes → General → Extensión del navegador** los elimina. Desinstalar Æven con su instalador de Windows también elimina las entradas del registro. Desinstalar la versión de Microsoft Store no ejecuta ningún código de Æven, así que esas entradas, la carpeta de datos de Æven y los archivos que Æven escribió se quedan en tu computadora: desactiva la extensión antes de desinstalar o bórralos después.
 
 ## 3. Qué guardamos por nuestra parte
 
