@@ -7,15 +7,14 @@
 
 | | |
 | --- | --- |
-| Host | `node1.aeven.io` (Oracle, Ubuntu), public IP `51.170.181.97` |
+| Host | `pink.aeven.io` (AWS us-west-2, Ubuntu), Elastic IP `34.212.56.101` |
 | Checkout | `/datadrive/apps/helpcenter` — a clone of `Aeven-AI/Helpcenter` |
 | Served from | `/datadrive/apps/helpcenter/build` |
 | nginx vhost | `/etc/nginx/sites-available/helpcenter.aeven.io.conf`, copied from `deploy/nginx/` here |
 | Certificate | the `*.aeven.io` Let's Encrypt wildcard, `/etc/ssl/virtualmin/179268677992436/` |
 | Key | `~/Projects/Nodejs/Aeven/aeven/keys/oci/aeven_console_pair` |
 
-The IP is an ephemeral Oracle address: if the instance is ever stopped and started it
-changes, and this table is the first thing to re-check.
+The script connects by hostname, so a move to another server only needs the `pink.aeven.io` DNS record and the key to follow.
 
 ## Releasing
 
@@ -26,7 +25,7 @@ changes, and this table is the first thing to re-check.
 It builds locally, rsyncs `build/` over the old build, and checks that the site answers
 200. Override the target with `AEVEN_HOST=…` and the key with `AEVEN_KEY=…`.
 
-The script is the route that works: this Mac reaches `51.170.181.97` on 22, and the box has
+The script is the route that works: this Mac reaches `pink.aeven.io` on 22, and the box has
 no GitHub credentials of its own, so building locally and copying avoids handing it a token
 every release.
 
