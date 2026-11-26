@@ -6,7 +6,7 @@ slug: /privacy
 
 # Privacy Policy
 
-**Last updated: 16 November 2026**
+**Last updated: 26 November 2026**
 
 Æven is a desktop application, and it is built so that much of what you do with it stays on your computer. This page says what leaves it, why, and what you can do about that. Æven Web, at [chat.aeven.io](https://chat.aeven.io), runs the same assistant on our servers instead of your computer; [On Æven Web](#on-aeven-web) says what that changes.
 
@@ -52,6 +52,8 @@ If you install the Æven browser extension, Æven can work in your own Chrome, B
 - **What it keeps.** The extension stores only which tabs are Æven's and a random identifier for this installation. It has no analytics and sends nothing to Æven's servers on its own.
 
 While Æven acts in a tab, your browser shows that Æven is debugging it. You can remove the extension at any time from your browser's extensions page.
+
+So that the extension can reach the desktop app, the app registers itself with Chrome, Brave and Edge: a small host file for each browser and, on Windows, a registry entry that points to it. Turning off **Settings → General → Browser extension** removes them. Uninstalling Æven with its Windows installer also removes the registry entries. Uninstalling the Microsoft Store version runs no Æven code, so those entries, Æven's data folder and the files Æven wrote stay on your computer: turn the extension off before you uninstall, or delete them afterwards.
 
 ## 3. What we hold on our side
 
