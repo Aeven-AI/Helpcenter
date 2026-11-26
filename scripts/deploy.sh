@@ -2,7 +2,7 @@
 #
 # Publish the help center to helpcenter.aeven.io.
 #
-# Builds the site on this machine and copies the result to node1, where nginx
+# Builds the site on this machine and copies the result to pink.aeven.io, where nginx
 # serves it straight off disk. There is no process to restart: the next request
 # reads the new files.
 #
@@ -14,13 +14,13 @@
 set -euo pipefail
 
 KEY="${AEVEN_KEY:-$HOME/Projects/Nodejs/Aeven/aeven/keys/oci/aeven_console_pair}"
-HOST="${AEVEN_HOST:-ubuntu@51.170.181.97}"
+HOST="${AEVEN_HOST:-ubuntu@pink.aeven.io}"
 REMOTE="/datadrive/apps/helpcenter/build"
 
 cd "$(dirname "$0")/.."
 
 if [ ! -f "$KEY" ]; then
-  echo "No key at $KEY — set AEVEN_KEY to the private key for node1." >&2
+  echo "No key at $KEY — set AEVEN_KEY to the private key for pink.aeven.io." >&2
   exit 1
 fi
 
